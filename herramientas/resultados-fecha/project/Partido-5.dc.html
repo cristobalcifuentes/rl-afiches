@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Resultado partido 5</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@1,700;1,800&amp;family=Barlow+Condensed:wght@600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#020606}
+.slide{position:relative;overflow:hidden;background:#020606;font-family:'Barlow Condensed',system-ui,sans-serif}
+.layer{position:absolute;left:0;top:0;width:100%;height:100%}
+.bg{object-fit:cover}
+.veil{background-image:radial-gradient(ellipse 70% 52% at 50% 58%,rgba(2,8,9,.66) 0%,rgba(2,8,9,.42) 62%,rgba(2,8,9,.14) 100%)}
+.row{position:absolute;left:0;width:100%;display:flex;justify-content:center;align-items:center;white-space:nowrap}
+.tx{display:inline-block;font-family:'Tomorrow',system-ui,sans-serif;font-style:italic;line-height:1;transform-origin:50% 50%}
+.kicker{font-weight:800;letter-spacing:.2em;margin-right:-.2em;transform:scaleX(.74);
+  background-image:linear-gradient(180deg,#FFFFFF 0%,#E9EDEF 45%,#9AA3A8 62%,#DCE1E4 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 2px 0 #1A2124) drop-shadow(0 4px 8px rgba(0,0,0,.8))}
+.title{font-weight:800;letter-spacing:-.005em;transform:scaleX(.75) skewX(-5deg);
+  background-image:linear-gradient(180deg,#F2FEFF 0%,#A8F3FF 24%,#5EE2FA 46%,#2CC6F4 70%,#139FE6 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 3px 0 #06405C) drop-shadow(0 3px 0 #022231) drop-shadow(0 12px 16px rgba(0,0,0,.75))
+         drop-shadow(0 0 26px rgba(103,232,249,.28))}
+.chrome{font-weight:800;letter-spacing:-.005em;transform:scaleX(.74) skewX(-5deg);
+  background-image:linear-gradient(180deg,#FFFFFF 0%,#F7F9FA 34%,#C3C9CD 50%,#8C9499 56%,#D3D8DB 78%,#FFFFFF 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+  filter:drop-shadow(0 2px 0 #3B4347) drop-shadow(0 3px 0 #161B1E) drop-shadow(0 12px 16px rgba(0,0,0,.8))}
+.info{font-family:'Barlow Condensed',system-ui,sans-serif;font-weight:700;letter-spacing:.16em;margin-right:-.16em;
+  line-height:1;color:#EEF3F5;text-shadow:0 2px 6px rgba(0,0,0,.95)}
+.dot{color:#67E8F9;margin:0 .35em}
+.sideline{height:2px;box-shadow:0 0 8px rgba(103,232,249,.5)}
+.match{position:absolute;display:flex;align-items:stretch;box-sizing:border-box;overflow:hidden;
+  background-image:linear-gradient(90deg,rgba(4,13,15,.9) 0%,rgba(5,15,17,.82) 100%);
+  border:1px solid rgba(103,232,249,.32);box-shadow:0 10px 24px rgba(0,0,0,.5)}
+.court{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:none;
+  background-image:linear-gradient(180deg,rgba(103,232,249,.2) 0%,rgba(16,130,124,.2) 100%);
+  border-right:2px solid #67E8F9}
+.court-k{font-weight:700;letter-spacing:.2em;margin-right:-.2em;color:#67E8F9;line-height:1}
+.court-n{font-family:'Tomorrow',system-ui,sans-serif;font-style:italic;font-weight:800;color:#FFFFFF;line-height:1;
+  text-shadow:0 2px 0 #0B3A46,0 0 18px rgba(103,232,249,.35)}
+.teams{flex:1;display:grid;align-items:center;min-width:0}
+.team{display:flex;align-items:center;min-width:0}
+.cbox{display:flex;align-items:center;justify-content:center;flex:none}
+.crest{display:block;object-fit:contain}
+.tname{font-weight:700;letter-spacing:.03em;line-height:1.02;color:#F4F8FA;text-shadow:0 2px 6px rgba(0,0,0,.95)}
+.vs{font-family:'Tomorrow',system-ui,sans-serif;font-style:italic;font-weight:800;color:#67E8F9;text-align:center;line-height:1;
+  text-shadow:0 0 14px rgba(103,232,249,.45),0 2px 0 #06405C}
+.sponsors{position:absolute;display:flex;align-items:center;justify-content:center;box-sizing:border-box;border-radius:14px;
+  background-image:linear-gradient(180deg,rgba(14,30,34,.88) 0%,rgba(6,15,17,.9) 100%);
+  border-top:1px solid rgba(103,232,249,.55);border-bottom:1px solid rgba(103,232,249,.55);
+  box-shadow:0 10px 24px rgba(0,0,0,.5),inset 0 1px 18px rgba(103,232,249,.06)}
+.rl{position:absolute;border-radius:50%;
+  box-shadow:0 0 0 2px rgba(103,232,249,.95),0 0 14px 2px rgba(103,232,249,.75),0 0 40px 6px rgba(103,232,249,.35)}
+.plate{position:absolute;box-sizing:border-box;
+  background-image:linear-gradient(90deg,rgba(4,13,15,.9) 0%,rgba(5,15,17,.84) 100%);
+  border:1px solid rgba(103,232,249,.32);box-shadow:0 10px 24px rgba(0,0,0,.5)}
+.lbl{font-family:'Barlow Condensed',system-ui,sans-serif;font-weight:700;letter-spacing:.2em;margin-right:-.2em;
+  color:#67E8F9;line-height:1}
+.score{display:flex;align-items:center;justify-content:center;white-space:nowrap}
+.dash{display:block;width:.42em;height:.09em;border-radius:3px;transform:skewX(-12deg);
+  background-image:linear-gradient(90deg,#8FA3A9,#DCE1E4,#8FA3A9);box-shadow:0 2px 6px rgba(0,0,0,.7)}
+.final{font-weight:800;letter-spacing:.18em;margin-right:-.18em;line-height:1;padding:.32em .5em .28em .68em;border-radius:6px;
+  background:#67E8F9;color:#0C0D0D;box-shadow:0 0 18px rgba(103,232,249,.45),0 4px 10px rgba(0,0,0,.6)}
+.ev{display:flex;align-items:center;gap:.4em;font-weight:700;letter-spacing:.02em;line-height:1;color:#F4F8FA;
+  text-shadow:0 2px 6px rgba(0,0,0,.95);white-space:nowrap}
+.ev .d{color:#67E8F9;font-weight:800}
+.ev.none{color:#5F7479}
+.card{display:inline-block;flex:none;width:.6em;height:.84em;border-radius:3px;transform:rotate(8deg);
+  box-shadow:0 2px 5px rgba(0,0,0,.7)}
+.card.amarilla{background-image:linear-gradient(160deg,#FFE07A 0%,#F5C518 60%,#D9A40B 100%)}
+.card.roja{background-image:linear-gradient(160deg,#FF7B7F 0%,#E5383B 60%,#B71C22 100%)}
+.card.azul{background-image:linear-gradient(160deg,#8CC4FF 0%,#2F80ED 60%,#1B5FC2 100%)}
+.vline{width:2px;background-image:linear-gradient(180deg,rgba(103,232,249,0),rgba(103,232,249,.55),rgba(103,232,249,0))}
+.sec{display:flex;flex-direction:column;align-items:stretch}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 2px minmax(0,1fr);column-gap:28px}
+.col{display:flex;flex-direction:column;justify-content:flex-start}
+.fig-name{font-weight:800;letter-spacing:.03em;line-height:1;color:#FFFFFF;text-shadow:0 2px 6px rgba(0,0,0,.95)}
+.fig-team{font-weight:700;letter-spacing:.12em;line-height:1;color:#A9B8BD}
+</style>
+</helmet>
+<div class="slide" style="width: 1080px; height: 1350px">
+<img class="layer bg" src="/_blob/920d5641fce64a084ef1329ea40513d2" alt="">
+<div class="layer veil"></div>
+<div class="row" style="top: 42px"><span class="tx kicker" style="font-size: 30px">RANCAGUA LEAGUE</span></div>
+<div class="row" style="top: 80px"><span class="tx chrome" style="font-size: 46px">THE ORIGIN<span class="dot">·</span>FECHA 1</span></div>
+<div class="row" style="top: 138px; gap: 22px"><div class="sideline" style="width: 90px; background-image: linear-gradient(90deg,rgba(103,232,249,0),#67E8F9)"></div><span class="info" style="font-size: 26px">GRUPO 2<span class="dot">·</span>CANCHA 5<span class="dot">·</span>22:00</span><div class="sideline" style="width: 90px; background-image: linear-gradient(90deg,#67E8F9,rgba(103,232,249,0))"></div></div>
+<div class="plate" style="top: 184px; left: 56px; width: 968px; height: 350px; border-radius: 16px; display: grid; grid-template-columns: minmax(0, 1fr) 300px minmax(0, 1fr); align-items: center; padding: 0 20px"><div style="display: flex; flex-direction: column; align-items: center; gap: 14px"><div class="cbox" style="width: 190px; height: 190px"><img class="crest" src="/_blob/165523f4be3e04366f2f80f433ac25a0" alt="Escudo Profesores F.C." style="width: 164px; height: 178px"></div><span class="tname" style="font-size: 36px; text-align: center; height: 74px; display: flex; align-items: flex-start; justify-content: center">PROFESORES F.C.</span></div><div style="display: flex; flex-direction: column; align-items: center; gap: 18px; padding-bottom: 60px"><div class="score" style="gap: 16px"><span class="tx chrome" style="font-size: 176px">-</span><span class="dash" style="font-size: 110px"></span><span class="tx chrome" style="font-size: 176px">-</span></div><span class="final" style="font-size: 22px">FINAL</span></div><div style="display: flex; flex-direction: column; align-items: center; gap: 14px"><div class="cbox" style="width: 190px; height: 190px"><img class="crest" src="/_blob/2a2fbb2baa950bbaa828769a919af6ca" alt="Escudo Control Dirigido" style="width: 150px; height: 181px"></div><span class="tname" style="font-size: 36px; text-align: center; height: 74px; display: flex; align-items: flex-start; justify-content: center">CONTROL DIRIGIDO</span></div></div>
+<div class="plate" style="top: 550px; left: 56px; width: 968px; height: 486px; border-radius: 16px; display: flex; flex-direction: column; justify-content: center; gap: 30px; padding: 30px 40px"><div class="sec" style="gap: 14px"><div class="row" style="position: relative; top: 0px; gap: 18px"><div class="sideline" style="width: 150px; background-image: linear-gradient(90deg,rgba(103,232,249,0),#67E8F9)"></div><span style="display: flex; align-items: center; gap: 12px"><svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; filter: drop-shadow(0 0 6px rgba(103,232,249,.45))"><circle cx="12" cy="12" r="10.6" fill="#F4F8FA" stroke="#0C0D0D" stroke-width="1"></circle><polygon points="12,7.3 16.1,10.3 14.6,15.1 9.4,15.1 7.9,10.3" fill="#0C0D0D"></polygon><path d="M12 7.3V1.6 M16.1 10.3 21.9 8.6 M14.6 15.1 18.2 20 M9.4 15.1 5.8 20 M7.9 10.3 2.1 8.6" stroke="#0C0D0D" stroke-width="1.4" fill="none"></path></svg><span class="lbl" style="font-size: 24px">GOLES</span></span><div class="sideline" style="width: 150px; background-image: linear-gradient(90deg,#67E8F9,rgba(103,232,249,0))"></div></div><div class="cols"><div class="col" style="gap: 22px"><div class="ev" style="font-size: 38px; justify-content: flex-end; direction: ltr"><span>NOMBRE JUGADOR</span><span class="d">x2</span><svg width="35" height="35" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; filter: drop-shadow(0 0 6px rgba(103,232,249,.45))"><circle cx="12" cy="12" r="10.6" fill="#F4F8FA" stroke="#0C0D0D" stroke-width="1"></circle><polygon points="12,7.3 16.1,10.3 14.6,15.1 9.4,15.1 7.9,10.3" fill="#0C0D0D"></polygon><path d="M12 7.3V1.6 M16.1 10.3 21.9 8.6 M14.6 15.1 18.2 20 M9.4 15.1 5.8 20 M7.9 10.3 2.1 8.6" stroke="#0C0D0D" stroke-width="1.4" fill="none"></path></svg></div><div class="ev" style="font-size: 38px; justify-content: flex-end; direction: ltr"><span>NOMBRE JUGADOR</span><svg width="35" height="35" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; filter: drop-shadow(0 0 6px rgba(103,232,249,.45))"><circle cx="12" cy="12" r="10.6" fill="#F4F8FA" stroke="#0C0D0D" stroke-width="1"></circle><polygon points="12,7.3 16.1,10.3 14.6,15.1 9.4,15.1 7.9,10.3" fill="#0C0D0D"></polygon><path d="M12 7.3V1.6 M16.1 10.3 21.9 8.6 M14.6 15.1 18.2 20 M9.4 15.1 5.8 20 M7.9 10.3 2.1 8.6" stroke="#0C0D0D" stroke-width="1.4" fill="none"></path></svg></div></div><div class="vline"></div><div class="col" style="gap: 22px"><div class="ev" style="font-size: 38px; justify-content: flex-start; direction: ltr"><svg width="35" height="35" viewBox="0 0 24 24" aria-hidden="true" style="flex: none; filter: drop-shadow(0 0 6px rgba(103,232,249,.45))"><circle cx="12" cy="12" r="10.6" fill="#F4F8FA" stroke="#0C0D0D" stroke-width="1"></circle><polygon points="12,7.3 16.1,10.3 14.6,15.1 9.4,15.1 7.9,10.3" fill="#0C0D0D"></polygon><path d="M12 7.3V1.6 M16.1 10.3 21.9 8.6 M14.6 15.1 18.2 20 M9.4 15.1 5.8 20 M7.9 10.3 2.1 8.6" stroke="#0C0D0D" stroke-width="1.4" fill="none"></path></svg><span>NOMBRE JUGADOR</span></div></div></div></div><div class="sec" style="gap: 14px"><div class="row" style="position: relative; top: 0px; gap: 18px"><div class="sideline" style="width: 150px; background-image: linear-gradient(90deg,rgba(103,232,249,0),#67E8F9)"></div><span style="display: flex; align-items: center; gap: 12px"><span class="card amarilla" style="font-size: 30px"></span><span class="lbl" style="font-size: 24px">TARJETAS</span></span><div class="sideline" style="width: 150px; background-image: linear-gradient(90deg,#67E8F9,rgba(103,232,249,0))"></div></div><div class="cols"><div class="col" style="gap: 22px"><div class="ev" style="font-size: 38px; justify-content: flex-end; direction: ltr"><span>NOMBRE JUGADOR</span><span class="card amarilla"></span></div></div><div class="vline"></div><div class="col" style="gap: 22px"><div class="ev" style="font-size: 38px; justify-content: flex-start; direction: ltr"><span class="card roja"></span><span>NOMBRE JUGADOR</span></div></div></div></div></div>
+<div class="plate" style="top: 1052px; left: 56px; width: 968px; height: 120px; border-radius: 16px; display: flex; align-items: center; justify-content: center; gap: 24px; padding: 0 30px"><div class="cbox" style="width: 86px; height: 86px"><img class="crest" src="/_blob/165523f4be3e04366f2f80f433ac25a0" alt="Escudo Profesores F.C." style="width: 74px; height: 81px"></div><div style="display: flex; flex-direction: column; gap: 9px; min-width: 0"><span class="lbl" style="font-size: 22px">JUGADOR DEL PARTIDO</span><span class="fig-name" style="font-size: 42px">NOMBRE JUGADOR</span><span class="fig-team" style="font-size: 20px">PROFESORES F.C.</span></div></div>
+<div class="sponsors" style="top: 1196px; left: 40px; width: 1000px; height: 106px; padding: 0 10px"><div class="cbox" style="width: 140px; height: 84px"><img class="crest" src="/_blob/669ce1953086eaf0fb802445b038b24e" alt="Logo Pinturas Monina" style="width: 131px; height: 50px"></div><div class="cbox" style="width: 114px; height: 84px"><img class="crest" src="/_blob/d831af7ea1a934d9ab3cb8ceaa98fa85" alt="Logo Turín Pizzería &amp; Sushi" style="width: 103px; height: 58px"></div><div class="cbox" style="width: 108px; height: 84px"><img class="crest" src="/_blob/06bcd2079a39e46703d3f9bcffdadbc8" alt="Logo Recovery Room by Warriors" style="width: 100px; height: 63px"></div><div class="cbox" style="width: 108px; height: 84px"><img class="crest" src="/_blob/357a8023eaf86899f2530f22e86163c9" alt="Logo MatchZone" style="width: 100px; height: 63px"></div><img class="rl" src="/_blob/7ef67a53709b053b211ccbc950556b43" alt="Rancagua League" style="position: relative; flex: none; width: 62px; height: 62px; margin: 0 12px"><div class="cbox" style="width: 147px; height: 84px"><img class="crest" src="/_blob/9bbdf5a2deefaccf4f042fb9e08be0c4" alt="Logo Invictus Barber Studio" style="width: 139px; height: 47px"></div><div class="cbox" style="width: 86px; height: 84px"><img class="crest" src="/_blob/ab404840fd4ffbf01c7338bed89514a1" alt="Logo Panadería Marbella" style="width: 70px; height: 70px"></div><div class="cbox" style="width: 101px; height: 84px"><img class="crest" src="/_blob/0a05853ad87851f7c34c0205db429e51" alt="Logo Kine Nohm" style="width: 93px; height: 68px"></div><div class="cbox" style="width: 86px; height: 84px"><img class="crest" src="/_blob/b378d6dc62f28d92edc592d80620e17d" alt="Logo Ikigai Gourmet" style="width: 70px; height: 70px"></div></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1080,"height":1350}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

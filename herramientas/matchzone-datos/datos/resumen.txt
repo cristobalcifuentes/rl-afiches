@@ -1,0 +1,120 @@
+Rancagua League - THE ORIGIN (MatchZone, edicion 28). Bajado el 2026-10-17 05:28:46
+
+AVISOS
+  - En MatchZone, Inter de Rancagua sigue como "Equipo 14 (por definir)".
+  - Fecha 1, LOS SACA CHISPAS 7-3 CERVECEROS FC: faltan 4 goles por asignar a jugadores en MatchZone.
+  - Fecha 1, CAMAJO FC 2-5 GATINHOS: falta 1 gol por asignar a jugadores en MatchZone.
+  - Fecha 1, CAPYBARA FC 3-14 IRRESPONSABLES FC: faltan 4 goles por asignar a jugadores en MatchZone.
+  - Fecha 1, PROFESORES F.C. 2-6 CONTROL DIRIGIDO: falta 1 gol por asignar a jugadores en MatchZone.
+  - Fecha 1, RÚSTICOS FC 1-5 IKIGAI RCV: faltan 2 goles por asignar a jugadores en MatchZone.
+  - Fecha 2: hay partidos sin horario o sin cancha en MatchZone.
+
+GRUPO 1                              PJ  G  E  P  GF GC DIF PTS
+  1. INDEPENDIENTE RABANAL               1  1  0  0  11  5   6   3
+  2. IKIGAI RCV                          1  1  0  0   5  1   4   3
+  3. GATINHOS                            1  1  0  0   5  2   3   3
+  4. BOTOTOS FC                          0  0  0  0   0  0   0   0
+  5. CAMAJO FC                           1  0  0  1   2  5  -3   0
+  6. RÚSTICOS FC                         1  0  0  1   1  5  -4   0
+  7. LOS PIERDE NUNCA                    1  0  0  1   5 11  -6   0
+
+GRUPO 2                              PJ  G  E  P  GF GC DIF PTS
+  1. IRRESPONSABLES FC                   1  1  0  0  14  3  11   3
+  2. LOS SACA CHISPAS                    1  1  0  0   7  3   4   3
+  3. CONTROL DIRIGIDO                    1  1  0  0   6  2   4   3
+  4. INTER DE RANCAGUA                   0  0  0  0   0  0   0   0
+  5. CERVECEROS FC                       1  0  0  1   3  7  -4   0
+  6. PROFESORES F.C.                     1  0  0  1   2  6  -4   0
+  7. CAPYBARA FC                         1  0  0  1   3 14 -11   0
+
+FECHA 1 - 2026-10-15 (jugada)
+  21:00 C4  INDEPENDIENTE RABANAL 11-5 LOS PIERDE NUNCA  (grupo 1)
+      Goles INDEPENDIENTE RABANAL: Janier Espinoza Córdoba x5, Ampol Maraboli x4, Jaime Gutierrez, Jaime Muñoz
+      Goles LOS PIERDE NUNCA: Martin Hidalgo x2, Henry Güenante, Luis Antonio Molina, Tote King
+      Tarjetas: Nicolas Mora (LOS PIERDE NUNCA, amarilla)
+      Jugador del partido: Janier Espinoza Córdoba (n.10, INDEPENDIENTE RABANAL)
+      Firmaron la planilla: 9/14 y 6/15
+  21:00 C5  LOS SACA CHISPAS 7-3 CERVECEROS FC  (grupo 2)
+      Goles LOS SACA CHISPAS: Kevin Adasme x2, Cristopher Gallardo x2, Brian Adasme, Cristopher Castañeda  (+1 sin asignar)
+      Goles CERVECEROS FC: -  (+3 sin asignar)
+      Tarjetas: Patrich Palma (LOS SACA CHISPAS, amarilla), Cristopher Castañeda (LOS SACA CHISPAS, amarilla)
+      Jugador del partido: Cristopher Gallardo (n.4, LOS SACA CHISPAS)
+      Firmaron la planilla: 6/10 y 0/13
+  21:00 C6  CAMAJO FC 2-5 GATINHOS  (grupo 1)
+      Goles CAMAJO FC: Alex Laborde  (+1 sin asignar)
+      Goles GATINHOS: Bryan Reyes x3, David Allende, Franco Cotroneo
+      Tarjetas: -
+      Jugador del partido: Bryan Reyes (n.7, GATINHOS)
+      Firmaron la planilla: 7/12 y 11/15
+  22:00 C4  CAPYBARA FC 3-14 IRRESPONSABLES FC  (grupo 2)
+      Goles CAPYBARA FC: Maximiliano Inostroza  (+2 sin asignar)
+      Goles IRRESPONSABLES FC: Joaquín Pérez Rojas x3, Benjamin Tapia x2, Diego Ignacio Tapia Peña x2, Jairo Machuca x2, Sebastian Guzman x2, Maximus Riveros  (+2 sin asignar)
+      Tarjetas: Sebastián Cornejo (CAPYBARA FC, amarilla), Cristopher Sepúlveda (CAPYBARA FC, amarilla)
+      Jugador del partido: Diego Ignacio Tapia Peña (n.15, IRRESPONSABLES FC)
+      Firmaron la planilla: 6/10 y 8/10
+  22:00 C5  PROFESORES F.C. 2-6 CONTROL DIRIGIDO  (grupo 2)
+      Goles PROFESORES F.C.: Joaquin Larenas, Juan José Carrasco
+      Goles CONTROL DIRIGIDO: Felipe Clarke x2, Cesar Cifuentes, Jonathan Gonzalez, Rodrigo Berroeta  (+1 sin asignar)
+      Tarjetas: -
+      Jugador del partido: Deivid Moya (n.1, CONTROL DIRIGIDO)
+      Firmaron la planilla: 7/12 y 10/16
+  22:00 C6  RÚSTICOS FC 1-5 IKIGAI RCV  (grupo 1)
+      Goles RÚSTICOS FC: Sebastian Soto
+      Goles IKIGAI RCV: Johandry Blanco, Juan De Jesus Rodríguez Gonzalez, Simon Gutiérrez  (+2 sin asignar)
+      Tarjetas: Rodrigo Concha (RÚSTICOS FC, amarilla)
+      Jugador del partido: Simon Gutiérrez (n.7, IKIGAI RCV)
+      Firmaron la planilla: 10/16 y 6/12
+  Libres: BOTOTOS FC, INTER DE RANCAGUA
+
+FECHA 2 - 2026-10-22 (programada)
+  --:-- C?  LOS PIERDE NUNCA vs BOTOTOS FC
+  --:-- C?  INDEPENDIENTE RABANAL vs IKIGAI RCV
+  --:-- C?  CAMAJO FC vs RÚSTICOS FC
+  --:-- C?  CERVECEROS FC vs INTER DE RANCAGUA
+  --:-- C?  LOS SACA CHISPAS vs CONTROL DIRIGIDO
+  --:-- C?  CAPYBARA FC vs PROFESORES F.C.
+  Libres: GATINHOS, IRRESPONSABLES FC
+
+GOLEADORES
+   5  Janier Espinoza Córdoba (INDEPENDIENTE RABANAL)
+   4  Ampol Maraboli (INDEPENDIENTE RABANAL)
+   3  Bryan Reyes (GATINHOS)
+   3  Joaquín Pérez Rojas (IRRESPONSABLES FC)
+   2  Benjamin Tapia (IRRESPONSABLES FC)
+   2  Cristopher Gallardo (LOS SACA CHISPAS)
+   2  Diego Ignacio Tapia Peña (IRRESPONSABLES FC)
+   2  Felipe Clarke (CONTROL DIRIGIDO)
+   2  Jairo Machuca (IRRESPONSABLES FC)
+   2  Kevin Adasme (LOS SACA CHISPAS)
+   2  Martin Hidalgo (LOS PIERDE NUNCA)
+   2  Sebastian Guzman (IRRESPONSABLES FC)
+   1  Alex Laborde (CAMAJO FC)
+   1  Brian Adasme (LOS SACA CHISPAS)
+   1  Cesar Cifuentes (CONTROL DIRIGIDO)
+   1  Cristopher Castañeda (LOS SACA CHISPAS)
+   1  David Allende (GATINHOS)
+   1  Franco Cotroneo (GATINHOS)
+   1  Henry Güenante (LOS PIERDE NUNCA)
+   1  Jaime Gutierrez (INDEPENDIENTE RABANAL)
+   1  Jaime Muñoz (INDEPENDIENTE RABANAL)
+   1  Joaquin Larenas (PROFESORES F.C.)
+   1  Johandry Blanco (IKIGAI RCV)
+   1  Jonathan Gonzalez (CONTROL DIRIGIDO)
+   1  Juan De Jesus Rodríguez Gonzalez (IKIGAI RCV)
+   1  Juan José Carrasco (PROFESORES F.C.)
+   1  Luis Antonio Molina (LOS PIERDE NUNCA)
+   1  Maximiliano Inostroza (CAPYBARA FC)
+   1  Maximus Riveros (IRRESPONSABLES FC)
+   1  Rodrigo Berroeta (CONTROL DIRIGIDO)
+   1  Sebastian Soto (RÚSTICOS FC)
+   1  Simon Gutiérrez (IKIGAI RCV)
+   1  Tote King (LOS PIERDE NUNCA)
+
+TARJETAS (acumulado)
+  Rodrigo Concha (RÚSTICOS FC): 1 amarilla(s), 0 roja(s)
+  Sebastián Cornejo (CAPYBARA FC): 1 amarilla(s), 0 roja(s)
+  Cristopher Sepúlveda (CAPYBARA FC): 1 amarilla(s), 0 roja(s)
+  Nicolas Mora (LOS PIERDE NUNCA): 1 amarilla(s), 0 roja(s)
+  Cristopher Castañeda (LOS SACA CHISPAS): 1 amarilla(s), 0 roja(s)
+  Patrich Palma (LOS SACA CHISPAS): 1 amarilla(s), 0 roja(s)
+  Suspensiones vigentes: 0

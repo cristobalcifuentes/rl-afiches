@@ -1,0 +1,7 @@
+__pycache__/
+chrome-prof*/
+raw-*.png
+herramientas/*/preview/
+herramientas/*/out/
+herramientas/resultados-fecha/entrega/
+herramientas/matchzone-datos/datos/20*/

@@ -1,0 +1,2318 @@
+{
+ "bajado": "2026-10-17T05:28:46",
+ "fuente": "https://api.matchzone.cl/api/competitions/editions/28",
+ "edicion": {
+  "id": 28,
+  "competencia": "Rancagua League",
+  "nombre": "THE ORIGIN",
+  "estado_mz": "IN_PROGRESS",
+  "formato_mz": "GROUPS_PLAYOFF",
+  "inicio": "2026-10-08",
+  "sede": [
+   "Canchas San Damian"
+  ],
+  "canchas": [
+   "Cancha 4",
+   "Cancha 5",
+   "Cancha 6"
+  ],
+  "horarios": [
+   "21:00",
+   "22:00"
+  ]
+ },
+ "avisos": [
+  "En MatchZone, Inter de Rancagua sigue como \"Equipo 14 (por definir)\".",
+  "Fecha 1, LOS SACA CHISPAS 7-3 CERVECEROS FC: faltan 4 goles por asignar a jugadores en MatchZone.",
+  "Fecha 1, CAMAJO FC 2-5 GATINHOS: falta 1 gol por asignar a jugadores en MatchZone.",
+  "Fecha 1, CAPYBARA FC 3-14 IRRESPONSABLES FC: faltan 4 goles por asignar a jugadores en MatchZone.",
+  "Fecha 1, PROFESORES F.C. 2-6 CONTROL DIRIGIDO: falta 1 gol por asignar a jugadores en MatchZone.",
+  "Fecha 1, RÚSTICOS FC 1-5 IKIGAI RCV: faltan 2 goles por asignar a jugadores en MatchZone.",
+  "Fecha 2: hay partidos sin horario o sin cancha en MatchZone."
+ ],
+ "equipos": {
+  "rabanal": {
+   "nombre": "INDEPENDIENTE RABANAL",
+   "nombre_mz": "Independiente Rabanal",
+   "grupo": 1,
+   "inscripcion_mz": 156,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/155/logo-1789950611410-full.png"
+  },
+  "ikigai-rcv": {
+   "nombre": "IKIGAI RCV",
+   "nombre_mz": "IKIGAI RCV",
+   "grupo": 1,
+   "inscripcion_mz": 189,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/202/logo-1791257030030-full.png"
+  },
+  "gatinhos": {
+   "nombre": "GATINHOS",
+   "nombre_mz": "Gatinhos Fc",
+   "grupo": 1,
+   "inscripcion_mz": 190,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/15/logo-1777849754659-thumb.jpg"
+  },
+  "bototos": {
+   "nombre": "BOTOTOS FC",
+   "nombre_mz": "Bototos fc",
+   "grupo": 1,
+   "inscripcion_mz": 183,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/219/logo-1791167617793-thumb.jpg"
+  },
+  "camajo": {
+   "nombre": "CAMAJO FC",
+   "nombre_mz": "Camajo Club de futbol",
+   "grupo": 1,
+   "inscripcion_mz": 160,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/14/logo-1790736808737-full.jpg"
+  },
+  "rusticos": {
+   "nombre": "RÚSTICOS FC",
+   "nombre_mz": "Rústicos FC",
+   "grupo": 1,
+   "inscripcion_mz": 188,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/217/logo-1791302403277-full.jpg"
+  },
+  "pierde-nunca": {
+   "nombre": "LOS PIERDE NUNCA",
+   "nombre_mz": "Los Pierde Nunca",
+   "grupo": 1,
+   "inscripcion_mz": 191,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/222/logo-1791241438336-thumb.jpg"
+  },
+  "irresponsables": {
+   "nombre": "IRRESPONSABLES FC",
+   "nombre_mz": "IrresponsablesFC",
+   "grupo": 2,
+   "inscripcion_mz": 184,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/164/logo-1790016013588-full.jpg"
+  },
+  "saca-chispas": {
+   "nombre": "LOS SACA CHISPAS",
+   "nombre_mz": "LosSacaChispas",
+   "grupo": 2,
+   "inscripcion_mz": 155,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/156/logo-1789951545166-thumb.png"
+  },
+  "control-dirigido": {
+   "nombre": "CONTROL DIRIGIDO",
+   "nombre_mz": "Academia Deportiva Control Dirigido",
+   "grupo": 2,
+   "inscripcion_mz": 182,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/10/logo-1777490742449-thumb.jpg"
+  },
+  "inter": {
+   "nombre": "INTER DE RANCAGUA",
+   "nombre_mz": "Equipo 14 (por definir)",
+   "grupo": 2,
+   "inscripcion_mz": 194,
+   "logo_mz": null
+  },
+  "cerveceros": {
+   "nombre": "CERVECEROS FC",
+   "nombre_mz": "Cerveceros fc",
+   "grupo": 2,
+   "inscripcion_mz": 192,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/223/logo-1791301918122-full.jpg"
+  },
+  "profesores": {
+   "nombre": "PROFESORES F.C.",
+   "nombre_mz": "Profesores fc",
+   "grupo": 2,
+   "inscripcion_mz": 181,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/216/logo-1791147739624-full.png"
+  },
+  "capybara": {
+   "nombre": "CAPYBARA FC",
+   "nombre_mz": "Capibaras FC",
+   "grupo": 2,
+   "inscripcion_mz": 159,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/153/logo-1789652030282-thumb.jpg"
+  }
+ },
+ "tabla": {
+  "1": [
+   {
+    "pos": 1,
+    "equipo": "rabanal",
+    "pj": 1,
+    "g": 1,
+    "e": 0,
+    "p": 0,
+    "gf": 11,
+    "gc": 5,
+    "dif": 6,
+    "pts": 3,
+    "desempate": null
+   },
+   {
+    "pos": 2,
+    "equipo": "ikigai-rcv",
+    "pj": 1,
+    "g": 1,
+    "e": 0,
+    "p": 0,
+    "gf": 5,
+    "gc": 1,
+    "dif": 4,
+    "pts": 3,
+    "desempate": "DIFFERENCE"
+   },
+   {
+    "pos": 3,
+    "equipo": "gatinhos",
+    "pj": 1,
+    "g": 1,
+    "e": 0,
+    "p": 0,
+    "gf": 5,
+    "gc": 2,
+    "dif": 3,
+    "pts": 3,
+    "desempate": "DIFFERENCE"
+   },
+   {
+    "pos": 4,
+    "equipo": "bototos",
+    "pj": 0,
+    "g": 0,
+    "e": 0,
+    "p": 0,
+    "gf": 0,
+    "gc": 0,
+    "dif": 0,
+    "pts": 0,
+    "desempate": null
+   },
+   {
+    "pos": 5,
+    "equipo": "camajo",
+    "pj": 1,
+    "g": 0,
+    "e": 0,
+    "p": 1,
+    "gf": 2,
+    "gc": 5,
+    "dif": -3,
+    "pts": 0,
+    "desempate": null
+   },
+   {
+    "pos": 6,
+    "equipo": "rusticos",
+    "pj": 1,
+    "g": 0,
+    "e": 0,
+    "p": 1,
+    "gf": 1,
+    "gc": 5,
+    "dif": -4,
+    "pts": 0,
+    "desempate": "DIFFERENCE"
+   },
+   {
+    "pos": 7,
+    "equipo": "pierde-nunca",
+    "pj": 1,
+    "g": 0,
+    "e": 0,
+    "p": 1,
+    "gf": 5,
+    "gc": 11,
+    "dif": -6,
+    "pts": 0,
+    "desempate": "DIFFERENCE"
+   }
+  ],
+  "2": [
+   {
+    "pos": 1,
+    "equipo": "irresponsables",
+    "pj": 1,
+    "g": 1,
+    "e": 0,
+    "p": 0,
+    "gf": 14,
+    "gc": 3,
+    "dif": 11,
+    "pts": 3,
+    "desempate": null
+   },
+   {
+    "pos": 2,
+    "equipo": "saca-chispas",
+    "pj": 1,
+    "g": 1,
+    "e": 0,
+    "p": 0,
+    "gf": 7,
+    "gc": 3,
+    "dif": 4,
+    "pts": 3,
+    "desempate": "DIFFERENCE"
+   },
+   {
+    "pos": 3,
+    "equipo": "control-dirigido",
+    "pj": 1,
+    "g": 1,
+    "e": 0,
+    "p": 0,
+    "gf": 6,
+    "gc": 2,
+    "dif": 4,
+    "pts": 3,
+    "desempate": "SCORED"
+   },
+   {
+    "pos": 4,
+    "equipo": "inter",
+    "pj": 0,
+    "g": 0,
+    "e": 0,
+    "p": 0,
+    "gf": 0,
+    "gc": 0,
+    "dif": 0,
+    "pts": 0,
+    "desempate": null
+   },
+   {
+    "pos": 5,
+    "equipo": "cerveceros",
+    "pj": 1,
+    "g": 0,
+    "e": 0,
+    "p": 1,
+    "gf": 3,
+    "gc": 7,
+    "dif": -4,
+    "pts": 0,
+    "desempate": null
+   },
+   {
+    "pos": 6,
+    "equipo": "profesores",
+    "pj": 1,
+    "g": 0,
+    "e": 0,
+    "p": 1,
+    "gf": 2,
+    "gc": 6,
+    "dif": -4,
+    "pts": 0,
+    "desempate": "SCORED"
+   },
+   {
+    "pos": 7,
+    "equipo": "capybara",
+    "pj": 1,
+    "g": 0,
+    "e": 0,
+    "p": 1,
+    "gf": 3,
+    "gc": 14,
+    "dif": -11,
+    "pts": 0,
+    "desempate": "DIFFERENCE"
+   }
+  ]
+ },
+ "fechas": [
+  {
+   "numero": 1,
+   "dia": "2026-10-15",
+   "estado": "jugada",
+   "libres": [
+    "bototos",
+    "inter"
+   ],
+   "partidos": [
+    {
+     "id": 1413,
+     "fecha": 1,
+     "dia": "2026-10-15",
+     "hora": "21:00",
+     "cancha": 4,
+     "grupo": 1,
+     "local": "rabanal",
+     "visita": "pierde-nunca",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      11,
+      5
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 16,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Janier Espinoza Córdoba",
+        "id": 403,
+        "goles": 5
+       },
+       {
+        "jugador": "Ampol Maraboli",
+        "id": 2256,
+        "goles": 4
+       },
+       {
+        "jugador": "Jaime Gutierrez",
+        "id": 399,
+        "goles": 1
+       },
+       {
+        "jugador": "Jaime Muñoz",
+        "id": 2538,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Martin Hidalgo",
+        "id": 2868,
+        "goles": 2
+       },
+       {
+        "jugador": "Henry Güenante",
+        "id": 2869,
+        "goles": 1
+       },
+       {
+        "jugador": "Luis Antonio Molina",
+        "id": 418,
+        "goles": 1
+       },
+       {
+        "jugador": "Tote King",
+        "id": 3025,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 0,
+      "visita": 0
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": [
+       {
+        "jugador": "Nicolas Mora",
+        "id": 2864,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
+     },
+     "mvp": {
+      "jugador": "Janier Espinoza Córdoba",
+      "id": 403,
+      "numero": 10,
+      "equipo": "rabanal",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791339889285/attachment-1791339896144-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       9,
+       14
+      ],
+      "visita": [
+       6,
+       15
+      ]
+     }
+    },
+    {
+     "id": 1434,
+     "fecha": 1,
+     "dia": "2026-10-15",
+     "hora": "21:00",
+     "cancha": 5,
+     "grupo": 2,
+     "local": "saca-chispas",
+     "visita": "cerveceros",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      7,
+      3
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 6,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Kevin Adasme",
+        "id": 2918,
+        "goles": 2
+       },
+       {
+        "jugador": "Cristopher Gallardo",
+        "id": 2922,
+        "goles": 2
+       },
+       {
+        "jugador": "Brian Adasme",
+        "id": 2137,
+        "goles": 1
+       },
+       {
+        "jugador": "Cristopher Castañeda",
+        "id": 2927,
+        "goles": 1
+       }
+      ],
+      "visita": []
+     },
+     "goles_sin_asignar": {
+      "local": 1,
+      "visita": 3
+     },
+     "tarjetas": {
+      "local": [
+       {
+        "jugador": "Patrich Palma",
+        "id": 2959,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Cristopher Castañeda",
+        "id": 2927,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ],
+      "visita": []
+     },
+     "mvp": {
+      "jugador": "Cristopher Gallardo",
+      "id": 2922,
+      "numero": 4,
+      "equipo": "saca-chispas",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791321303426/attachment-1791321303783-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       6,
+       10
+      ],
+      "visita": [
+       0,
+       13
+      ]
+     }
+    },
+    {
+     "id": 1414,
+     "fecha": 1,
+     "dia": "2026-10-15",
+     "hora": "21:00",
+     "cancha": 6,
+     "grupo": 1,
+     "local": "camajo",
+     "visita": "gatinhos",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      2,
+      5
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 6,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Alex Laborde",
+        "id": 2982,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Bryan Reyes",
+        "id": 2964,
+        "goles": 3
+       },
+       {
+        "jugador": "David Allende",
+        "id": 2969,
+        "goles": 1
+       },
+       {
+        "jugador": "Franco Cotroneo",
+        "id": 2990,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 1,
+      "visita": 0
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": {
+      "jugador": "Bryan Reyes",
+      "id": 2964,
+      "numero": 7,
+      "equipo": "gatinhos",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791414487411/attachment-1791414487529-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       7,
+       12
+      ],
+      "visita": [
+       11,
+       15
+      ]
+     }
+    },
+    {
+     "id": 1435,
+     "fecha": 1,
+     "dia": "2026-10-15",
+     "hora": "22:00",
+     "cancha": 4,
+     "grupo": 2,
+     "local": "capybara",
+     "visita": "irresponsables",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      3,
+      14
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 13,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Maximiliano Inostroza",
+        "id": 1986,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Joaquín Pérez Rojas",
+        "id": 2119,
+        "goles": 3
+       },
+       {
+        "jugador": "Benjamin Tapia",
+        "id": 2542,
+        "goles": 2
+       },
+       {
+        "jugador": "Diego Ignacio Tapia Peña",
+        "id": 2065,
+        "goles": 2
+       },
+       {
+        "jugador": "Jairo Machuca",
+        "id": 2812,
+        "goles": 2
+       },
+       {
+        "jugador": "Sebastian Guzman",
+        "id": 2073,
+        "goles": 2
+       },
+       {
+        "jugador": "Maximus Riveros",
+        "id": 2817,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 2,
+      "visita": 2
+     },
+     "tarjetas": {
+      "local": [
+       {
+        "jugador": "Sebastián Cornejo",
+        "id": 101,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Cristopher Sepúlveda",
+        "id": 1987,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ],
+      "visita": []
+     },
+     "mvp": {
+      "jugador": "Diego Ignacio Tapia Peña",
+      "id": 2065,
+      "numero": 15,
+      "equipo": "irresponsables",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791169284558/attachment-1791169284714-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       6,
+       10
+      ],
+      "visita": [
+       8,
+       10
+      ]
+     }
+    },
+    {
+     "id": 1436,
+     "fecha": 1,
+     "dia": "2026-10-15",
+     "hora": "22:00",
+     "cancha": 5,
+     "grupo": 2,
+     "local": "profesores",
+     "visita": "control-dirigido",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      2,
+      6
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 7,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Joaquin Larenas",
+        "id": 2857,
+        "goles": 1
+       },
+       {
+        "jugador": "Juan José Carrasco",
+        "id": 2786,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Felipe Clarke",
+        "id": 12,
+        "goles": 2
+       },
+       {
+        "jugador": "Cesar Cifuentes",
+        "id": 19,
+        "goles": 1
+       },
+       {
+        "jugador": "Jonathan Gonzalez",
+        "id": 118,
+        "goles": 1
+       },
+       {
+        "jugador": "Rodrigo Berroeta",
+        "id": 9,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 0,
+      "visita": 1
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": {
+      "jugador": "Deivid Moya",
+      "id": 402,
+      "numero": 1,
+      "equipo": "control-dirigido",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/profiles/402/avatar-1783723902387-thumb.jpg"
+     },
+     "firmas": {
+      "local": [
+       7,
+       12
+      ],
+      "visita": [
+       10,
+       16
+      ]
+     }
+    },
+    {
+     "id": 1415,
+     "fecha": 1,
+     "dia": "2026-10-15",
+     "hora": "22:00",
+     "cancha": 6,
+     "grupo": 1,
+     "local": "rusticos",
+     "visita": "ikigai-rcv",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      1,
+      5
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 4,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Sebastian Soto",
+        "id": 2814,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Johandry Blanco",
+        "id": 408,
+        "goles": 1
+       },
+       {
+        "jugador": "Juan De Jesus Rodríguez Gonzalez",
+        "id": 339,
+        "goles": 1
+       },
+       {
+        "jugador": "Simon Gutiérrez",
+        "id": 420,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 0,
+      "visita": 2
+     },
+     "tarjetas": {
+      "local": [
+       {
+        "jugador": "Rodrigo Concha",
+        "id": 84,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ],
+      "visita": []
+     },
+     "mvp": {
+      "jugador": "Simon Gutiérrez",
+      "id": 420,
+      "numero": 7,
+      "equipo": "ikigai-rcv",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791321577016/attachment-1791321577416-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       10,
+       16
+      ],
+      "visita": [
+       6,
+       12
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "dia": "2026-10-22",
+   "estado": "programada",
+   "libres": [
+    "gatinhos",
+    "irresponsables"
+   ],
+   "partidos": [
+    {
+     "id": 1416,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "pierde-nunca",
+     "visita": "bototos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1417,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "rabanal",
+     "visita": "ikigai-rcv",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1418,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "camajo",
+     "visita": "rusticos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1437,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "cerveceros",
+     "visita": "inter",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1438,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "saca-chispas",
+     "visita": "control-dirigido",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1439,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "capybara",
+     "visita": "profesores",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "dia": "2026-10-29",
+   "estado": "programada",
+   "libres": [
+    "control-dirigido",
+    "ikigai-rcv"
+   ],
+   "partidos": [
+    {
+     "id": 1428,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "camajo",
+     "visita": "bototos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1429,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "rusticos",
+     "visita": "rabanal",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1430,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "gatinhos",
+     "visita": "pierde-nunca",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1449,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "capybara",
+     "visita": "inter",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1450,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "profesores",
+     "visita": "saca-chispas",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1451,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "irresponsables",
+     "visita": "cerveceros",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "dia": "2026-11-05",
+   "estado": "programada",
+   "libres": [
+    "profesores",
+    "rusticos"
+   ],
+   "partidos": [
+    {
+     "id": 1419,
+     "fecha": 4,
+     "dia": "2026-11-05",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "bototos",
+     "visita": "gatinhos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1420,
+     "fecha": 4,
+     "dia": "2026-11-05",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "pierde-nunca",
+     "visita": "ikigai-rcv",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1421,
+     "fecha": 4,
+     "dia": "2026-11-05",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "rabanal",
+     "visita": "camajo",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1440,
+     "fecha": 4,
+     "dia": "2026-11-05",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "inter",
+     "visita": "irresponsables",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1441,
+     "fecha": 4,
+     "dia": "2026-11-05",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "cerveceros",
+     "visita": "control-dirigido",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1442,
+     "fecha": 4,
+     "dia": "2026-11-05",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "saca-chispas",
+     "visita": "capybara",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    }
+   ]
+  },
+  {
+   "numero": 5,
+   "dia": "2026-11-12",
+   "estado": "programada",
+   "libres": [
+    "cerveceros",
+    "pierde-nunca"
+   ],
+   "partidos": [
+    {
+     "id": 1425,
+     "fecha": 5,
+     "dia": "2026-11-12",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "bototos",
+     "visita": "rusticos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1426,
+     "fecha": 5,
+     "dia": "2026-11-12",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "ikigai-rcv",
+     "visita": "camajo",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1427,
+     "fecha": 5,
+     "dia": "2026-11-12",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "gatinhos",
+     "visita": "rabanal",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1446,
+     "fecha": 5,
+     "dia": "2026-11-12",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "inter",
+     "visita": "profesores",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1447,
+     "fecha": 5,
+     "dia": "2026-11-12",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "control-dirigido",
+     "visita": "capybara",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1448,
+     "fecha": 5,
+     "dia": "2026-11-12",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "irresponsables",
+     "visita": "saca-chispas",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    }
+   ]
+  },
+  {
+   "numero": 6,
+   "dia": "2026-11-19",
+   "estado": "programada",
+   "libres": [
+    "rabanal",
+    "saca-chispas"
+   ],
+   "partidos": [
+    {
+     "id": 1422,
+     "fecha": 6,
+     "dia": "2026-11-19",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "ikigai-rcv",
+     "visita": "bototos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1423,
+     "fecha": 6,
+     "dia": "2026-11-19",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "gatinhos",
+     "visita": "rusticos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1424,
+     "fecha": 6,
+     "dia": "2026-11-19",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "pierde-nunca",
+     "visita": "camajo",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1443,
+     "fecha": 6,
+     "dia": "2026-11-19",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "control-dirigido",
+     "visita": "inter",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1444,
+     "fecha": 6,
+     "dia": "2026-11-19",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "irresponsables",
+     "visita": "profesores",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1445,
+     "fecha": 6,
+     "dia": "2026-11-19",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "cerveceros",
+     "visita": "capybara",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    }
+   ]
+  },
+  {
+   "numero": 7,
+   "dia": "2026-11-26",
+   "estado": "programada",
+   "libres": [
+    "camajo",
+    "capybara"
+   ],
+   "partidos": [
+    {
+     "id": 1431,
+     "fecha": 7,
+     "dia": "2026-11-26",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "bototos",
+     "visita": "rabanal",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1432,
+     "fecha": 7,
+     "dia": "2026-11-26",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "rusticos",
+     "visita": "pierde-nunca",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1433,
+     "fecha": 7,
+     "dia": "2026-11-26",
+     "hora": null,
+     "cancha": null,
+     "grupo": 1,
+     "local": "ikigai-rcv",
+     "visita": "gatinhos",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1452,
+     "fecha": 7,
+     "dia": "2026-11-26",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "inter",
+     "visita": "saca-chispas",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1453,
+     "fecha": 7,
+     "dia": "2026-11-26",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "profesores",
+     "visita": "cerveceros",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    },
+    {
+     "id": 1454,
+     "fecha": 7,
+     "dia": "2026-11-26",
+     "hora": null,
+     "cancha": null,
+     "grupo": 2,
+     "local": "control-dirigido",
+     "visita": "irresponsables",
+     "estado_mz": "SCHEDULED",
+     "jugado": false,
+     "marcador": null,
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 0,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": null,
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": null,
+     "firmas": null
+    }
+   ]
+  }
+ ],
+ "goleadores": [
+  {
+   "jugador": "Janier Espinoza Córdoba",
+   "id": 403,
+   "equipo": "rabanal",
+   "goles": 5,
+   "por_fecha": {
+    "1": 5
+   }
+  },
+  {
+   "jugador": "Ampol Maraboli",
+   "id": 2256,
+   "equipo": "rabanal",
+   "goles": 4,
+   "por_fecha": {
+    "1": 4
+   }
+  },
+  {
+   "jugador": "Bryan Reyes",
+   "id": 2964,
+   "equipo": "gatinhos",
+   "goles": 3,
+   "por_fecha": {
+    "1": 3
+   }
+  },
+  {
+   "jugador": "Joaquín Pérez Rojas",
+   "id": 2119,
+   "equipo": "irresponsables",
+   "goles": 3,
+   "por_fecha": {
+    "1": 3
+   }
+  },
+  {
+   "jugador": "Benjamin Tapia",
+   "id": 2542,
+   "equipo": "irresponsables",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Cristopher Gallardo",
+   "id": 2922,
+   "equipo": "saca-chispas",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Diego Ignacio Tapia Peña",
+   "id": 2065,
+   "equipo": "irresponsables",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Felipe Clarke",
+   "id": 12,
+   "equipo": "control-dirigido",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Jairo Machuca",
+   "id": 2812,
+   "equipo": "irresponsables",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Kevin Adasme",
+   "id": 2918,
+   "equipo": "saca-chispas",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Martin Hidalgo",
+   "id": 2868,
+   "equipo": "pierde-nunca",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Sebastian Guzman",
+   "id": 2073,
+   "equipo": "irresponsables",
+   "goles": 2,
+   "por_fecha": {
+    "1": 2
+   }
+  },
+  {
+   "jugador": "Alex Laborde",
+   "id": 2982,
+   "equipo": "camajo",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Brian Adasme",
+   "id": 2137,
+   "equipo": "saca-chispas",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Cesar Cifuentes",
+   "id": 19,
+   "equipo": "control-dirigido",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Cristopher Castañeda",
+   "id": 2927,
+   "equipo": "saca-chispas",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "David Allende",
+   "id": 2969,
+   "equipo": "gatinhos",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Franco Cotroneo",
+   "id": 2990,
+   "equipo": "gatinhos",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Henry Güenante",
+   "id": 2869,
+   "equipo": "pierde-nunca",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Jaime Gutierrez",
+   "id": 399,
+   "equipo": "rabanal",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Jaime Muñoz",
+   "id": 2538,
+   "equipo": "rabanal",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Joaquin Larenas",
+   "id": 2857,
+   "equipo": "profesores",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Johandry Blanco",
+   "id": 408,
+   "equipo": "ikigai-rcv",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Jonathan Gonzalez",
+   "id": 118,
+   "equipo": "control-dirigido",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Juan De Jesus Rodríguez Gonzalez",
+   "id": 339,
+   "equipo": "ikigai-rcv",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Juan José Carrasco",
+   "id": 2786,
+   "equipo": "profesores",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Luis Antonio Molina",
+   "id": 418,
+   "equipo": "pierde-nunca",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Maximiliano Inostroza",
+   "id": 1986,
+   "equipo": "capybara",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Maximus Riveros",
+   "id": 2817,
+   "equipo": "irresponsables",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Rodrigo Berroeta",
+   "id": 9,
+   "equipo": "control-dirigido",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Sebastian Soto",
+   "id": 2814,
+   "equipo": "rusticos",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Simon Gutiérrez",
+   "id": 420,
+   "equipo": "ikigai-rcv",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
+   "jugador": "Tote King",
+   "id": 3025,
+   "equipo": "pierde-nunca",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  }
+ ],
+ "mvps": [
+  {
+   "jugador": "Bryan Reyes",
+   "id": 2964,
+   "equipo": "gatinhos",
+   "mvps": 1
+  },
+  {
+   "jugador": "Cristopher Gallardo",
+   "id": 2922,
+   "equipo": "saca-chispas",
+   "mvps": 1
+  },
+  {
+   "jugador": "Deivid Moya",
+   "id": 402,
+   "equipo": "control-dirigido",
+   "mvps": 1
+  },
+  {
+   "jugador": "Diego Ignacio Tapia Peña",
+   "id": 2065,
+   "equipo": "irresponsables",
+   "mvps": 1
+  },
+  {
+   "jugador": "Janier Espinoza Córdoba",
+   "id": 403,
+   "equipo": "rabanal",
+   "mvps": 1
+  },
+  {
+   "jugador": "Simon Gutiérrez",
+   "id": 420,
+   "equipo": "ikigai-rcv",
+   "mvps": 1
+  }
+ ],
+ "tarjetas": [
+  {
+   "jugador": "Rodrigo Concha",
+   "id": 84,
+   "equipo": "rusticos",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Sebastián Cornejo",
+   "id": 101,
+   "equipo": "capybara",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Cristopher Sepúlveda",
+   "id": 1987,
+   "equipo": "capybara",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Nicolas Mora",
+   "id": 2864,
+   "equipo": "pierde-nunca",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Cristopher Castañeda",
+   "id": 2927,
+   "equipo": "saca-chispas",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Patrich Palma",
+   "id": 2959,
+   "equipo": "saca-chispas",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  }
+ ],
+ "suspensiones_mz": []
+}

@@ -1,0 +1,130 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-10-17T08:00:00Z"
+ },
+ "title": "Resultados Fecha 1 RL",
+ "launch": {
+  "view": "canvas"
+ },
+ "pages": [],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "01 · Portada - resultados de los 6 partidos 1080x1350"
+  },
+  "Partido-1.dc.html": {
+   "x": 1160,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "02 · Partido 1 - Independiente Rabanal vs Los Pierde Nunca (21:00, cancha 4) 1080x1350"
+  },
+  "Partido-2.dc.html": {
+   "x": 2320,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "03 · Partido 2 - Los Saca Chispas vs Cerveceros Fc (21:00, cancha 5) 1080x1350"
+  },
+  "Partido-3.dc.html": {
+   "x": 3480,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "04 · Partido 3 - Camajo Fc vs Gatinhos (21:00, cancha 6) 1080x1350"
+  },
+  "Partido-4.dc.html": {
+   "x": 4640,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "05 · Partido 4 - Capybara Fc vs Irresponsables Fc (22:00, cancha 4) 1080x1350"
+  },
+  "Partido-5.dc.html": {
+   "x": 5800,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "06 · Partido 5 - Profesores F.C. vs Control Dirigido (22:00, cancha 5) 1080x1350"
+  },
+  "Partido-6.dc.html": {
+   "x": 6960,
+   "y": 0,
+   "w": 1080,
+   "h": 1350,
+   "title": "07 · Partido 6 - Rústicos Fc vs Ikigai Rcv (22:00, cancha 6) 1080x1350"
+  },
+  "Historia-Portada.dc.html": {
+   "x": 0,
+   "y": 1670,
+   "w": 1080,
+   "h": 1920,
+   "title": "08 · Historia portada - resultados y libres 1080x1920"
+  },
+  "Historia-Partido-1.dc.html": {
+   "x": 1160,
+   "y": 1670,
+   "w": 1080,
+   "h": 1920,
+   "title": "09 · Historia partido 1 - Independiente Rabanal vs Los Pierde Nunca (21:00, cancha 4) 1080x1920"
+  },
+  "Historia-Partido-2.dc.html": {
+   "x": 2320,
+   "y": 1670,
+   "w": 1080,
+   "h": 1920,
+   "title": "10 · Historia partido 2 - Los Saca Chispas vs Cerveceros Fc (21:00, cancha 5) 1080x1920"
+  },
+  "Historia-Partido-3.dc.html": {
+   "x": 3480,
+   "y": 1670,
+   "w": 1080,
+   "h": 1920,
+   "title": "11 · Historia partido 3 - Camajo Fc vs Gatinhos (21:00, cancha 6) 1080x1920"
+  },
+  "Historia-Partido-4.dc.html": {
+   "x": 4640,
+   "y": 1670,
+   "w": 1080,
+   "h": 1920,
+   "title": "12 · Historia partido 4 - Capybara Fc vs Irresponsables Fc (22:00, cancha 4) 1080x1920"
+  },
+  "Historia-Partido-5.dc.html": {
+   "x": 5800,
+   "y": 1670,
+   "w": 1080,
+   "h": 1920,
+   "title": "13 · Historia partido 5 - Profesores F.C. vs Control Dirigido (22:00, cancha 5) 1080x1920"
+  },
+  "Historia-Partido-6.dc.html": {
+   "x": 6960,
+   "y": 1670,
+   "w": 1080,
+   "h": 1920,
+   "title": "14 · Historia partido 6 - Rústicos Fc vs Ikigai Rcv (22:00, cancha 6) 1080x1920"
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "Partido-1.dc.html",
+  "Partido-2.dc.html",
+  "Partido-3.dc.html",
+  "Partido-4.dc.html",
+  "Partido-5.dc.html",
+  "Partido-6.dc.html",
+  "Historia-Portada.dc.html",
+  "Historia-Partido-1.dc.html",
+  "Historia-Partido-2.dc.html",
+  "Historia-Partido-3.dc.html",
+  "Historia-Partido-4.dc.html",
+  "Historia-Partido-5.dc.html",
+  "Historia-Partido-6.dc.html"
+ ],
+ "notes": {},
+ "designSystems": []
+}

@@ -1,0 +1,72 @@
+{
+ "control-dirigido": {
+  "w": 595,
+  "h": 720,
+  "cover": 0.796
+ },
+ "saca-chispas": {
+  "w": 615,
+  "h": 720,
+  "cover": 0.6978
+ },
+ "capybara": {
+  "w": 704,
+  "h": 720,
+  "cover": 0.7256
+ },
+ "rusticos": {
+  "w": 720,
+  "h": 715,
+  "cover": 0.7795
+ },
+ "irresponsables": {
+  "w": 603,
+  "h": 720,
+  "cover": 0.634
+ },
+ "rabanal": {
+  "w": 720,
+  "h": 715,
+  "cover": 0.7777
+ },
+ "profesores": {
+  "w": 662,
+  "h": 720,
+  "cover": 0.7705
+ },
+ "bototos": {
+  "w": 584,
+  "h": 720,
+  "cover": 0.7757
+ },
+ "camajo": {
+  "w": 548,
+  "h": 720,
+  "cover": 0.6804
+ },
+ "cerveceros": {
+  "w": 679,
+  "h": 720,
+  "cover": 0.6927
+ },
+ "gatinhos": {
+  "w": 612,
+  "h": 720,
+  "cover": 0.7866
+ },
+ "ikigai-rcv": {
+  "w": 693,
+  "h": 720,
+  "cover": 0.8124
+ },
+ "pierde-nunca": {
+  "w": 620,
+  "h": 720,
+  "cover": 0.8093
+ },
+ "inter": {
+  "w": 628,
+  "h": 720,
+  "cover": 0.7124
+ }
+}

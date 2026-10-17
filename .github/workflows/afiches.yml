@@ -1,0 +1,79 @@
+# Boton de los afiches de resultados de Rancagua League.
+# Desde el celular: app de GitHub > rl-afiches > Actions > "Afiches de resultados" > Run workflow.
+# Revisa MatchZone; si la fecha esta completa arma los 14 afiches en x2, los publica en GitHub Pages
+# y avisa por WhatsApp (CallMeBot) con el link. Si falta algo, avisa que falta y no publica nada.
+name: Afiches de resultados
+
+on:
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Numero de la fecha (vacio = la ultima con partidos jugados)"
+        required: false
+        default: ""
+      forzar:
+        description: "Generar igual aunque falten datos en MatchZone"
+        type: boolean
+        default: false
+      prueba:
+        description: "Prueba: no publica ni manda WhatsApp (los afiches quedan para descargar en esta corrida)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: afiches
+  cancel-in-progress: false
+
+jobs:
+  afiches:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      TZ: America/Santiago
+      PYTHONIOENCODING: utf-8
+      RL_WHATSAPP_PHONE: ${{ secrets.RL_WHATSAPP_PHONE }}
+      RL_CALLMEBOT_APIKEY: ${{ secrets.RL_CALLMEBOT_APIKEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar Pillow
+        run: pip install pillow
+
+      - name: Revisar MatchZone y armar los afiches
+        working-directory: herramientas/resultados-fecha
+        env:
+          FECHA: ${{ inputs.fecha }}
+          FORZAR: ${{ inputs.forzar }}
+        run: python boton.py generar --version "${{ github.run_id }}"
+
+      - name: "Prueba: dejar los afiches en la corrida"
+        if: ${{ inputs.prueba }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: afiches-prueba
+          path: docs/
+
+      - name: Publicar en la web
+        if: ${{ !inputs.prueba }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A docs herramientas/matchzone-datos/datos/consolidado.json herramientas/matchzone-datos/datos/resumen.txt
+          git diff --cached --quiet || git commit -m "Afiches de resultados (corrida ${{ github.run_id }})"
+          git push
+
+      - name: Avisar por WhatsApp
+        if: ${{ !inputs.prueba }}
+        working-directory: herramientas/resultados-fecha
+        run: python boton.py avisar --url-base "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+
+      - name: Avisar si algo fallo
+        if: ${{ failure() && !inputs.prueba }}
+        run: python herramientas/comunes/whatsapp.py "*RL · Fallo el boton de afiches.* Revisa la corrida en GitHub Actions: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
