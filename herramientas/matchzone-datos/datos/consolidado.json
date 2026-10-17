@@ -1,5 +1,5 @@
 {
- "bajado": "2026-10-17T05:28:46",
+ "bajado": "2026-10-17T15:41:00",
  "fuente": "https://api.matchzone.cl/api/competitions/editions/28",
  "edicion": {
   "id": 28,
@@ -23,6 +23,7 @@
  },
  "avisos": [
   "En MatchZone, Inter de Rancagua sigue como \"Equipo 14 (por definir)\".",
+  "Rodrigo Berroeta: MatchZone le quito 1 gol(es) (ya no figura entre los goleadores); se descontaron del partido 1436.",
   "Fecha 1, LOS SACA CHISPAS 7-3 CERVECEROS FC: faltan 4 goles por asignar a jugadores en MatchZone.",
   "Fecha 1, CAMAJO FC 2-5 GATINHOS: falta 1 gol por asignar a jugadores en MatchZone.",
   "Fecha 1, CAPYBARA FC 3-14 IRRESPONSABLES FC: faltan 4 goles por asignar a jugadores en MatchZone.",
@@ -733,8 +734,8 @@
         "goles": 1
        },
        {
-        "jugador": "Rodrigo Berroeta",
-        "id": 9,
+        "jugador": "Jose Ignacio Martínez Zelada",
+        "id": 114,
         "goles": 1
        }
       ]
@@ -2139,6 +2140,15 @@
    }
   },
   {
+   "jugador": "Jose Ignacio Martínez Zelada",
+   "id": 114,
+   "equipo": "control-dirigido",
+   "goles": 1,
+   "por_fecha": {
+    "1": 1
+   }
+  },
+  {
    "jugador": "Juan De Jesus Rodríguez Gonzalez",
    "id": 339,
    "equipo": "ikigai-rcv",
@@ -2178,15 +2188,6 @@
    "jugador": "Maximus Riveros",
    "id": 2817,
    "equipo": "irresponsables",
-   "goles": 1,
-   "por_fecha": {
-    "1": 1
-   }
-  },
-  {
-   "jugador": "Rodrigo Berroeta",
-   "id": 9,
-   "equipo": "control-dirigido",
    "goles": 1,
    "por_fecha": {
     "1": 1

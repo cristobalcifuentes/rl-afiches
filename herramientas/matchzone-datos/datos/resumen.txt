@@ -1,7 +1,8 @@
-Rancagua League - THE ORIGIN (MatchZone, edicion 28). Bajado el 2026-10-17 05:28:46
+Rancagua League - THE ORIGIN (MatchZone, edicion 28). Bajado el 2026-10-17 15:41:00
 
 AVISOS
   - En MatchZone, Inter de Rancagua sigue como "Equipo 14 (por definir)".
+  - Rodrigo Berroeta: MatchZone le quito 1 gol(es) (ya no figura entre los goleadores); se descontaron del partido 1436.
   - Fecha 1, LOS SACA CHISPAS 7-3 CERVECEROS FC: faltan 4 goles por asignar a jugadores en MatchZone.
   - Fecha 1, CAMAJO FC 2-5 GATINHOS: falta 1 gol por asignar a jugadores en MatchZone.
   - Fecha 1, CAPYBARA FC 3-14 IRRESPONSABLES FC: faltan 4 goles por asignar a jugadores en MatchZone.
@@ -54,7 +55,7 @@ FECHA 1 - 2026-10-15 (jugada)
       Firmaron la planilla: 6/10 y 8/10
   22:00 C5  PROFESORES F.C. 2-6 CONTROL DIRIGIDO  (grupo 2)
       Goles PROFESORES F.C.: Joaquin Larenas, Juan José Carrasco
-      Goles CONTROL DIRIGIDO: Felipe Clarke x2, Cesar Cifuentes, Jonathan Gonzalez, Rodrigo Berroeta  (+1 sin asignar)
+      Goles CONTROL DIRIGIDO: Felipe Clarke x2, Cesar Cifuentes, Jonathan Gonzalez, Jose Ignacio Martínez Zelada  (+1 sin asignar)
       Tarjetas: -
       Jugador del partido: Deivid Moya (n.1, CONTROL DIRIGIDO)
       Firmaron la planilla: 7/12 y 10/16
@@ -100,12 +101,12 @@ GOLEADORES
    1  Joaquin Larenas (PROFESORES F.C.)
    1  Johandry Blanco (IKIGAI RCV)
    1  Jonathan Gonzalez (CONTROL DIRIGIDO)
+   1  Jose Ignacio Martínez Zelada (CONTROL DIRIGIDO)
    1  Juan De Jesus Rodríguez Gonzalez (IKIGAI RCV)
    1  Juan José Carrasco (PROFESORES F.C.)
    1  Luis Antonio Molina (LOS PIERDE NUNCA)
    1  Maximiliano Inostroza (CAPYBARA FC)
    1  Maximus Riveros (IRRESPONSABLES FC)
-   1  Rodrigo Berroeta (CONTROL DIRIGIDO)
    1  Sebastian Soto (RÚSTICOS FC)
    1  Simon Gutiérrez (IKIGAI RCV)
    1  Tote King (LOS PIERDE NUNCA)
