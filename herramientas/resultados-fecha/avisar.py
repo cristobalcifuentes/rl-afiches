@@ -19,7 +19,7 @@ def mensaje(n, link):
     L = [f"*RL · AFICHES FECHA {n} LISTOS*", f"{dia} · 14 afiches en x2 (7 feed + 7 historias)", "",
          "Descargalos aqui:", link]
     if r["avisos"]:
-        L += ["", "*Antes de publicar:*"] + [f"- {a}" for a in r["avisos"]]
+        L += ["", "*Avisos (no salen en los afiches):*"] + [f"- {a}" for a in r["avisos"]]
     else:
         L += ["", "Datos completos en MatchZone."]
     return "\n".join(L)

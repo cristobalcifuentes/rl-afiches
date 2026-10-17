@@ -328,7 +328,7 @@ def pagina(n, F, items, archivos, avisos, carpeta, web=False):
                     f'<div class="grid">{"".join(cards)}</div></section>')
     av = ""
     if avisos:
-        av = ('<div class="avisos" role="note"><h2>Antes de publicar</h2><ul>'
+        av = ('<div class="avisos" role="note"><h2>Avisos (no salen en los afiches)</h2><ul>'
               + "".join(f"<li>{html.escape(a)}</li>" for a in avisos) + "</ul></div>")
     c = resultados.cargar()
     out = (PAGE.replace("__TITLE__", f"Afiches Resultados Fecha {n}")

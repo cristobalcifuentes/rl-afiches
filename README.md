@@ -6,14 +6,14 @@ Los 14 afiches de resultados de cada fecha de **THE ORIGIN** (portada y un afich
 
 ## Cómo se piden
 
-1. Terminar de cargar la fecha en MatchZone: resultados, goles de cada jugador y jugador del partido.
+1. Terminar de cargar la fecha en MatchZone: resultados, jugador del partido y los goleadores que se tengan.
 2. En la app de GitHub: **rl-afiches › Actions › Afiches de resultados › Run workflow**.
    - **Fecha:** vacío toma la última con partidos jugados.
    - **Generar igual:** arma los afiches aunque falten datos.
    - **Prueba:** no publica ni avisa; los afiches quedan para descargar en la corrida.
 3. En unos 3 minutos llega un WhatsApp con el link a la página de la fecha, donde cada afiche se descarga en x2.
 
-Si a la fecha le falta algo en MatchZone, no se publica nada y el WhatsApp dice qué falta.
+Si a un partido le falta el resultado o el jugador del partido, no se publica nada y el WhatsApp dice qué falta. Los goles sin goleador informado no frenan: lo no informado no se muestra (ese lado lleva "-") y el WhatsApp los avisa.
 
 ## Qué hay aquí
 

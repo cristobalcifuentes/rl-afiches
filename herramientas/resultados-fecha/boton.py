@@ -6,9 +6,10 @@ El usuario no sabe a que hora va a terminar de cargar la fecha en MatchZone: cua
     python boton.py generar [--fecha N] [--forzar] [--sitio <carpeta>] [--version <id>]
     python boton.py avisar --url-base https://cristobalcifuentes.github.io/rl-afiches/ [--sin-esperar] [--ver]
 
-generar: baja MatchZone, elige la fecha (la pedida, o la ultima con partidos jugados) y revisa que este completa:
-  resultados, jugador del partido y todos los goles asignados. Si esta completa (o con --forzar), arma los afiches
-  en <sitio>/fecha-<n>/ (fecha.py --web) y actualiza <sitio>/index.html. Si falta algo, no genera nada.
+generar: baja MatchZone, elige la fecha (la pedida, o la ultima con partidos jugados) y revisa que tenga resultado y
+  jugador del partido en cada partido. Si los tiene (o con --forzar), arma los afiches en <sitio>/fecha-<n>/
+  (fecha.py --web) y actualiza <sitio>/index.html; si no, no genera nada. Los goles sin goleador informado no frenan
+  (lo no informado no se muestra: ese lado lleva "-"); van en el WhatsApp.
   Deja lo que paso en entrega/boton.json. FECHA y FORZAR tambien se pueden pasar como variables de entorno.
 avisar: manda el WhatsApp segun entrega/boton.json: el link (espera a que la pagina este publicada) o lo que falta.
 """
@@ -50,20 +51,23 @@ def guardar(estado):
 
 
 def lo_que_falta(f, eq):
-    faltan = []
+    """(lo que frena, lo que solo se avisa). Frena lo que dejaria un hueco en la lamina: un partido sin resultado
+    o sin jugador del partido. Los goles sin goleador informado no frenan (usuario, 2026-10-17: "lo no informado es
+    no informado nomas"): en la lamina ese lado lleva "-" y en el WhatsApp se avisa."""
+    frena, avisa = [], []
     for m in f["partidos"]:
         vs = f"{eq[m['local']]} vs {eq[m['visita']]}"
         if not m["jugado"]:
-            faltan.append(f"{vs}: sin resultado")
+            frena.append(f"{vs}: sin resultado")
             continue
         if m["mvp"] is None:
-            faltan.append(f"{vs}: sin jugador del partido")
+            frena.append(f"{vs}: sin jugador del partido")
         k = sum(m["goles_sin_asignar"].values())
         if k:
             a, b = m["marcador"]
-            faltan.append(f"{eq[m['local']]} {a}-{b} {eq[m['visita']]}: "
-                          + ("falta 1 gol" if k == 1 else f"faltan {k} goles") + " por asignar")
-    return faltan
+            avisa.append(f"{eq[m['local']]} {a}-{b} {eq[m['visita']]}: "
+                         + ("1 gol sin goleador informado" if k == 1 else f"{k} goles sin goleador informado"))
+    return frena, avisa
 
 
 def indice(sitio):
@@ -125,9 +129,9 @@ def generar():
             guardar({"tipo": "error", "detalle": f"MatchZone no tiene una Fecha {fecha}."})
             return
     n = f["numero"]
-    faltan = lo_que_falta(f, eq)
+    faltan, sin_informar = lo_que_falta(f, eq)
     if faltan and not forzar:
-        guardar({"tipo": "incompleta", "fecha": n, "faltan": faltan})
+        guardar({"tipo": "incompleta", "fecha": n, "faltan": faltan, "sin_informar": sin_informar})
         return
     carpeta = os.path.join(sitio, f"fecha-{n}")
     if os.path.isdir(carpeta):
@@ -146,7 +150,7 @@ def generar():
     with open(os.path.join(carpeta, "version.txt"), "w", encoding="utf-8") as fh:
         fh.write(version)
     indice(sitio)
-    guardar({"tipo": "listo", "fecha": n, "version": version, "forzado": bool(faltan)})
+    guardar({"tipo": "listo", "fecha": n, "version": version, "forzado": bool(faltan), "sin_informar": sin_informar})
 
 
 def esperar_publicacion(url, version, minutos=8):
@@ -181,7 +185,9 @@ def avisar():
     elif tipo == "incompleta":
         texto = "\n".join([f"*RL · FECHA {n}: FALTAN DATOS EN MATCHZONE*", "Todavia no arme los afiches. Falta:", ""]
                           + [f"- {x}" for x in e["faltan"]]
-                          + ["", "Cuando lo completes, vuelve a apretar el boton (o elige *generar igual*)."])
+                          + ["", "Cuando lo completes, vuelve a apretar el boton (o elige *generar igual*)."]
+                          + (["", "_Tambien hay goles sin goleador informado; esos no frenan (en la lamina van con \"-\")._"]
+                             if e.get("sin_informar") else []))
     elif tipo == "sin-fechas":
         texto = "*RL · Todavia no hay partidos jugados en MatchZone.*"
     else:
