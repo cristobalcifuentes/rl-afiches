@@ -334,14 +334,16 @@ def ev_none(text, side, size):
 
 
 def section(title, icon_head, data, icon_fn, empty, size, gap, sub):
+    """`empty`: texto de un lado sin eventos (un texto para los dos lados, o {"local": ..., "visita": ...})."""
     head = prog.lines_row(0, f'<span style="display: flex; align-items: center; gap: 12px">{icon_head}'
                              f'<span class="lbl" style="font-size: 24px">{title}</span></span>', 150, 18)
     head = head.replace('class="row" style="top: 0px', 'class="row" style="position: relative; top: 0px')
     cols = []
     for side in ("local", "visita"):
         items = data[side]
+        vacio = empty[side] if isinstance(empty, dict) else empty
         rows = ([ev_item(n, d, icon_fn(x), side, size) for n, d, x in items] if items
-                else [ev_none(empty, side, size)])
+                else [ev_none(vacio, side, size)])
         if sub == 1:
             cols.append(f'<div class="col" style="gap: {gap}px">{"".join(rows)}</div>')
         else:
@@ -361,7 +363,11 @@ def events(m, local, p, L):
     ball = BALL.format(s=round(size * .92))
     head_ball = BALL.format(s=26)
     head_card = '<span class="card amarilla" style="font-size: 30px"></span>'
-    goles_html = section("GOLES", head_ball, g, lambda _x: ball, "SIN GOLES", size, gap, sub)
+    # Lo no informado en MatchZone no se muestra (usuario, 2026-10-17: "lo no informado es no informado nomas").
+    # "SIN GOLES" solo si el equipo no marco; si marco y no tiene goleadores informados, "-" (no se inventa nada).
+    marc = m["marcador"] or (0, 0)
+    vacio = {s: "SIN GOLES" if marc[i] == 0 else "-" for i, s in enumerate(("local", "visita"))}
+    goles_html = section("GOLES", head_ball, g, lambda _x: ball, vacio, size, gap, sub)
     if not any(t.values()):
         tarj_html = (prog.lines_row(0, '<span class="lbl" style="font-size: 24px">SIN TARJETAS</span>', 150, 18)
                      .replace('class="row" style="top: 0px', 'class="row" style="position: relative; top: 0px'))

@@ -229,6 +229,20 @@ def repartir_goles(goleadores, partidos, previo, avisos):
                 if not delta:
                     break
 
+    # Un jugador al que MatchZone le quito todos sus goles ya no viene en `goleadores`: el bucle de arriba no lo
+    # ve y su gol quedaba repartido (salia como "jugador <id>"). 2026-10-17: el usuario paso el gol de Rodrigo
+    # Berroeta (id 9) a Jose Ignacio Martinez Zelada en Profesores-Control Dirigido.
+    actuales = {s["playerUserId"] for s in goleadores}
+    nombre_antes = {}
+    if previo:
+        nombre_antes = {g["id"]: g["jugador"] for f in previo["fechas"] for p in f["partidos"]
+                        for lado in ("local", "visita") for g in p["goles"][lado]}
+    for pid, goles in reparto.items():
+        for jid in [j for j, n in goles.items() if n > 0 and j not in actuales]:
+            avisos.append(f"{nombre_antes.get(jid, f'jugador {jid}')}: MatchZone le quito {goles[jid]} gol(es) "
+                          f"(ya no figura entre los goleadores); se descontaron del partido {pid}.")
+            goles[jid] = 0
+
     nombre = {s["playerUserId"]: s["playerName"] for s in goleadores}
     equipo_de = {s["playerUserId"]: clave_nombre(s["teamName"]) for s in goleadores}
     for pid, goles in reparto.items():
