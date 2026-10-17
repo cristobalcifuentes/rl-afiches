@@ -29,7 +29,7 @@ concurrency:
 
 jobs:
   afiches:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # fijo: ubuntu-latest pasa a Ubuntu 26 desde el 2026-10-19 (probado en 24.04)
     timeout-minutes: 25
     env:
       TZ: America/Santiago
