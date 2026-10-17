@@ -76,4 +76,5 @@ jobs:
 
       - name: Avisar si algo fallo
         if: ${{ failure() && !inputs.prueba }}
-        run: python herramientas/comunes/whatsapp.py "*RL · Fallo el boton de afiches.* Revisa la corrida en GitHub Actions: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        run: |
+          python herramientas/comunes/whatsapp.py "*RL · Fallo el boton de afiches.* Revisa la corrida en GitHub Actions: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
