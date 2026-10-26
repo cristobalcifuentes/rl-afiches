@@ -152,13 +152,18 @@ def dot():
     return '<span class="dot">·</span>'
 
 
+def marcador_wo(m):
+    """Un W.O. cuenta 6-0 para el ganador (usuario, 2026-10-26: "ojo el wo igual es 6-0"; asi lo trae la tabla)."""
+    return (6, 0) if m["wo"] == m["local"] else (0, 6)
+
+
 def score_html(m, size, dash_size, gap):
     """Marcador: el numero del ganador en cian, el del perdedor cromado; empate, los dos en cian.
-    W.O. (partido no jugado, `wo` = clave del ganador): "W.O." en cian en vez del marcador (usuario, 2026-10-26)."""
+    W.O. (partido no jugado, `wo` = clave del ganador): el 6-0 de la tabla; quien llama agrega la etiqueta "W.O."."""
     if m.get("wo"):
-        wo_size = round(size * (0.82 if size < 80 else 0.6))
-        return (f'<div class="score"><span class="tx title" style="font-size: {wo_size}px">W.O.</span></div>')
-    if m["marcador"] is None:
+        a, b = marcador_wo(m)
+        ca, cb = ("title", "chrome") if a > b else ("chrome", "title")
+    elif m["marcador"] is None:
         a = b = "-"
         ca = cb = "chrome"
     else:
@@ -181,9 +186,13 @@ def match_row(top, m, local, height=104, left=56, width=968):
         inner = img + name if side == "left" else name + img
         just = "flex-start" if side == "left" else "flex-end"
         return f'<div class="team" style="gap: 12px; justify-content: {just}">{inner}</div>'
+    centro = score_html(m, 58, 40, 10)
+    if m.get("wo"):                                  # 6-0 con la etiqueta W.O. debajo
+        centro = (f'<div style="display: flex; flex-direction: column; align-items: center; gap: 6px">'
+                  f'{score_html(m, 46, 32, 10)}<span class="final" style="font-size: 15px">W.O.</span></div>')
     return (f'<div class="match" style="top: {top}px; left: {left}px; width: {width}px; height: {height}px; border-radius: 12px">'
             f'<div class="teams" style="grid-template-columns: minmax(0, 1fr) 168px minmax(0, 1fr); padding: 0 24px">'
-            f'{team(m["local"], "left")}{score_html(m, 58, 40, 10)}{team(m["visita"], "right")}'
+            f'{team(m["local"], "left")}{centro}{team(m["visita"], "right")}'
             f'</div></div>')
 
 
@@ -319,7 +328,7 @@ def scoreboard(m, local, compact, L):
                 f'{prog.crest_img(key, local, crest, base)}'
                 f'<span class="tname" style="font-size: {name_size}px; text-align: center; height: {name_h}px; display: flex; '
                 f'align-items: flex-start; justify-content: center">{NAMES[key]}</span></div>')
-    estado = "" if m.get("wo") else f'<span class="final" style="font-size: {20 if compact else 22}px">FINAL</span>'
+    estado = f'<span class="final" style="font-size: {20 if compact else 22}px">{"W.O." if m.get("wo") else "FINAL"}</span>'
     return (f'<div class="plate" style="top: {L["sb_top"]}px; left: {L["left"]}px; width: {L["width"]}px; height: {height}px; '
             f'border-radius: 16px; '
             f'display: grid; grid-template-columns: minmax(0, 1fr) 300px minmax(0, 1fr); align-items: center; '
