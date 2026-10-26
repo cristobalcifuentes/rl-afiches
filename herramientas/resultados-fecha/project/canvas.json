@@ -4,7 +4,7 @@
   "v": 1,
   "at": "2026-10-17T08:00:00Z"
  },
- "title": "Resultados Fecha 1 RL",
+ "title": "Resultados RL",
  "launch": {
   "view": "canvas"
  },
@@ -107,6 +107,104 @@
    "w": 1080,
    "h": 1920,
    "title": "14 · Historia partido 6 - Rústicos Fc vs Ikigai Rcv (22:00, cancha 6) 1080x1920"
+  },
+  "F2-Portada.dc.html": {
+   "x": 0,
+   "y": 3990,
+   "w": 1080,
+   "h": 1350,
+   "title": "15 · Fecha 2 - portada, resultados de los 6 partidos 1080x1350"
+  },
+  "F2-Partido-1.dc.html": {
+   "x": 1160,
+   "y": 3990,
+   "w": 1080,
+   "h": 1350,
+   "title": "16 · Fecha 2 - partido 1, Capybara FC vs Profesores F.C. (21:00, cancha 4) 1080x1350"
+  },
+  "F2-Partido-2.dc.html": {
+   "x": 2320,
+   "y": 3990,
+   "w": 1080,
+   "h": 1350,
+   "title": "17 · Fecha 2 - partido 2, Los Saca Chispas vs Control Dirigido (21:00, cancha 5) 1080x1350"
+  },
+  "F2-Partido-3.dc.html": {
+   "x": 3480,
+   "y": 3990,
+   "w": 1080,
+   "h": 1350,
+   "title": "18 · Fecha 2 - partido 3, Camajo FC vs Rústicos FC (21:00, cancha 6) 1080x1350"
+  },
+  "F2-Partido-4.dc.html": {
+   "x": 4640,
+   "y": 3990,
+   "w": 1080,
+   "h": 1350,
+   "title": "19 · Fecha 2 - partido 4, Independiente Rabanal vs Ikigai RCV (22:00, cancha 4) 1080x1350"
+  },
+  "F2-Partido-5.dc.html": {
+   "x": 5800,
+   "y": 3990,
+   "w": 1080,
+   "h": 1350,
+   "title": "20 · Fecha 2 - partido 5, Los Pierde Nunca vs Bototos FC (22:00, cancha 5) 1080x1350"
+  },
+  "F2-Partido-6.dc.html": {
+   "x": 6960,
+   "y": 3990,
+   "w": 1080,
+   "h": 1350,
+   "title": "21 · Fecha 2 - partido 6, Cerveceros FC vs Inter de Rancagua (22:00, cancha 6) 1080x1350"
+  },
+  "F2-Historia-Portada.dc.html": {
+   "x": 0,
+   "y": 5660,
+   "w": 1080,
+   "h": 1920,
+   "title": "22 · Fecha 2 - historia portada, resultados y libres 1080x1920"
+  },
+  "F2-Historia-Partido-1.dc.html": {
+   "x": 1160,
+   "y": 5660,
+   "w": 1080,
+   "h": 1920,
+   "title": "23 · Fecha 2 - historia partido 1, Capybara FC vs Profesores F.C. (21:00, cancha 4) 1080x1920"
+  },
+  "F2-Historia-Partido-2.dc.html": {
+   "x": 2320,
+   "y": 5660,
+   "w": 1080,
+   "h": 1920,
+   "title": "24 · Fecha 2 - historia partido 2, Los Saca Chispas vs Control Dirigido (21:00, cancha 5) 1080x1920"
+  },
+  "F2-Historia-Partido-3.dc.html": {
+   "x": 3480,
+   "y": 5660,
+   "w": 1080,
+   "h": 1920,
+   "title": "25 · Fecha 2 - historia partido 3, Camajo FC vs Rústicos FC (21:00, cancha 6) 1080x1920"
+  },
+  "F2-Historia-Partido-4.dc.html": {
+   "x": 4640,
+   "y": 5660,
+   "w": 1080,
+   "h": 1920,
+   "title": "26 · Fecha 2 - historia partido 4, Independiente Rabanal vs Ikigai RCV (22:00, cancha 4) 1080x1920"
+  },
+  "F2-Historia-Partido-5.dc.html": {
+   "x": 5800,
+   "y": 5660,
+   "w": 1080,
+   "h": 1920,
+   "title": "27 · Fecha 2 - historia partido 5, Los Pierde Nunca vs Bototos FC (22:00, cancha 5) 1080x1920"
+  },
+  "F2-Historia-Partido-6.dc.html": {
+   "x": 6960,
+   "y": 5660,
+   "w": 1080,
+   "h": 1920,
+   "title": "28 · Fecha 2 - historia partido 6, Cerveceros FC vs Inter de Rancagua (22:00, cancha 6) 1080x1920"
   }
  },
  "order": [
@@ -123,7 +221,21 @@
   "Historia-Partido-3.dc.html",
   "Historia-Partido-4.dc.html",
   "Historia-Partido-5.dc.html",
-  "Historia-Partido-6.dc.html"
+  "Historia-Partido-6.dc.html",
+  "F2-Portada.dc.html",
+  "F2-Partido-1.dc.html",
+  "F2-Partido-2.dc.html",
+  "F2-Partido-3.dc.html",
+  "F2-Partido-4.dc.html",
+  "F2-Partido-5.dc.html",
+  "F2-Partido-6.dc.html",
+  "F2-Historia-Portada.dc.html",
+  "F2-Historia-Partido-1.dc.html",
+  "F2-Historia-Partido-2.dc.html",
+  "F2-Historia-Partido-3.dc.html",
+  "F2-Historia-Partido-4.dc.html",
+  "F2-Historia-Partido-5.dc.html",
+  "F2-Historia-Partido-6.dc.html"
  ],
  "notes": {},
  "designSystems": []

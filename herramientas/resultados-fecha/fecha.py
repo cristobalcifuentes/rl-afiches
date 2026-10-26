@@ -63,7 +63,7 @@ NAMES = rf.NAMES
 
 def nombre_corto(key):
     s = NAMES[key].title()
-    for a, b in ((" Fc", " FC"), ("Rcv", "RCV"), ("F.C.", "F.C.")):
+    for a, b in ((" Fc", " FC"), ("Rcv", "RCV"), ("F.C.", "F.C."), (" De ", " de ")):
         s = s.replace(a, b)
     return s
 
@@ -75,7 +75,7 @@ def dia_texto(iso):
 
 def datos_fecha(n, c, forzar):
     f = resultados.fecha(n, c)
-    faltan = [m for m in f["partidos"] if not m["jugado"]]
+    faltan = [m for m in f["partidos"] if not m["jugado"] and not resultados.ganador_wo(m)]   # un W.O. no se juega
     sin_figura = [m for m in f["partidos"] if m["jugado"] and m["mvp"] is None]
     if (faltan or sin_figura) and not forzar:
         msg = [f"La Fecha {n} no esta lista en MatchZone:"]

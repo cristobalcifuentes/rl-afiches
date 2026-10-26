@@ -102,7 +102,7 @@ GRUPO.update({k: 2 for k in ("control-dirigido", "capybara", "cerveceros", "irre
 # figura: ("NOMBRE", clave del equipo) = jugador del partido (tarjeta de Kine Nohm)
 # None = dato pendiente: se dibuja el relleno de ejemplo.
 PARTIDOS = [
-    dict(hora=h, cancha=c, local=a, visita=b, marcador=None, goles=None, tarjetas=None, figura=None)
+    dict(hora=h, cancha=c, local=a, visita=b, marcador=None, goles=None, tarjetas=None, figura=None, wo=None)
     for h, ms in F1["turnos"] for c, a, b in ms
 ]
 
@@ -153,7 +153,11 @@ def dot():
 
 
 def score_html(m, size, dash_size, gap):
-    """Marcador: el numero del ganador en cian, el del perdedor cromado; empate, los dos en cian."""
+    """Marcador: el numero del ganador en cian, el del perdedor cromado; empate, los dos en cian.
+    W.O. (partido no jugado, `wo` = clave del ganador): "W.O." en cian en vez del marcador (usuario, 2026-10-26)."""
+    if m.get("wo"):
+        wo_size = round(size * (0.82 if size < 80 else 0.6))
+        return (f'<div class="score"><span class="tx title" style="font-size: {wo_size}px">W.O.</span></div>')
     if m["marcador"] is None:
         a = b = "-"
         ca = cb = "chrome"
@@ -302,13 +306,20 @@ def plan(m, L=FEED):
 def scoreboard(m, local, compact, L):
     height = L["sb_h"][compact]
     crest, base, name_size, name_h, score, dash = L["sb_sizes"][compact]
+    if m["marcador"] is not None:
+        # 3 o mas cifras (15-2): achicar para que entren en la columna de 300 px sin tocar los escudos (2026-10-26)
+        cifras = sum(len(str(x)) for x in m["marcador"])
+        tope = (270 - 32) / (0.48 * cifras + 0.26)
+        if score > tope:
+            dash = round(dash * tope / score)
+            score = round(tope)
 
     def team(key):
         return (f'<div style="display: flex; flex-direction: column; align-items: center; gap: {10 if compact else 14}px">'
                 f'{prog.crest_img(key, local, crest, base)}'
                 f'<span class="tname" style="font-size: {name_size}px; text-align: center; height: {name_h}px; display: flex; '
                 f'align-items: flex-start; justify-content: center">{NAMES[key]}</span></div>')
-    estado = "FINAL"
+    estado = "" if m.get("wo") else f'<span class="final" style="font-size: {20 if compact else 22}px">FINAL</span>'
     return (f'<div class="plate" style="top: {L["sb_top"]}px; left: {L["left"]}px; width: {L["width"]}px; height: {height}px; '
             f'border-radius: 16px; '
             f'display: grid; grid-template-columns: minmax(0, 1fr) 300px minmax(0, 1fr); align-items: center; '
@@ -316,8 +327,22 @@ def scoreboard(m, local, compact, L):
             f'{team(m["local"])}'
             f'<div style="display: flex; flex-direction: column; align-items: center; gap: {14 if compact else 18}px; '
             f'padding-bottom: {name_h - 14}px">'
-            f'{score_html(m, score, dash, 16)}<span class="final" style="font-size: {20 if compact else 22}px">{estado}</span></div>'
+            f'{score_html(m, score, dash, 16)}{estado}</div>'
             f'{team(m["visita"])}</div>')
+
+
+def wo_plate(m, local, L):
+    """Lamina de un W.O.: en vez de goles, tarjetas y jugador del partido, el ganador y "GANA POR W.O."
+    (usuario, 2026-10-26: W.O. con lamina propia). Ocupa el alto de la placa de eventos y la del jugador del partido."""
+    top = L["sb_top"] + L["sb_h"][False] + 16
+    bottom = L["fig"][0] + L["fig"][1]
+    win = m["wo"]
+    return (f'<div class="plate" style="top: {top}px; left: {L["left"]}px; width: {L["width"]}px; '
+            f'height: {bottom - top}px; border-radius: 16px; display: flex; flex-direction: column; align-items: center; '
+            f'justify-content: center; gap: 26px">'
+            f'{prog.crest_img(win, local, 170, 160)}'
+            f'<span class="tx chrome" style="font-size: 66px">{NAMES[win]}</span>'
+            f'<span class="final" style="font-size: 30px">GANA POR W.O.</span></div>')
 
 
 def ev_item(name, detail, icon, side, size):
@@ -400,17 +425,18 @@ def figura(m, local, L):
 
 def partido(i, local, L=FEED):
     m = PARTIDOS[i]
-    p = plan(m, L)
     info = f'GRUPO {GRUPO[m["local"]]}{dot()}CANCHA {m["cancha"]}{dot()}{m["hora"]}'
     (k_top, k_size), (c_top, c_size), (i_top, i_size, i_line) = L["kicker"], L["chrome"], L["info"]
     parts = [prog.background(L["bg"], local),
              T(k_top, "kicker", "RANCAGUA LEAGUE", k_size),
              T(c_top, "chrome", f'THE ORIGIN{dot()}FECHA {F1["numero"]}', c_size),
-             prog.lines_row(i_top, f'<span class="info" style="font-size: {i_size}px">{info}</span>', i_line, 22),
-             scoreboard(m, local, p["compact"], L),
-             events(m, local, p, L),
-             figura(m, local, L),
-             prog.sponsor_band(local, 40, L["band"], 1000, 84, 11, 62, 12)]
+             prog.lines_row(i_top, f'<span class="info" style="font-size: {i_size}px">{info}</span>', i_line, 22)]
+    if m.get("wo"):
+        parts += [scoreboard(m, local, False, L), wo_plate(m, local, L)]
+    else:
+        p = plan(m, L)
+        parts += [scoreboard(m, local, p["compact"], L), events(m, local, p, L), figura(m, local, L)]
+    parts.append(prog.sponsor_band(local, 40, L["band"], 1000, 84, 11, 62, 12))
     return "\n".join(parts)
 
 

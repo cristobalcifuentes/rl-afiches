@@ -58,7 +58,8 @@ def lo_que_falta(f, eq):
     for m in f["partidos"]:
         vs = f"{eq[m['local']]} vs {eq[m['visita']]}"
         if not m["jugado"]:
-            frena.append(f"{vs}: sin resultado")
+            if m.get("estado_mz") != "WALKOVER":       # un W.O. no se juega: va con su lamina de W.O.
+                frena.append(f"{vs}: sin resultado")
             continue
         if m["mvp"] is None:
             frena.append(f"{vs}: sin jugador del partido")

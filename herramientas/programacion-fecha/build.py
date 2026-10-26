@@ -15,8 +15,9 @@ Escribe:
 - project/canvas.json y project/<tablero>.dc.html (lienzo Design, imagenes por /_blob/<id>)
 - preview/<tablero>.html (mismos tableros con archivos locales, para revisar con Chrome)
 
-Uso: python build.py            (genera todo)
-     python build.py --render   (ademas renderiza out/<tablero>.png a escala 1)
+Uso: python build.py              (indice completo + archivos de las fechas no congeladas)
+     python build.py --fecha 2    (solo los archivos de esa fecha)
+     python build.py --render     (ademas renderiza out/<tablero>.png a escala 1)
 """
 import json
 import math
@@ -49,6 +50,7 @@ BLOB = {
     "rabanal": "c74e56e59aae8bfd70591ab86c312145",
     "rusticos": "b9f41abf22b6940e6bccd99434666867",
     "saca-chispas": "db335f533c6fffcf4ae85ee4edfe988c",
+    "inter": "3bee58fd20546f276a919ad111c1d69c",          # subido el 2026-10-20 (Fecha 2)
     "fondo-feed": "faa7657705ee8b0b7a692ef2e81bce2d",
     "fondo-historia": "e75db2d1aac8cf336f773c32bad1ec2b",
     "rl": "273c1ca5762cb377efbcbaade2e60ba3",
@@ -104,8 +106,30 @@ FECHA_1 = {
     # Sello junto al dia (solo en la variante con auspiciadores). 2026-10-12: se suspendio por lluvia
     # el jueves 8 y se juega el 15.
     "aviso": "REPROGRAMADA",
+    # Ya publicada: sus tableros del lienzo son la referencia y build.py no los reescribe
+    # (con los libres de hoy cambiaria la linea de libres). --fecha 1 los fuerza.
+    "congelada": True,
 }
-FECHAS = [FECHA_1]
+FECHA_2 = {
+    "id": "Fecha2",
+    "numero": 2,
+    "edicion": "THE ORIGIN",
+    "dia": "JUEVES 22 DE OCTUBRE",
+    "sede": "CANCHAS SAN DAMIÁN",
+    # MatchZone, revisado el 2026-10-20
+    "turnos": [
+        ("21:00", [(4, "capybara", "profesores"),
+                   (5, "saca-chispas", "control-dirigido"),
+                   (6, "camajo", "rusticos")]),
+        ("22:00", [(4, "rabanal", "ikigai-rcv"),
+                   (5, "pierde-nunca", "bototos"),
+                   (6, "cerveceros", "inter")]),
+    ],
+    "libres": ["gatinhos", "irresponsables"],
+    # Desde la Fecha 2 solo la version con la franja de auspiciadores (regla del 2026-10-08)
+    "variantes": [("", "", True)],
+}
+FECHAS = [FECHA_1, FECHA_2]
 
 # Franja de auspiciadores: 4 a cada lado del logo RL (mismas versiones que la lona y el backdrop;
 # MatchZone = isotipo sobre logotipo en una sola imagen)
@@ -330,9 +354,13 @@ def feed_body(f, local, sponsors=False):
         for cancha, home, away in matches:
             parts.append(match_feed(y, left, width, card_h, cancha, home, away, local))
             y += card_h + card_gap
-    libres = ", ".join(NAMES[k] for k in f["libres"])
+    if f.get("congelada"):
+        libres, label = ", ".join(NAMES[k] for k in f["libres"]), "LIBRE ESTA FECHA:"
+    else:
+        libres = '<span class="dot">·</span>'.join(NAMES[k] for k in f["libres"])
+        label = "LIBRES ESTA FECHA:" if len(f["libres"]) > 1 else "LIBRE ESTA FECHA:"
     parts.append(f'<div class="row" style="top: {1146 if sponsors else 1152}px"><span class="info" style="font-size: 26px">'
-                 f'<span style="color: #67E8F9">LIBRE ESTA FECHA:</span> {libres}</span></div>')
+                 f'<span style="color: #67E8F9">{label}</span> {libres}</span></div>')
     if sponsors:
         parts.append(sponsor_band(local, 40, 1192, W - 80, 78, 11, 58, 12))
     else:
@@ -419,7 +447,7 @@ def boards():
     num = 1
     for f in FECHAS:
         fid, n = f["id"], f["numero"]
-        for suf, label, sp in VARIANTES:
+        for suf, label, sp in f.get("variantes", VARIANTES):
             feed_file = "Main" if fid == "Fecha1" and not suf else f"{fid}-Feed{suf}"
             out.append((feed_file, f"Fecha {n} - Programacion", f"{num:02d} · Fecha {n} - Feed{label} 1080x1350",
                         1080, 1350, (lambda f, sp: lambda local: feed_body(f, local, sp))(f, sp)))
@@ -442,7 +470,7 @@ def write_canvas(items):
     entries, order = {}, []
     per_fecha = 1 + max(len(f["turnos"]) for f in FECHAS)
     for index, (name, _p, title, w, h, _b) in enumerate(items):
-        row, col = divmod(index, per_fecha)
+        row, col = divmod(index, per_fecha)    # cada fecha y variante llena una fila (feed + 2 historias)
         key = f"{name}.dc.html"
         entries[key] = {"x": col * (1080 + 80), "y": row * (1920 + 320), "w": w, "h": h, "title": title}
         order.append(key)
@@ -480,6 +508,10 @@ def main():
         check(f)
     items = boards()
     write_canvas(items)
+    # Archivos: las fechas no congeladas, o solo las pedidas con --fecha N (el indice va completo)
+    pedidas = [a for a in sys.argv[1:] if a.isdigit()] if "--fecha" in sys.argv else None
+    ids = {f["id"] for f in FECHAS if (str(f["numero"]) in pedidas if pedidas else not f.get("congelada"))}
+    items = [it for it in items if any(it[0] == "Main" and i == "Fecha1" or it[0].startswith(i + "-") for i in ids)]
     for name, page_title, _t, w, h, body in items:
         with open(os.path.join(HERE, "project", f"{name}.dc.html"), "w", encoding="utf-8") as fh:
             fh.write(dc_html(page_title, body(False), w, h))

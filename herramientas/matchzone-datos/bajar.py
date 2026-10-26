@@ -60,6 +60,8 @@ def cargar_nombres():
 
 
 def clave_nombre(nombre):
+    if nombre is None:  # jugador sin equipo en MatchZone (goleadores y MVP)
+        return None
     s = unicodedata.normalize("NFKD", nombre).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z0-9]", "", s)
     if s not in CLAVE:
@@ -204,6 +206,9 @@ def repartir_goles(goleadores, partidos, previo, avisos):
     subio = {pid: (p["goles_asignados_mz"] or 0) > antes.get(pid, (0, {}))[0] for pid, p in partidos.items()}
 
     for s in goleadores:
+        if not s.get("teamName"):  # 2026-10-26: MatchZone trajo a "Alex Laborde" (1 gol) sin equipo
+            avisos.append(f"{s['playerName']}: {s['goals']} gol(es) sin equipo en MatchZone; no se reparten.")
+            continue
         jid, equipo = s["playerUserId"], clave_nombre(s["teamName"])
         del_equipo = sorted((p for p in partidos.values() if p["jugado"] and equipo in (p["local"], p["visita"])),
                             key=lambda p: p["fecha"])
@@ -307,7 +312,7 @@ def resumen(c):
     p("")
     p("GOLEADORES")
     for s in c["goleadores"]:
-        p(f"  {s['goles']:>2}  {s['jugador']} ({eq[s['equipo']]})")
+        p(f"  {s['goles']:>2}  {s['jugador']} ({eq.get(s['equipo'], 'sin equipo')})")
     p("")
     p("TARJETAS (acumulado)")
     for t in c["tarjetas"]:

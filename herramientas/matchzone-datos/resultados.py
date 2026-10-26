@@ -48,8 +48,16 @@ def para_carrusel(n, c=None):
             goles=goles if jugado else None,
             tarjetas=tarjetas if jugado else None,
             figura=(m["mvp"]["jugador"].upper(), m["mvp"]["equipo"]) if m["mvp"] else None,
+            wo=ganador_wo(m),
         ))
     return out
+
+
+def ganador_wo(m):
+    """Clave del equipo que gano por W.O. (no se jugo; 2026-10-26, Cerveceros vs Inter en la Fecha 2), o None."""
+    if m.get("estado_mz") != "WALKOVER":
+        return None
+    return m["local"] if m.get("walkover") == "HOME" else m["visita"]
 
 
 def _texto_fecha(f, eq):
@@ -57,7 +65,8 @@ def _texto_fecha(f, eq):
     for m in f["partidos"]:
         cab = f"  {m['hora'] or '--:--'} C{m['cancha'] or '?'}  {eq[m['local']]}"
         if not m["jugado"]:
-            L.append(f"{cab} vs {eq[m['visita']]}")
+            wo = ganador_wo(m)
+            L.append(f"{cab} vs {eq[m['visita']]}" + (f"  (W.O., gana {eq[wo]})" if wo else ""))
             continue
         L.append(f"{cab} {m['marcador'][0]}-{m['marcador'][1]} {eq[m['visita']]}")
         for lado in ("local", "visita"):
@@ -98,7 +107,7 @@ def main(args):
                       f" {t['gf']:>3} {t['gc']:>2} {t['dif']:>3} {t['pts']:>3}")
     elif args[0] == "goleadores":
         for s in c["goleadores"]:
-            print(f"  {s['goles']:>2}  {s['jugador']} ({eq[s['equipo']]})")
+            print(f"  {s['goles']:>2}  {s['jugador']} ({eq.get(s['equipo'], 'sin equipo')})")
     elif args[0] == "avisos":
         print("\n".join(f"- {a}" for a in c["avisos"]) or "Sin avisos.")
     else:
