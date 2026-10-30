@@ -443,8 +443,15 @@ def partido(i, local, L=FEED):
     if m.get("wo"):
         parts += [scoreboard(m, local, False, L), wo_plate(m, local, L)]
     else:
-        p = plan(m, L)
-        parts += [scoreboard(m, local, p["compact"], L), events(m, local, p, L), figura(m, local, L)]
+        # Sin jugador del partido en MatchZone (usuario, 2026-10-30: "no siempre habra jugador del partido"): no va su
+        # placa y la de goles y tarjetas ocupa ese espacio. Solo con datos reales: la lamina de ejemplo del lienzo
+        # (marcador None) sigue con su relleno.
+        sin_figura = m["marcador"] is not None and m["figura"] is None
+        L_ev = dict(L, ev_bottom=L["fig"][0] + L["fig"][1]) if sin_figura else L
+        p = plan(m, L_ev)
+        parts += [scoreboard(m, local, p["compact"], L), events(m, local, p, L_ev)]
+        if not sin_figura:
+            parts.append(figura(m, local, L))
     parts.append(prog.sponsor_band(local, 40, L["band"], 1000, 84, 11, 62, 12))
     return "\n".join(parts)
 

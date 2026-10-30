@@ -17,8 +17,9 @@ para GitHub Pages (boton.py). Sin --web, la pagina es para un artifact de Claude
 4. Prepara la pagina de descarga en entrega/fecha-<n>/ (index.html + miniaturas) y entrega/fecha-<n>/resultado.json
    con los avisos, los tableros, los archivos y los lotes para publicarla (64 MB por publicacion).
 
-Se detiene si la fecha no esta jugada entera o le falta el jugador del partido a algun partido (--forzar
-lo salta: lo que falta sale con el relleno de ejemplo). Los goles sin asignar no la detienen: quedan en los avisos.
+Se detiene si la fecha no esta jugada entera (--forzar lo salta: lo que falta sale con el relleno de ejemplo). Los
+goles sin asignar y el jugador del partido que falte no la detienen (usuario, 2026-10-30): quedan en los avisos, y la
+lamina de un partido sin jugador del partido sale sin esa placa.
 """
 import contextlib
 import datetime
@@ -76,11 +77,9 @@ def dia_texto(iso):
 def datos_fecha(n, c, forzar):
     f = resultados.fecha(n, c)
     faltan = [m for m in f["partidos"] if not m["jugado"] and not resultados.ganador_wo(m)]   # un W.O. no se juega
-    sin_figura = [m for m in f["partidos"] if m["jugado"] and m["mvp"] is None]
-    if (faltan or sin_figura) and not forzar:
+    if faltan and not forzar:
         msg = [f"La Fecha {n} no esta lista en MatchZone:"]
         msg += [f"  - {NAMES[m['local']]} vs {NAMES[m['visita']]}: sin resultado" for m in faltan]
-        msg += [f"  - {NAMES[m['local']]} vs {NAMES[m['visita']]}: sin jugador del partido" for m in sin_figura]
         raise SystemExit("\n".join(msg) + "\n(--forzar la arma igual, con relleno de ejemplo en lo que falta)")
     turnos = {}
     for m in f["partidos"]:

@@ -6,10 +6,10 @@ El usuario no sabe a que hora va a terminar de cargar la fecha en MatchZone: cua
     python boton.py generar [--fecha N] [--forzar] [--sitio <carpeta>] [--version <id>]
     python boton.py avisar --url-base https://cristobalcifuentes.github.io/rl-afiches/ [--sin-esperar] [--ver]
 
-generar: baja MatchZone, elige la fecha (la pedida, o la ultima con partidos jugados) y revisa que tenga resultado y
-  jugador del partido en cada partido. Si los tiene (o con --forzar), arma los afiches en <sitio>/fecha-<n>/
-  (fecha.py --web) y actualiza <sitio>/index.html; si no, no genera nada. Los goles sin goleador informado no frenan
-  (lo no informado no se muestra: ese lado lleva "-"); van en el WhatsApp.
+generar: baja MatchZone, elige la fecha (la pedida, o la ultima con partidos jugados) y revisa que cada partido tenga
+  resultado. Si lo tiene (o con --forzar), arma los afiches en <sitio>/fecha-<n>/ (fecha.py --web) y actualiza
+  <sitio>/index.html; si no, no genera nada. Los goles sin goleador informado y el jugador del partido que falte no
+  frenan (lo no informado no se muestra: ese lado lleva "-" y la lamina sale sin esa placa); van en el WhatsApp.
   Deja lo que paso en entrega/boton.json. FECHA y FORZAR tambien se pueden pasar como variables de entorno.
 avisar: manda el WhatsApp segun entrega/boton.json: el link (espera a que la pagina este publicada) o lo que falta.
 """
@@ -51,9 +51,10 @@ def guardar(estado):
 
 
 def lo_que_falta(f, eq):
-    """(lo que frena, lo que solo se avisa). Frena lo que dejaria un hueco en la lamina: un partido sin resultado
-    o sin jugador del partido. Los goles sin goleador informado no frenan (usuario, 2026-10-17: "lo no informado es
-    no informado nomas"): en la lamina ese lado lleva "-" y en el WhatsApp se avisa."""
+    """(lo que frena, lo que solo se avisa). Frena solo un partido sin resultado. Los goles sin goleador informado no
+    frenan (usuario, 2026-10-17: "lo no informado es no informado nomas"): en la lamina ese lado lleva "-". Tampoco
+    el jugador del partido que falte (usuario, 2026-10-30: "no siempre habra jugador del partido"): la lamina sale
+    sin esa placa. Los dos se avisan en el WhatsApp."""
     frena, avisa = [], []
     for m in f["partidos"]:
         vs = f"{eq[m['local']]} vs {eq[m['visita']]}"
@@ -62,7 +63,7 @@ def lo_que_falta(f, eq):
                 frena.append(f"{vs}: sin resultado")
             continue
         if m["mvp"] is None:
-            frena.append(f"{vs}: sin jugador del partido")
+            avisa.append(f"{vs}: sin jugador del partido")
         k = sum(m["goles_sin_asignar"].values())
         if k:
             a, b = m["marcador"]
