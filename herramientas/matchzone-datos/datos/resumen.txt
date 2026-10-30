@@ -1,32 +1,96 @@
-Rancagua League - THE ORIGIN (MatchZone, edicion 28). Bajado el 2026-10-17 15:41:00
+Rancagua League - THE ORIGIN (MatchZone, edicion 28). Bajado el 2026-10-30 14:29:21
 
 AVISOS
-  - En MatchZone, Inter de Rancagua sigue como "Equipo 14 (por definir)".
-  - Rodrigo Berroeta: MatchZone le quito 1 gol(es) (ya no figura entre los goleadores); se descontaron del partido 1436.
+  - Ampol Maraboli: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Janier Espinoza Córdoba: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Juan Ibarra: 6 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Martin Hidalgo: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Juan José Carrasco: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Angel Careaga San Martín: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Oscar Vargas: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Javier Faundes: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Javier Hernandez: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Kevin Adasme: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Nicolas Olmos: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Gonzalo Bastias: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Henry Güenante: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Jose Cordero: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Juan Zapata: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Manuel Fernández: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Maximiliano Inostroza: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Nicolás Donoso: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Nicolas Mora: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Osvaldo Morales: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Ruben Burce Monasterio: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Tote King: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Alex Laborde: 1 gol(es) sin equipo en MatchZone; no se reparten.
+  - Alonso López: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Ariel Muñoz: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Ariel Orobio: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Benjamin Sandoval: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Dante  Espinoza: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Fabián Andres Vera López: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Gustavo Romero: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Gustavo Valdes: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Jersson Steven Restrepo Acosta: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Matias Opazo De La Rivera: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Nelson Morales: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Patrick Faundez: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Rodrigo Concha: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Sebastián Cornejo: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Sebastián Padilla: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Tomas Arenas: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.
+  - Partido 1414 (fecha 1): el visita tiene mas goles repartidos que su marcador.
+  - Partido 1439 (fecha 2): se repartieron 0 goles y MatchZone dice 12 asignados.
+  - Partido 1438 (fecha 2): se repartieron 1 goles y MatchZone dice 2 asignados.
+  - Partido 1418 (fecha 2): se repartieron 0 goles y MatchZone dice 10 asignados.
+  - Partido 1417 (fecha 2): se repartieron 6 goles y MatchZone dice 12 asignados.
+  - Partido 1416 (fecha 2): se repartieron 0 goles y MatchZone dice 17 asignados.
+  - Partido 1449 (fecha 3): se repartieron 18 goles y MatchZone dice 14 asignados.
+  - Partido 1449 (fecha 3): el local tiene mas goles repartidos que su marcador.
+  - Partido 1450 (fecha 3): se repartieron 12 goles y MatchZone dice 3 asignados.
+  - Partido 1450 (fecha 3): el local tiene mas goles repartidos que su marcador.
+  - Partido 1428 (fecha 3): se repartieron 14 goles y MatchZone dice 10 asignados.
+  - Partido 1429 (fecha 3): se repartieron 18 goles y MatchZone dice 4 asignados.
+  - Partido 1429 (fecha 3): el local tiene mas goles repartidos que su marcador.
+  - Partido 1429 (fecha 3): el visita tiene mas goles repartidos que su marcador.
+  - Partido 1430 (fecha 3): se repartieron 24 goles y MatchZone dice 9 asignados.
+  - Partido 1430 (fecha 3): el visita tiene mas goles repartidos que su marcador.
   - Fecha 1, LOS SACA CHISPAS 7-3 CERVECEROS FC: faltan 4 goles por asignar a jugadores en MatchZone.
   - Fecha 1, CAMAJO FC 2-5 GATINHOS: falta 1 gol por asignar a jugadores en MatchZone.
   - Fecha 1, CAPYBARA FC 3-14 IRRESPONSABLES FC: faltan 4 goles por asignar a jugadores en MatchZone.
   - Fecha 1, PROFESORES F.C. 2-6 CONTROL DIRIGIDO: falta 1 gol por asignar a jugadores en MatchZone.
   - Fecha 1, RÚSTICOS FC 1-5 IKIGAI RCV: faltan 2 goles por asignar a jugadores en MatchZone.
-  - Fecha 2: hay partidos sin horario o sin cancha en MatchZone.
+  - Fecha 2, CAPYBARA FC 4-8 PROFESORES F.C.: faltan 12 goles por asignar a jugadores en MatchZone.
+  - Fecha 2, LOS SACA CHISPAS 1-1 CONTROL DIRIGIDO: falta 1 gol por asignar a jugadores en MatchZone.
+  - Fecha 2, CAMAJO FC 2-8 RÚSTICOS FC: faltan 10 goles por asignar a jugadores en MatchZone.
+  - Fecha 2, INDEPENDIENTE RABANAL 8-7 IKIGAI RCV: faltan 9 goles por asignar a jugadores en MatchZone.
+  - Fecha 2, LOS PIERDE NUNCA 15-2 BOTOTOS FC: faltan 17 goles por asignar a jugadores en MatchZone.
+  - Fecha 3, CAPYBARA FC 5-9 INTER DE RANCAGUA: faltan -4 goles por asignar a jugadores en MatchZone.
+  - Fecha 3, PROFESORES F.C. 1-3 LOS SACA CHISPAS: faltan -8 goles por asignar a jugadores en MatchZone.
+  - Fecha 3, CAMAJO FC 6-10 BOTOTOS FC: faltan 2 goles por asignar a jugadores en MatchZone.
+  - Fecha 3, CAMAJO FC vs BOTOTOS FC: sin jugador del partido.
+  - Fecha 3, IRRESPONSABLES FC 6-2 CERVECEROS FC: faltan 3 goles por asignar a jugadores en MatchZone.
+  - Fecha 3, RÚSTICOS FC 1-3 INDEPENDIENTE RABANAL: faltan -14 goles por asignar a jugadores en MatchZone.
+  - Fecha 3, GATINHOS 5-6 LOS PIERDE NUNCA: faltan -13 goles por asignar a jugadores en MatchZone.
 
 GRUPO 1                              PJ  G  E  P  GF GC DIF PTS
-  1. INDEPENDIENTE RABANAL               1  1  0  0  11  5   6   3
-  2. IKIGAI RCV                          1  1  0  0   5  1   4   3
-  3. GATINHOS                            1  1  0  0   5  2   3   3
-  4. BOTOTOS FC                          0  0  0  0   0  0   0   0
-  5. CAMAJO FC                           1  0  0  1   2  5  -3   0
-  6. RÚSTICOS FC                         1  0  0  1   1  5  -4   0
-  7. LOS PIERDE NUNCA                    1  0  0  1   5 11  -6   0
+  1. INDEPENDIENTE RABANAL               3  3  0  0  22 13   9   9
+  2. LOS PIERDE NUNCA                    3  2  0  1  26 18   8   6
+  3. IKIGAI RCV                          2  1  0  1  12  9   3   3
+  4. GATINHOS                            2  1  0  1  10  8   2   3
+  5. RÚSTICOS FC                         3  1  0  2  10 10   0   3
+  6. BOTOTOS FC                          2  1  0  1  12 21  -9   3
+  7. CAMAJO FC                           3  0  0  3  10 23 -13   0
 
 GRUPO 2                              PJ  G  E  P  GF GC DIF PTS
-  1. IRRESPONSABLES FC                   1  1  0  0  14  3  11   3
-  2. LOS SACA CHISPAS                    1  1  0  0   7  3   4   3
-  3. CONTROL DIRIGIDO                    1  1  0  0   6  2   4   3
-  4. INTER DE RANCAGUA                   0  0  0  0   0  0   0   0
-  5. CERVECEROS FC                       1  0  0  1   3  7  -4   0
-  6. PROFESORES F.C.                     1  0  0  1   2  6  -4   0
-  7. CAPYBARA FC                         1  0  0  1   3 14 -11   0
+  1. LOS SACA CHISPAS                    3  2  1  0  11  5   6   7
+  2. IRRESPONSABLES FC                   2  2  0  0  20  5  15   6
+  3. INTER DE RANCAGUA                   2  2  0  0  15  5  10   6
+  4. CONTROL DIRIGIDO                    2  1  1  0   7  3   4   4
+  5. PROFESORES F.C.                     3  1  0  2  11 13  -2   3
+  6. CERVECEROS FC                       3  0  0  3   5 19 -14   0
+  7. CAPYBARA FC                         3  0  0  3  12 31 -19   0
 
 FECHA 1 - 2026-10-15 (jugada)
   21:00 C4  INDEPENDIENTE RABANAL 11-5 LOS PIERDE NUNCA  (grupo 1)
@@ -34,7 +98,7 @@ FECHA 1 - 2026-10-15 (jugada)
       Goles LOS PIERDE NUNCA: Martin Hidalgo x2, Henry Güenante, Luis Antonio Molina, Tote King
       Tarjetas: Nicolas Mora (LOS PIERDE NUNCA, amarilla)
       Jugador del partido: Janier Espinoza Córdoba (n.10, INDEPENDIENTE RABANAL)
-      Firmaron la planilla: 9/14 y 6/15
+      Firmaron la planilla: 9/14 y 6/16
   21:00 C5  LOS SACA CHISPAS 7-3 CERVECEROS FC  (grupo 2)
       Goles LOS SACA CHISPAS: Kevin Adasme x2, Cristopher Gallardo x2, Brian Adasme, Cristopher Castañeda  (+1 sin asignar)
       Goles CERVECEROS FC: -  (+3 sin asignar)
@@ -42,80 +106,199 @@ FECHA 1 - 2026-10-15 (jugada)
       Jugador del partido: Cristopher Gallardo (n.4, LOS SACA CHISPAS)
       Firmaron la planilla: 6/10 y 0/13
   21:00 C6  CAMAJO FC 2-5 GATINHOS  (grupo 1)
-      Goles CAMAJO FC: Alex Laborde  (+1 sin asignar)
-      Goles GATINHOS: Bryan Reyes x3, David Allende, Franco Cotroneo
+      Goles CAMAJO FC: -  (+2 sin asignar)
+      Goles GATINHOS: Bryan Reyes x3, Alex Laborde, David Allende, Franco Cotroneo  (+-1 sin asignar)
       Tarjetas: -
       Jugador del partido: Bryan Reyes (n.7, GATINHOS)
-      Firmaron la planilla: 7/12 y 11/15
+      Firmaron la planilla: 6/14 y 11/15
   22:00 C4  CAPYBARA FC 3-14 IRRESPONSABLES FC  (grupo 2)
       Goles CAPYBARA FC: Maximiliano Inostroza  (+2 sin asignar)
       Goles IRRESPONSABLES FC: Joaquín Pérez Rojas x3, Benjamin Tapia x2, Diego Ignacio Tapia Peña x2, Jairo Machuca x2, Sebastian Guzman x2, Maximus Riveros  (+2 sin asignar)
       Tarjetas: Sebastián Cornejo (CAPYBARA FC, amarilla), Cristopher Sepúlveda (CAPYBARA FC, amarilla)
       Jugador del partido: Diego Ignacio Tapia Peña (n.15, IRRESPONSABLES FC)
-      Firmaron la planilla: 6/10 y 8/10
+      Firmaron la planilla: 6/12 y 8/10
   22:00 C5  PROFESORES F.C. 2-6 CONTROL DIRIGIDO  (grupo 2)
       Goles PROFESORES F.C.: Joaquin Larenas, Juan José Carrasco
       Goles CONTROL DIRIGIDO: Felipe Clarke x2, Cesar Cifuentes, Jonathan Gonzalez, Jose Ignacio Martínez Zelada  (+1 sin asignar)
       Tarjetas: -
       Jugador del partido: Deivid Moya (n.1, CONTROL DIRIGIDO)
-      Firmaron la planilla: 7/12 y 10/16
+      Firmaron la planilla: 7/13 y 10/16
   22:00 C6  RÚSTICOS FC 1-5 IKIGAI RCV  (grupo 1)
       Goles RÚSTICOS FC: Sebastian Soto
       Goles IKIGAI RCV: Johandry Blanco, Juan De Jesus Rodríguez Gonzalez, Simon Gutiérrez  (+2 sin asignar)
       Tarjetas: Rodrigo Concha (RÚSTICOS FC, amarilla)
       Jugador del partido: Simon Gutiérrez (n.7, IKIGAI RCV)
-      Firmaron la planilla: 10/16 y 6/12
+      Firmaron la planilla: 10/16 y 6/13
   Libres: BOTOTOS FC, INTER DE RANCAGUA
 
-FECHA 2 - 2026-10-22 (programada)
-  --:-- C?  LOS PIERDE NUNCA vs BOTOTOS FC
-  --:-- C?  INDEPENDIENTE RABANAL vs IKIGAI RCV
-  --:-- C?  CAMAJO FC vs RÚSTICOS FC
-  --:-- C?  CERVECEROS FC vs INTER DE RANCAGUA
-  --:-- C?  LOS SACA CHISPAS vs CONTROL DIRIGIDO
-  --:-- C?  CAPYBARA FC vs PROFESORES F.C.
+FECHA 2 - 2026-10-22 (en curso)
+  21:00 C4  CAPYBARA FC 4-8 PROFESORES F.C.  (grupo 2)
+      Goles CAPYBARA FC: -  (+4 sin asignar)
+      Goles PROFESORES F.C.: -  (+8 sin asignar)
+      Tarjetas: Felipe Rodriguez (CAPYBARA FC, amarilla), Sebastián Cornejo (CAPYBARA FC, amarilla), Alfredo Muñoz (PROFESORES F.C., amarilla)
+      Jugador del partido: Oscar Vargas (n.9, PROFESORES F.C.)
+      Firmaron la planilla: 11/12 y 10/13
+  21:00 C5  LOS SACA CHISPAS 1-1 CONTROL DIRIGIDO  (grupo 2)
+      Goles LOS SACA CHISPAS: -  (+1 sin asignar)
+      Goles CONTROL DIRIGIDO: Felipe Clarke
+      Tarjetas: -
+      Jugador del partido: Deivid Moya (n.1, CONTROL DIRIGIDO)
+      Firmaron la planilla: 9/10 y 11/16
+  21:00 C6  CAMAJO FC 2-8 RÚSTICOS FC  (grupo 1)
+      Goles CAMAJO FC: -  (+2 sin asignar)
+      Goles RÚSTICOS FC: -  (+8 sin asignar)
+      Tarjetas: Javier Hernandez (RÚSTICOS FC, amarilla)
+      Jugador del partido: Rodrigo Concha (n.12, RÚSTICOS FC)
+      Firmaron la planilla: 10/14 y 10/16
+  22:00 C4  INDEPENDIENTE RABANAL 8-7 IKIGAI RCV  (grupo 1)
+      Goles INDEPENDIENTE RABANAL: -  (+8 sin asignar)
+      Goles IKIGAI RCV: Johandry Blanco x2, Juan De Jesus Rodríguez Gonzalez x2, Simon Gutiérrez, Jonnaifre Enrique Montero Reyes  (+1 sin asignar)
+      Tarjetas: Simon Gutiérrez (IKIGAI RCV, amarilla), David Romero (IKIGAI RCV, amarilla)
+      Jugador del partido: Ampol Maraboli (n.11, INDEPENDIENTE RABANAL)
+      Firmaron la planilla: 9/14 y 7/13
+  22:00 C5  LOS PIERDE NUNCA 15-2 BOTOTOS FC  (grupo 1)
+      Goles LOS PIERDE NUNCA: -  (+15 sin asignar)
+      Goles BOTOTOS FC: -  (+2 sin asignar)
+      Tarjetas: -
+      Jugador del partido: Juan Ibarra (n.3, LOS PIERDE NUNCA)
+      Firmaron la planilla: 9/16 y 6/11
+  22:00 C6  CERVECEROS FC vs INTER DE RANCAGUA
   Libres: GATINHOS, IRRESPONSABLES FC
 
+FECHA 3 - 2026-10-29 (jugada)
+  21:00 C4  CAPYBARA FC 5-9 INTER DE RANCAGUA  (grupo 2)
+      Goles CAPYBARA FC: Juan Zapata x2, Manuel Fernández x2, Ruben Burce Monasterio x2, Maximiliano Inostroza, Jersson Steven Restrepo Acosta, Sebastián Cornejo  (+-4 sin asignar)
+      Goles INTER DE RANCAGUA: Carlos Jampier Gonzales Goñe x3, Erwis Avila x2, Angelo Escalona, Jesús Corona, Kevin Astudillo, Manuel Cherrez
+      Tarjetas: Ruben Burce Monasterio (CAPYBARA FC, roja), Angelo Escalona (INTER DE RANCAGUA, roja)
+      Jugador del partido: Erwis Avila (n.20, INTER DE RANCAGUA)
+      Firmaron la planilla: 7/12 y 8/12
+  21:00 C5  PROFESORES F.C. 1-3 LOS SACA CHISPAS  (grupo 2)
+      Goles PROFESORES F.C.: Juan José Carrasco x4, Oscar Vargas x4, Sebastián Padilla  (+-8 sin asignar)
+      Goles LOS SACA CHISPAS: Kevin Adasme, Ariel Muñoz, Dante  Espinoza
+      Tarjetas: Patrich Palma (LOS SACA CHISPAS, amarilla), Antonino Palma (LOS SACA CHISPAS, amarilla)
+      Jugador del partido: Antonino Palma (n.6, LOS SACA CHISPAS)
+      Firmaron la planilla: 10/13 y 9/10
+  21:00 C6  CAMAJO FC 6-10 BOTOTOS FC  (grupo 1)
+      Goles CAMAJO FC: Nicolas Olmos x3, Alonso López, Gustavo Romero, Matias Opazo De La Rivera
+      Goles BOTOTOS FC: Gonzalo Bastias x2, Jose Cordero x2, Ariel Orobio, Fabián Andres Vera López, Nelson Morales, Patrick Faundez  (+2 sin asignar)
+      Tarjetas: Fabián Andres Vera López (BOTOTOS FC, amarilla), Jose Cordero (BOTOTOS FC, amarilla)
+      Jugador del partido: -
+      Firmaron la planilla: 6/14 y 11/11
+  22:00 C4  IRRESPONSABLES FC 6-2 CERVECEROS FC  (grupo 2)
+      Goles IRRESPONSABLES FC: Diego Ignacio Tapia Peña x2, Joaquín Pérez Rojas, Sebastian Guzman, Joaquin Rojas Calderon  (+1 sin asignar)
+      Goles CERVECEROS FC: -  (+2 sin asignar)
+      Tarjetas: -
+      Jugador del partido: Diego Ignacio Tapia Peña (n.1, IRRESPONSABLES FC)
+      Firmaron la planilla: 7/10 y 1/13
+  22:00 C5  RÚSTICOS FC 1-3 INDEPENDIENTE RABANAL  (grupo 1)
+      Goles RÚSTICOS FC: Javier Faundes x3, Javier Hernandez x3, Osvaldo Morales x2, Rodrigo Concha  (+-8 sin asignar)
+      Goles INDEPENDIENTE RABANAL: Ampol Maraboli x4, Janier Espinoza Córdoba x3, Benjamin Sandoval, Tomas Arenas  (+-6 sin asignar)
+      Tarjetas: Nicolas Mateluna (RÚSTICOS FC, amarilla), Joaquín Soto Tapia (RÚSTICOS FC, amarilla), Rodrigo Concha (RÚSTICOS FC, roja), Tomas Arenas (INDEPENDIENTE RABANAL, amarilla), Hans Dylan Painen Rojas (INDEPENDIENTE RABANAL, amarilla)
+      Jugador del partido: Luis Machuca (n.3, INDEPENDIENTE RABANAL)
+      Firmaron la planilla: 10/16 y 11/14
+  22:00 C6  GATINHOS 5-6 LOS PIERDE NUNCA  (grupo 1)
+      Goles GATINHOS: Bryan Reyes, Francisco Erazo, Jano Trincado  (+2 sin asignar)
+      Goles LOS PIERDE NUNCA: Juan Ibarra x6, Martin Hidalgo x4, Angel Careaga San Martín x4, Nicolás Donoso x2, Nicolas Mora x2, Henry Güenante, Tote King, Gustavo Valdes  (+-15 sin asignar)
+      Tarjetas: Tote King (LOS PIERDE NUNCA, amarilla)
+      Jugador del partido: Luis Antonio Molina (n.1, LOS PIERDE NUNCA)
+      Firmaron la planilla: 9/15 y 10/16
+  Libres: CONTROL DIRIGIDO, IKIGAI RCV
+
 GOLEADORES
-   5  Janier Espinoza Córdoba (INDEPENDIENTE RABANAL)
-   4  Ampol Maraboli (INDEPENDIENTE RABANAL)
-   3  Bryan Reyes (GATINHOS)
-   3  Joaquín Pérez Rojas (IRRESPONSABLES FC)
+   8  Ampol Maraboli (INDEPENDIENTE RABANAL)
+   8  Janier Espinoza Córdoba (INDEPENDIENTE RABANAL)
+   6  Juan Ibarra (LOS PIERDE NUNCA)
+   6  Martin Hidalgo (LOS PIERDE NUNCA)
+   5  Juan José Carrasco (PROFESORES F.C.)
+   4  Angel Careaga San Martín (LOS PIERDE NUNCA)
+   4  Bryan Reyes (GATINHOS)
+   4  Diego Ignacio Tapia Peña (IRRESPONSABLES FC)
+   4  Joaquín Pérez Rojas (IRRESPONSABLES FC)
+   4  Oscar Vargas (PROFESORES F.C.)
+   3  Carlos Jampier Gonzales Goñe (INTER DE RANCAGUA)
+   3  Felipe Clarke (CONTROL DIRIGIDO)
+   3  Javier Faundes (RÚSTICOS FC)
+   3  Javier Hernandez (RÚSTICOS FC)
+   3  Johandry Blanco (IKIGAI RCV)
+   3  Juan De Jesus Rodríguez Gonzalez (IKIGAI RCV)
+   3  Kevin Adasme (LOS SACA CHISPAS)
+   3  Nicolas Olmos (CAMAJO FC)
+   3  Sebastian Guzman (IRRESPONSABLES FC)
    2  Benjamin Tapia (IRRESPONSABLES FC)
    2  Cristopher Gallardo (LOS SACA CHISPAS)
-   2  Diego Ignacio Tapia Peña (IRRESPONSABLES FC)
-   2  Felipe Clarke (CONTROL DIRIGIDO)
+   2  Erwis Avila (INTER DE RANCAGUA)
+   2  Gonzalo Bastias (BOTOTOS FC)
+   2  Henry Güenante (LOS PIERDE NUNCA)
    2  Jairo Machuca (IRRESPONSABLES FC)
-   2  Kevin Adasme (LOS SACA CHISPAS)
-   2  Martin Hidalgo (LOS PIERDE NUNCA)
-   2  Sebastian Guzman (IRRESPONSABLES FC)
-   1  Alex Laborde (CAMAJO FC)
+   2  Jose Cordero (BOTOTOS FC)
+   2  Juan Zapata (CAPYBARA FC)
+   2  Manuel Fernández (CAPYBARA FC)
+   2  Maximiliano Inostroza (CAPYBARA FC)
+   2  Nicolás Donoso (LOS PIERDE NUNCA)
+   2  Nicolas Mora (LOS PIERDE NUNCA)
+   2  Osvaldo Morales (RÚSTICOS FC)
+   2  Ruben Burce Monasterio (CAPYBARA FC)
+   2  Simon Gutiérrez (IKIGAI RCV)
+   2  Tote King (LOS PIERDE NUNCA)
+   1  Alex Laborde (sin equipo)
+   1  Alonso López (CAMAJO FC)
+   1  Angelo Escalona (INTER DE RANCAGUA)
+   1  Ariel Muñoz (LOS SACA CHISPAS)
+   1  Ariel Orobio (BOTOTOS FC)
+   1  Benjamin Sandoval (INDEPENDIENTE RABANAL)
    1  Brian Adasme (LOS SACA CHISPAS)
    1  Cesar Cifuentes (CONTROL DIRIGIDO)
    1  Cristopher Castañeda (LOS SACA CHISPAS)
+   1  Dante  Espinoza (LOS SACA CHISPAS)
    1  David Allende (GATINHOS)
+   1  Fabián Andres Vera López (BOTOTOS FC)
+   1  Francisco Erazo (GATINHOS)
    1  Franco Cotroneo (GATINHOS)
-   1  Henry Güenante (LOS PIERDE NUNCA)
+   1  Gustavo Romero (CAMAJO FC)
+   1  Gustavo Valdes (LOS PIERDE NUNCA)
    1  Jaime Gutierrez (INDEPENDIENTE RABANAL)
    1  Jaime Muñoz (INDEPENDIENTE RABANAL)
+   1  Jano Trincado (GATINHOS)
+   1  Jersson Steven Restrepo Acosta (CAPYBARA FC)
+   1  Jesús Corona (INTER DE RANCAGUA)
    1  Joaquin Larenas (PROFESORES F.C.)
-   1  Johandry Blanco (IKIGAI RCV)
+   1  Joaquin Rojas Calderon (IRRESPONSABLES FC)
    1  Jonathan Gonzalez (CONTROL DIRIGIDO)
+   1  Jonnaifre Enrique Montero Reyes (IKIGAI RCV)
    1  Jose Ignacio Martínez Zelada (CONTROL DIRIGIDO)
-   1  Juan De Jesus Rodríguez Gonzalez (IKIGAI RCV)
-   1  Juan José Carrasco (PROFESORES F.C.)
+   1  Kevin Astudillo (INTER DE RANCAGUA)
    1  Luis Antonio Molina (LOS PIERDE NUNCA)
-   1  Maximiliano Inostroza (CAPYBARA FC)
+   1  Manuel Cherrez (INTER DE RANCAGUA)
+   1  Matias Opazo De La Rivera (CAMAJO FC)
    1  Maximus Riveros (IRRESPONSABLES FC)
+   1  Nelson Morales (BOTOTOS FC)
+   1  Patrick Faundez (BOTOTOS FC)
+   1  Rodrigo Concha (RÚSTICOS FC)
+   1  Sebastián Cornejo (CAPYBARA FC)
+   1  Sebastián Padilla (PROFESORES F.C.)
    1  Sebastian Soto (RÚSTICOS FC)
-   1  Simon Gutiérrez (IKIGAI RCV)
-   1  Tote King (LOS PIERDE NUNCA)
+   1  Tomas Arenas (INDEPENDIENTE RABANAL)
 
 TARJETAS (acumulado)
-  Rodrigo Concha (RÚSTICOS FC): 1 amarilla(s), 0 roja(s)
-  Sebastián Cornejo (CAPYBARA FC): 1 amarilla(s), 0 roja(s)
+  Rodrigo Concha (RÚSTICOS FC): 1 amarilla(s), 1 roja(s), SUSPENDIDO
+  Ruben Burce Monasterio (CAPYBARA FC): 0 amarilla(s), 1 roja(s), SUSPENDIDO
+  Angelo Escalona (INTER DE RANCAGUA): 0 amarilla(s), 1 roja(s), SUSPENDIDO
+  Sebastián Cornejo (CAPYBARA FC): 2 amarilla(s), 0 roja(s)
+  Patrich Palma (LOS SACA CHISPAS): 2 amarilla(s), 0 roja(s), SUSPENDIDO
+  Tomas Arenas (INDEPENDIENTE RABANAL): 1 amarilla(s), 0 roja(s)
+  Javier Hernandez (RÚSTICOS FC): 1 amarilla(s), 0 roja(s)
   Cristopher Sepúlveda (CAPYBARA FC): 1 amarilla(s), 0 roja(s)
+  Felipe Rodriguez (CAPYBARA FC): 1 amarilla(s), 0 roja(s)
+  Alfredo Muñoz (PROFESORES F.C.): 1 amarilla(s), 0 roja(s)
+  Nicolas Mateluna (RÚSTICOS FC): 1 amarilla(s), 0 roja(s)
   Nicolas Mora (LOS PIERDE NUNCA): 1 amarilla(s), 0 roja(s)
+  Joaquín Soto Tapia (RÚSTICOS FC): 1 amarilla(s), 0 roja(s)
   Cristopher Castañeda (LOS SACA CHISPAS): 1 amarilla(s), 0 roja(s)
-  Patrich Palma (LOS SACA CHISPAS): 1 amarilla(s), 0 roja(s)
-  Suspensiones vigentes: 0
+  Antonino Palma (LOS SACA CHISPAS): 1 amarilla(s), 0 roja(s)
+  Fabián Andres Vera López (BOTOTOS FC): 1 amarilla(s), 0 roja(s)
+  Jose Cordero (BOTOTOS FC): 1 amarilla(s), 0 roja(s)
+  Tote King (LOS PIERDE NUNCA): 1 amarilla(s), 0 roja(s)
+  Hans Dylan Painen Rojas (INDEPENDIENTE RABANAL): 1 amarilla(s), 0 roja(s)
+  David Romero (IKIGAI RCV): 1 amarilla(s), 0 roja(s)
+  Simon Gutiérrez (IKIGAI RCV): 1 amarilla(s), 0 roja(s)
+  Suspensiones vigentes: 4

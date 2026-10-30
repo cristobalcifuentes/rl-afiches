@@ -1,5 +1,5 @@
 {
- "bajado": "2026-10-17T15:41:00",
+ "bajado": "2026-10-30T14:29:21",
  "fuente": "https://api.matchzone.cl/api/competitions/editions/28",
  "edicion": {
   "id": 28,
@@ -22,14 +22,78 @@
   ]
  },
  "avisos": [
-  "En MatchZone, Inter de Rancagua sigue como \"Equipo 14 (por definir)\".",
-  "Rodrigo Berroeta: MatchZone le quito 1 gol(es) (ya no figura entre los goleadores); se descontaron del partido 1436.",
+  "Ampol Maraboli: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Janier Espinoza Córdoba: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Juan Ibarra: 6 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Martin Hidalgo: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Juan José Carrasco: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Angel Careaga San Martín: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Oscar Vargas: 4 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Javier Faundes: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Javier Hernandez: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Kevin Adasme: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Nicolas Olmos: 3 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Gonzalo Bastias: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Henry Güenante: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Jose Cordero: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Juan Zapata: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Manuel Fernández: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Maximiliano Inostroza: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Nicolás Donoso: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Nicolas Mora: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Osvaldo Morales: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Ruben Burce Monasterio: 2 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Tote King: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Alex Laborde: 1 gol(es) sin equipo en MatchZone; no se reparten.",
+  "Alonso López: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Ariel Muñoz: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Ariel Orobio: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Benjamin Sandoval: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Dante  Espinoza: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Fabián Andres Vera López: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Gustavo Romero: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Gustavo Valdes: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Jersson Steven Restrepo Acosta: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Matias Opazo De La Rivera: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Nelson Morales: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Patrick Faundez: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Rodrigo Concha: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Sebastián Cornejo: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Sebastián Padilla: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Tomas Arenas: 1 gol(es) nuevo(s) que podrian ser de las fechas 2, 3; se anotaron en la 3. Confirmar en MatchZone.",
+  "Partido 1414 (fecha 1): el visita tiene mas goles repartidos que su marcador.",
+  "Partido 1439 (fecha 2): se repartieron 0 goles y MatchZone dice 12 asignados.",
+  "Partido 1438 (fecha 2): se repartieron 1 goles y MatchZone dice 2 asignados.",
+  "Partido 1418 (fecha 2): se repartieron 0 goles y MatchZone dice 10 asignados.",
+  "Partido 1417 (fecha 2): se repartieron 6 goles y MatchZone dice 12 asignados.",
+  "Partido 1416 (fecha 2): se repartieron 0 goles y MatchZone dice 17 asignados.",
+  "Partido 1449 (fecha 3): se repartieron 18 goles y MatchZone dice 14 asignados.",
+  "Partido 1449 (fecha 3): el local tiene mas goles repartidos que su marcador.",
+  "Partido 1450 (fecha 3): se repartieron 12 goles y MatchZone dice 3 asignados.",
+  "Partido 1450 (fecha 3): el local tiene mas goles repartidos que su marcador.",
+  "Partido 1428 (fecha 3): se repartieron 14 goles y MatchZone dice 10 asignados.",
+  "Partido 1429 (fecha 3): se repartieron 18 goles y MatchZone dice 4 asignados.",
+  "Partido 1429 (fecha 3): el local tiene mas goles repartidos que su marcador.",
+  "Partido 1429 (fecha 3): el visita tiene mas goles repartidos que su marcador.",
+  "Partido 1430 (fecha 3): se repartieron 24 goles y MatchZone dice 9 asignados.",
+  "Partido 1430 (fecha 3): el visita tiene mas goles repartidos que su marcador.",
   "Fecha 1, LOS SACA CHISPAS 7-3 CERVECEROS FC: faltan 4 goles por asignar a jugadores en MatchZone.",
   "Fecha 1, CAMAJO FC 2-5 GATINHOS: falta 1 gol por asignar a jugadores en MatchZone.",
   "Fecha 1, CAPYBARA FC 3-14 IRRESPONSABLES FC: faltan 4 goles por asignar a jugadores en MatchZone.",
   "Fecha 1, PROFESORES F.C. 2-6 CONTROL DIRIGIDO: falta 1 gol por asignar a jugadores en MatchZone.",
   "Fecha 1, RÚSTICOS FC 1-5 IKIGAI RCV: faltan 2 goles por asignar a jugadores en MatchZone.",
-  "Fecha 2: hay partidos sin horario o sin cancha en MatchZone."
+  "Fecha 2, CAPYBARA FC 4-8 PROFESORES F.C.: faltan 12 goles por asignar a jugadores en MatchZone.",
+  "Fecha 2, LOS SACA CHISPAS 1-1 CONTROL DIRIGIDO: falta 1 gol por asignar a jugadores en MatchZone.",
+  "Fecha 2, CAMAJO FC 2-8 RÚSTICOS FC: faltan 10 goles por asignar a jugadores en MatchZone.",
+  "Fecha 2, INDEPENDIENTE RABANAL 8-7 IKIGAI RCV: faltan 9 goles por asignar a jugadores en MatchZone.",
+  "Fecha 2, LOS PIERDE NUNCA 15-2 BOTOTOS FC: faltan 17 goles por asignar a jugadores en MatchZone.",
+  "Fecha 3, CAPYBARA FC 5-9 INTER DE RANCAGUA: faltan -4 goles por asignar a jugadores en MatchZone.",
+  "Fecha 3, PROFESORES F.C. 1-3 LOS SACA CHISPAS: faltan -8 goles por asignar a jugadores en MatchZone.",
+  "Fecha 3, CAMAJO FC 6-10 BOTOTOS FC: faltan 2 goles por asignar a jugadores en MatchZone.",
+  "Fecha 3, CAMAJO FC vs BOTOTOS FC: sin jugador del partido.",
+  "Fecha 3, IRRESPONSABLES FC 6-2 CERVECEROS FC: faltan 3 goles por asignar a jugadores en MatchZone.",
+  "Fecha 3, RÚSTICOS FC 1-3 INDEPENDIENTE RABANAL: faltan -14 goles por asignar a jugadores en MatchZone.",
+  "Fecha 3, GATINHOS 5-6 LOS PIERDE NUNCA: faltan -13 goles por asignar a jugadores en MatchZone."
  ],
  "equipos": {
   "rabanal": {
@@ -38,6 +102,13 @@
    "grupo": 1,
    "inscripcion_mz": 156,
    "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/155/logo-1789950611410-full.png"
+  },
+  "pierde-nunca": {
+   "nombre": "LOS PIERDE NUNCA",
+   "nombre_mz": "Los Pierde Nunca",
+   "grupo": 1,
+   "inscripcion_mz": 191,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/222/logo-1791241438336-thumb.jpg"
   },
   "ikigai-rcv": {
    "nombre": "IKIGAI RCV",
@@ -53,6 +124,13 @@
    "inscripcion_mz": 190,
    "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/15/logo-1777849754659-thumb.jpg"
   },
+  "rusticos": {
+   "nombre": "RÚSTICOS FC",
+   "nombre_mz": "Rústicos FC",
+   "grupo": 1,
+   "inscripcion_mz": 188,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/217/logo-1791302403277-full.jpg"
+  },
   "bototos": {
    "nombre": "BOTOTOS FC",
    "nombre_mz": "Bototos fc",
@@ -67,19 +145,12 @@
    "inscripcion_mz": 160,
    "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/14/logo-1790736808737-full.jpg"
   },
-  "rusticos": {
-   "nombre": "RÚSTICOS FC",
-   "nombre_mz": "Rústicos FC",
-   "grupo": 1,
-   "inscripcion_mz": 188,
-   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/217/logo-1791302403277-full.jpg"
-  },
-  "pierde-nunca": {
-   "nombre": "LOS PIERDE NUNCA",
-   "nombre_mz": "Los Pierde Nunca",
-   "grupo": 1,
-   "inscripcion_mz": 191,
-   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/222/logo-1791241438336-thumb.jpg"
+  "saca-chispas": {
+   "nombre": "LOS SACA CHISPAS",
+   "nombre_mz": "LosSacaChispas",
+   "grupo": 2,
+   "inscripcion_mz": 155,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/156/logo-1789951545166-thumb.png"
   },
   "irresponsables": {
    "nombre": "IRRESPONSABLES FC",
@@ -88,12 +159,12 @@
    "inscripcion_mz": 184,
    "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/164/logo-1790016013588-full.jpg"
   },
-  "saca-chispas": {
-   "nombre": "LOS SACA CHISPAS",
-   "nombre_mz": "LosSacaChispas",
+  "inter": {
+   "nombre": "INTER DE RANCAGUA",
+   "nombre_mz": "Inter de Rancagua",
    "grupo": 2,
-   "inscripcion_mz": 155,
-   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/156/logo-1789951545166-thumb.png"
+   "inscripcion_mz": 194,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/268/logo-1793244585658-thumb.jpg"
   },
   "control-dirigido": {
    "nombre": "CONTROL DIRIGIDO",
@@ -102,12 +173,12 @@
    "inscripcion_mz": 182,
    "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/10/logo-1777490742449-thumb.jpg"
   },
-  "inter": {
-   "nombre": "INTER DE RANCAGUA",
-   "nombre_mz": "Equipo 14 (por definir)",
+  "profesores": {
+   "nombre": "PROFESORES F.C.",
+   "nombre_mz": "Profesores fc",
    "grupo": 2,
-   "inscripcion_mz": 194,
-   "logo_mz": null
+   "inscripcion_mz": 181,
+   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/216/logo-1791147739624-full.png"
   },
   "cerveceros": {
    "nombre": "CERVECEROS FC",
@@ -115,13 +186,6 @@
    "grupo": 2,
    "inscripcion_mz": 192,
    "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/223/logo-1791301918122-full.jpg"
-  },
-  "profesores": {
-   "nombre": "PROFESORES F.C.",
-   "nombre_mz": "Profesores fc",
-   "grupo": 2,
-   "inscripcion_mz": 181,
-   "logo_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/teams/216/logo-1791147739624-full.png"
   },
   "capybara": {
    "nombre": "CAPYBARA FC",
@@ -136,184 +200,184 @@
    {
     "pos": 1,
     "equipo": "rabanal",
-    "pj": 1,
-    "g": 1,
+    "pj": 3,
+    "g": 3,
     "e": 0,
     "p": 0,
-    "gf": 11,
-    "gc": 5,
-    "dif": 6,
-    "pts": 3,
+    "gf": 22,
+    "gc": 13,
+    "dif": 9,
+    "pts": 9,
     "desempate": null
    },
    {
     "pos": 2,
-    "equipo": "ikigai-rcv",
-    "pj": 1,
-    "g": 1,
+    "equipo": "pierde-nunca",
+    "pj": 3,
+    "g": 2,
     "e": 0,
-    "p": 0,
-    "gf": 5,
-    "gc": 1,
-    "dif": 4,
-    "pts": 3,
-    "desempate": "DIFFERENCE"
+    "p": 1,
+    "gf": 26,
+    "gc": 18,
+    "dif": 8,
+    "pts": 6,
+    "desempate": null
    },
    {
     "pos": 3,
-    "equipo": "gatinhos",
-    "pj": 1,
+    "equipo": "ikigai-rcv",
+    "pj": 2,
     "g": 1,
     "e": 0,
-    "p": 0,
-    "gf": 5,
-    "gc": 2,
+    "p": 1,
+    "gf": 12,
+    "gc": 9,
     "dif": 3,
+    "pts": 3,
+    "desempate": null
+   },
+   {
+    "pos": 4,
+    "equipo": "gatinhos",
+    "pj": 2,
+    "g": 1,
+    "e": 0,
+    "p": 1,
+    "gf": 10,
+    "gc": 8,
+    "dif": 2,
     "pts": 3,
     "desempate": "DIFFERENCE"
    },
    {
-    "pos": 4,
-    "equipo": "bototos",
-    "pj": 0,
-    "g": 0,
-    "e": 0,
-    "p": 0,
-    "gf": 0,
-    "gc": 0,
-    "dif": 0,
-    "pts": 0,
-    "desempate": null
-   },
-   {
     "pos": 5,
-    "equipo": "camajo",
-    "pj": 1,
-    "g": 0,
+    "equipo": "rusticos",
+    "pj": 3,
+    "g": 1,
     "e": 0,
-    "p": 1,
-    "gf": 2,
-    "gc": 5,
-    "dif": -3,
-    "pts": 0,
-    "desempate": null
+    "p": 2,
+    "gf": 10,
+    "gc": 10,
+    "dif": 0,
+    "pts": 3,
+    "desempate": "DIFFERENCE"
    },
    {
     "pos": 6,
-    "equipo": "rusticos",
-    "pj": 1,
-    "g": 0,
+    "equipo": "bototos",
+    "pj": 2,
+    "g": 1,
     "e": 0,
     "p": 1,
-    "gf": 1,
-    "gc": 5,
-    "dif": -4,
-    "pts": 0,
+    "gf": 12,
+    "gc": 21,
+    "dif": -9,
+    "pts": 3,
     "desempate": "DIFFERENCE"
    },
    {
     "pos": 7,
-    "equipo": "pierde-nunca",
-    "pj": 1,
+    "equipo": "camajo",
+    "pj": 3,
     "g": 0,
     "e": 0,
-    "p": 1,
-    "gf": 5,
-    "gc": 11,
-    "dif": -6,
+    "p": 3,
+    "gf": 10,
+    "gc": 23,
+    "dif": -13,
     "pts": 0,
-    "desempate": "DIFFERENCE"
+    "desempate": null
    }
   ],
   "2": [
    {
     "pos": 1,
-    "equipo": "irresponsables",
-    "pj": 1,
-    "g": 1,
-    "e": 0,
+    "equipo": "saca-chispas",
+    "pj": 3,
+    "g": 2,
+    "e": 1,
     "p": 0,
-    "gf": 14,
-    "gc": 3,
-    "dif": 11,
-    "pts": 3,
+    "gf": 11,
+    "gc": 5,
+    "dif": 6,
+    "pts": 7,
     "desempate": null
    },
    {
     "pos": 2,
-    "equipo": "saca-chispas",
-    "pj": 1,
-    "g": 1,
+    "equipo": "irresponsables",
+    "pj": 2,
+    "g": 2,
     "e": 0,
+    "p": 0,
+    "gf": 20,
+    "gc": 5,
+    "dif": 15,
+    "pts": 6,
+    "desempate": null
+   },
+   {
+    "pos": 3,
+    "equipo": "inter",
+    "pj": 2,
+    "g": 2,
+    "e": 0,
+    "p": 0,
+    "gf": 15,
+    "gc": 5,
+    "dif": 10,
+    "pts": 6,
+    "desempate": "DIFFERENCE"
+   },
+   {
+    "pos": 4,
+    "equipo": "control-dirigido",
+    "pj": 2,
+    "g": 1,
+    "e": 1,
     "p": 0,
     "gf": 7,
     "gc": 3,
     "dif": 4,
-    "pts": 3,
-    "desempate": "DIFFERENCE"
-   },
-   {
-    "pos": 3,
-    "equipo": "control-dirigido",
-    "pj": 1,
-    "g": 1,
-    "e": 0,
-    "p": 0,
-    "gf": 6,
-    "gc": 2,
-    "dif": 4,
-    "pts": 3,
-    "desempate": "SCORED"
-   },
-   {
-    "pos": 4,
-    "equipo": "inter",
-    "pj": 0,
-    "g": 0,
-    "e": 0,
-    "p": 0,
-    "gf": 0,
-    "gc": 0,
-    "dif": 0,
-    "pts": 0,
+    "pts": 4,
     "desempate": null
    },
    {
     "pos": 5,
-    "equipo": "cerveceros",
-    "pj": 1,
-    "g": 0,
+    "equipo": "profesores",
+    "pj": 3,
+    "g": 1,
     "e": 0,
-    "p": 1,
-    "gf": 3,
-    "gc": 7,
-    "dif": -4,
-    "pts": 0,
+    "p": 2,
+    "gf": 11,
+    "gc": 13,
+    "dif": -2,
+    "pts": 3,
     "desempate": null
    },
    {
     "pos": 6,
-    "equipo": "profesores",
-    "pj": 1,
+    "equipo": "cerveceros",
+    "pj": 3,
     "g": 0,
     "e": 0,
-    "p": 1,
-    "gf": 2,
-    "gc": 6,
-    "dif": -4,
+    "p": 3,
+    "gf": 5,
+    "gc": 19,
+    "dif": -14,
     "pts": 0,
-    "desempate": "SCORED"
+    "desempate": null
    },
    {
     "pos": 7,
     "equipo": "capybara",
-    "pj": 1,
+    "pj": 3,
     "g": 0,
     "e": 0,
-    "p": 1,
-    "gf": 3,
-    "gc": 14,
-    "dif": -11,
+    "p": 3,
+    "gf": 12,
+    "gc": 31,
+    "dif": -19,
     "pts": 0,
     "desempate": "DIFFERENCE"
    }
@@ -424,7 +488,7 @@
       ],
       "visita": [
        6,
-       15
+       16
       ]
      }
     },
@@ -533,18 +597,17 @@
      "contexto": "LEAGUE",
      "goles_asignados_mz": 6,
      "goles": {
-      "local": [
-       {
-        "jugador": "Alex Laborde",
-        "id": 2982,
-        "goles": 1
-       }
-      ],
+      "local": [],
       "visita": [
        {
         "jugador": "Bryan Reyes",
         "id": 2964,
         "goles": 3
+       },
+       {
+        "jugador": "Alex Laborde",
+        "id": 2982,
+        "goles": 1
        },
        {
         "jugador": "David Allende",
@@ -559,8 +622,8 @@
       ]
      },
      "goles_sin_asignar": {
-      "local": 1,
-      "visita": 0
+      "local": 2,
+      "visita": -1
      },
      "tarjetas": {
       "local": [],
@@ -575,8 +638,8 @@
      },
      "firmas": {
       "local": [
-       7,
-       12
+       6,
+       14
       ],
       "visita": [
        11,
@@ -677,7 +740,7 @@
      "firmas": {
       "local": [
        6,
-       10
+       12
       ],
       "visita": [
        8,
@@ -753,12 +816,12 @@
       "id": 402,
       "numero": 1,
       "equipo": "control-dirigido",
-      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/profiles/402/avatar-1783723902387-thumb.jpg"
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1792689421424/attachment-1792689422396-full.webp"
      },
      "firmas": {
       "local": [
        7,
-       12
+       13
       ],
       "visita": [
        10,
@@ -841,7 +904,7 @@
       ],
       "visita": [
        6,
-       12
+       13
       ]
      }
     }
@@ -850,166 +913,344 @@
   {
    "numero": 2,
    "dia": "2026-10-22",
-   "estado": "programada",
+   "estado": "en curso",
    "libres": [
     "gatinhos",
     "irresponsables"
    ],
    "partidos": [
     {
-     "id": 1416,
+     "id": 1439,
      "fecha": 2,
      "dia": "2026-10-22",
-     "hora": null,
-     "cancha": null,
-     "grupo": 1,
-     "local": "pierde-nunca",
-     "visita": "bototos",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
-     "penales": null,
-     "walkover": null,
-     "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
-     "goles": {
-      "local": [],
-      "visita": []
-     },
-     "goles_sin_asignar": null,
-     "tarjetas": {
-      "local": [],
-      "visita": []
-     },
-     "mvp": null,
-     "firmas": null
-    },
-    {
-     "id": 1417,
-     "fecha": 2,
-     "dia": "2026-10-22",
-     "hora": null,
-     "cancha": null,
-     "grupo": 1,
-     "local": "rabanal",
-     "visita": "ikigai-rcv",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
-     "penales": null,
-     "walkover": null,
-     "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
-     "goles": {
-      "local": [],
-      "visita": []
-     },
-     "goles_sin_asignar": null,
-     "tarjetas": {
-      "local": [],
-      "visita": []
-     },
-     "mvp": null,
-     "firmas": null
-    },
-    {
-     "id": 1418,
-     "fecha": 2,
-     "dia": "2026-10-22",
-     "hora": null,
-     "cancha": null,
-     "grupo": 1,
-     "local": "camajo",
-     "visita": "rusticos",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
-     "penales": null,
-     "walkover": null,
-     "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
-     "goles": {
-      "local": [],
-      "visita": []
-     },
-     "goles_sin_asignar": null,
-     "tarjetas": {
-      "local": [],
-      "visita": []
-     },
-     "mvp": null,
-     "firmas": null
-    },
-    {
-     "id": 1437,
-     "fecha": 2,
-     "dia": "2026-10-22",
-     "hora": null,
-     "cancha": null,
+     "hora": "21:00",
+     "cancha": 4,
      "grupo": 2,
-     "local": "cerveceros",
-     "visita": "inter",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
+     "local": "capybara",
+     "visita": "profesores",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      4,
+      8
+     ],
      "penales": null,
      "walkover": null,
      "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
+     "goles_asignados_mz": 12,
      "goles": {
       "local": [],
       "visita": []
      },
-     "goles_sin_asignar": null,
-     "tarjetas": {
-      "local": [],
-      "visita": []
+     "goles_sin_asignar": {
+      "local": 4,
+      "visita": 8
      },
-     "mvp": null,
-     "firmas": null
+     "tarjetas": {
+      "local": [
+       {
+        "jugador": "Felipe Rodriguez",
+        "id": 1988,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Sebastián Cornejo",
+        "id": 101,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Alfredo Muñoz",
+        "id": 2780,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
+     },
+     "mvp": {
+      "jugador": "Oscar Vargas",
+      "id": 2790,
+      "numero": 9,
+      "equipo": "profesores",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791159567206/attachment-1791159567825-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       11,
+       12
+      ],
+      "visita": [
+       10,
+       13
+      ]
+     }
     },
     {
      "id": 1438,
      "fecha": 2,
      "dia": "2026-10-22",
-     "hora": null,
-     "cancha": null,
+     "hora": "21:00",
+     "cancha": 5,
      "grupo": 2,
      "local": "saca-chispas",
      "visita": "control-dirigido",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      1,
+      1
+     ],
      "penales": null,
      "walkover": null,
      "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
+     "goles_asignados_mz": 2,
      "goles": {
       "local": [],
-      "visita": []
+      "visita": [
+       {
+        "jugador": "Felipe Clarke",
+        "id": 12,
+        "goles": 1
+       }
+      ]
      },
-     "goles_sin_asignar": null,
+     "goles_sin_asignar": {
+      "local": 1,
+      "visita": 0
+     },
      "tarjetas": {
       "local": [],
       "visita": []
      },
-     "mvp": null,
-     "firmas": null
+     "mvp": {
+      "jugador": "Deivid Moya",
+      "id": 402,
+      "numero": 1,
+      "equipo": "control-dirigido",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1792689421424/attachment-1792689422396-full.webp"
+     },
+     "firmas": {
+      "local": [
+       9,
+       10
+      ],
+      "visita": [
+       11,
+       16
+      ]
+     }
     },
     {
-     "id": 1439,
+     "id": 1418,
      "fecha": 2,
      "dia": "2026-10-22",
-     "hora": null,
-     "cancha": null,
+     "hora": "21:00",
+     "cancha": 6,
+     "grupo": 1,
+     "local": "camajo",
+     "visita": "rusticos",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      2,
+      8
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 10,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": {
+      "local": 2,
+      "visita": 8
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": [
+       {
+        "jugador": "Javier Hernandez",
+        "id": 613,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
+     },
+     "mvp": {
+      "jugador": "Rodrigo Concha",
+      "id": 84,
+      "numero": 12,
+      "equipo": "rusticos",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791242275834/attachment-1791242275981-full.png"
+     },
+     "firmas": {
+      "local": [
+       10,
+       14
+      ],
+      "visita": [
+       10,
+       16
+      ]
+     }
+    },
+    {
+     "id": 1417,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": "22:00",
+     "cancha": 4,
+     "grupo": 1,
+     "local": "rabanal",
+     "visita": "ikigai-rcv",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      8,
+      7
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 12,
+     "goles": {
+      "local": [],
+      "visita": [
+       {
+        "jugador": "Johandry Blanco",
+        "id": 408,
+        "goles": 2
+       },
+       {
+        "jugador": "Juan De Jesus Rodríguez Gonzalez",
+        "id": 339,
+        "goles": 2
+       },
+       {
+        "jugador": "Simon Gutiérrez",
+        "id": 420,
+        "goles": 1
+       },
+       {
+        "jugador": "Jonnaifre Enrique Montero Reyes",
+        "id": 2885,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 8,
+      "visita": 1
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": [
+       {
+        "jugador": "Simon Gutiérrez",
+        "id": 420,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "David Romero",
+        "id": 166,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
+     },
+     "mvp": {
+      "jugador": "Ampol Maraboli",
+      "id": 2256,
+      "numero": 11,
+      "equipo": "rabanal",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791480835329/attachment-1791480835955-full.png"
+     },
+     "firmas": {
+      "local": [
+       9,
+       14
+      ],
+      "visita": [
+       7,
+       13
+      ]
+     }
+    },
+    {
+     "id": 1416,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": "22:00",
+     "cancha": 5,
+     "grupo": 1,
+     "local": "pierde-nunca",
+     "visita": "bototos",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      15,
+      2
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 17,
+     "goles": {
+      "local": [],
+      "visita": []
+     },
+     "goles_sin_asignar": {
+      "local": 15,
+      "visita": 2
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": []
+     },
+     "mvp": {
+      "jugador": "Juan Ibarra",
+      "id": 2926,
+      "numero": 3,
+      "equipo": "pierde-nunca",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791321134193/attachment-1791321134662-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       9,
+       16
+      ],
+      "visita": [
+       6,
+       11
+      ]
+     }
+    },
+    {
+     "id": 1437,
+     "fecha": 2,
+     "dia": "2026-10-22",
+     "hora": "22:00",
+     "cancha": 6,
      "grupo": 2,
-     "local": "capybara",
-     "visita": "profesores",
-     "estado_mz": "SCHEDULED",
+     "local": "cerveceros",
+     "visita": "inter",
+     "estado_mz": "WALKOVER",
      "jugado": false,
      "marcador": null,
      "penales": null,
-     "walkover": null,
+     "walkover": "AWAY",
      "contexto": "LEAGUE",
      "goles_asignados_mz": 0,
      "goles": {
@@ -1029,179 +1270,656 @@
   {
    "numero": 3,
    "dia": "2026-10-29",
-   "estado": "programada",
+   "estado": "jugada",
    "libres": [
     "control-dirigido",
     "ikigai-rcv"
    ],
    "partidos": [
     {
-     "id": 1428,
-     "fecha": 3,
-     "dia": "2026-10-29",
-     "hora": null,
-     "cancha": null,
-     "grupo": 1,
-     "local": "camajo",
-     "visita": "bototos",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
-     "penales": null,
-     "walkover": null,
-     "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
-     "goles": {
-      "local": [],
-      "visita": []
-     },
-     "goles_sin_asignar": null,
-     "tarjetas": {
-      "local": [],
-      "visita": []
-     },
-     "mvp": null,
-     "firmas": null
-    },
-    {
-     "id": 1429,
-     "fecha": 3,
-     "dia": "2026-10-29",
-     "hora": null,
-     "cancha": null,
-     "grupo": 1,
-     "local": "rusticos",
-     "visita": "rabanal",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
-     "penales": null,
-     "walkover": null,
-     "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
-     "goles": {
-      "local": [],
-      "visita": []
-     },
-     "goles_sin_asignar": null,
-     "tarjetas": {
-      "local": [],
-      "visita": []
-     },
-     "mvp": null,
-     "firmas": null
-    },
-    {
-     "id": 1430,
-     "fecha": 3,
-     "dia": "2026-10-29",
-     "hora": null,
-     "cancha": null,
-     "grupo": 1,
-     "local": "gatinhos",
-     "visita": "pierde-nunca",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
-     "penales": null,
-     "walkover": null,
-     "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
-     "goles": {
-      "local": [],
-      "visita": []
-     },
-     "goles_sin_asignar": null,
-     "tarjetas": {
-      "local": [],
-      "visita": []
-     },
-     "mvp": null,
-     "firmas": null
-    },
-    {
      "id": 1449,
      "fecha": 3,
      "dia": "2026-10-29",
-     "hora": null,
-     "cancha": null,
+     "hora": "21:00",
+     "cancha": 4,
      "grupo": 2,
      "local": "capybara",
      "visita": "inter",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      5,
+      9
+     ],
      "penales": null,
      "walkover": null,
      "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
+     "goles_asignados_mz": 14,
      "goles": {
-      "local": [],
-      "visita": []
+      "local": [
+       {
+        "jugador": "Juan Zapata",
+        "id": 2887,
+        "goles": 2
+       },
+       {
+        "jugador": "Manuel Fernández",
+        "id": 2891,
+        "goles": 2
+       },
+       {
+        "jugador": "Ruben Burce Monasterio",
+        "id": 3648,
+        "goles": 2
+       },
+       {
+        "jugador": "Maximiliano Inostroza",
+        "id": 1986,
+        "goles": 1
+       },
+       {
+        "jugador": "Jersson Steven Restrepo Acosta",
+        "id": 2889,
+        "goles": 1
+       },
+       {
+        "jugador": "Sebastián Cornejo",
+        "id": 101,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Carlos Jampier Gonzales Goñe",
+        "id": 3714,
+        "goles": 3
+       },
+       {
+        "jugador": "Erwis Avila",
+        "id": 3770,
+        "goles": 2
+       },
+       {
+        "jugador": "Angelo Escalona",
+        "id": 700,
+        "goles": 1
+       },
+       {
+        "jugador": "Jesús Corona",
+        "id": 3753,
+        "goles": 1
+       },
+       {
+        "jugador": "Kevin Astudillo",
+        "id": 3826,
+        "goles": 1
+       },
+       {
+        "jugador": "Manuel Cherrez",
+        "id": 3705,
+        "goles": 1
+       }
+      ]
      },
-     "goles_sin_asignar": null,
+     "goles_sin_asignar": {
+      "local": -4,
+      "visita": 0
+     },
      "tarjetas": {
-      "local": [],
-      "visita": []
+      "local": [
+       {
+        "jugador": "Ruben Burce Monasterio",
+        "id": 3648,
+        "amarillas": 0,
+        "rojas": 1,
+        "motivo": "Pelea"
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Angelo Escalona",
+        "id": 700,
+        "amarillas": 0,
+        "rojas": 1,
+        "motivo": "Pelea"
+       }
+      ]
      },
-     "mvp": null,
-     "firmas": null
+     "mvp": {
+      "jugador": "Erwis Avila",
+      "id": 3770,
+      "numero": 20,
+      "equipo": "inter",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1792809816921/attachment-1792809817344-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       7,
+       12
+      ],
+      "visita": [
+       8,
+       12
+      ]
+     }
     },
     {
      "id": 1450,
      "fecha": 3,
      "dia": "2026-10-29",
-     "hora": null,
-     "cancha": null,
+     "hora": "21:00",
+     "cancha": 5,
      "grupo": 2,
      "local": "profesores",
      "visita": "saca-chispas",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      1,
+      3
+     ],
      "penales": null,
      "walkover": null,
      "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
+     "goles_asignados_mz": 3,
      "goles": {
-      "local": [],
-      "visita": []
+      "local": [
+       {
+        "jugador": "Juan José Carrasco",
+        "id": 2786,
+        "goles": 4
+       },
+       {
+        "jugador": "Oscar Vargas",
+        "id": 2790,
+        "goles": 4
+       },
+       {
+        "jugador": "Sebastián Padilla",
+        "id": 2779,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Kevin Adasme",
+        "id": 2918,
+        "goles": 1
+       },
+       {
+        "jugador": "Ariel Muñoz",
+        "id": 1995,
+        "goles": 1
+       },
+       {
+        "jugador": "Dante  Espinoza",
+        "id": 2921,
+        "goles": 1
+       }
+      ]
      },
-     "goles_sin_asignar": null,
+     "goles_sin_asignar": {
+      "local": -8,
+      "visita": 0
+     },
      "tarjetas": {
       "local": [],
-      "visita": []
+      "visita": [
+       {
+        "jugador": "Patrich Palma",
+        "id": 2959,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Antonino Palma",
+        "id": 2958,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
+     },
+     "mvp": {
+      "jugador": "Antonino Palma",
+      "id": 2958,
+      "numero": 6,
+      "equipo": "saca-chispas",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1792108327601/attachment-1792108328236-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       10,
+       13
+      ],
+      "visita": [
+       9,
+       10
+      ]
+     }
+    },
+    {
+     "id": 1428,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": "21:00",
+     "cancha": 6,
+     "grupo": 1,
+     "local": "camajo",
+     "visita": "bototos",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      6,
+      10
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 10,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Nicolas Olmos",
+        "id": 2534,
+        "goles": 3
+       },
+       {
+        "jugador": "Alonso López",
+        "id": 2576,
+        "goles": 1
+       },
+       {
+        "jugador": "Gustavo Romero",
+        "id": 3755,
+        "goles": 1
+       },
+       {
+        "jugador": "Matias Opazo De La Rivera",
+        "id": 175,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Gonzalo Bastias",
+        "id": 3009,
+        "goles": 2
+       },
+       {
+        "jugador": "Jose Cordero",
+        "id": 3007,
+        "goles": 2
+       },
+       {
+        "jugador": "Ariel Orobio",
+        "id": 3023,
+        "goles": 1
+       },
+       {
+        "jugador": "Fabián Andres Vera López",
+        "id": 2978,
+        "goles": 1
+       },
+       {
+        "jugador": "Nelson Morales",
+        "id": 2645,
+        "goles": 1
+       },
+       {
+        "jugador": "Patrick Faundez",
+        "id": 2994,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 0,
+      "visita": 2
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": [
+       {
+        "jugador": "Fabián Andres Vera López",
+        "id": 2978,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Jose Cordero",
+        "id": 3007,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
      },
      "mvp": null,
-     "firmas": null
+     "firmas": {
+      "local": [
+       6,
+       14
+      ],
+      "visita": [
+       11,
+       11
+      ]
+     }
     },
     {
      "id": 1451,
      "fecha": 3,
      "dia": "2026-10-29",
-     "hora": null,
-     "cancha": null,
+     "hora": "22:00",
+     "cancha": 4,
      "grupo": 2,
      "local": "irresponsables",
      "visita": "cerveceros",
-     "estado_mz": "SCHEDULED",
-     "jugado": false,
-     "marcador": null,
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      6,
+      2
+     ],
      "penales": null,
      "walkover": null,
      "contexto": "LEAGUE",
-     "goles_asignados_mz": 0,
+     "goles_asignados_mz": 5,
      "goles": {
-      "local": [],
+      "local": [
+       {
+        "jugador": "Diego Ignacio Tapia Peña",
+        "id": 2065,
+        "goles": 2
+       },
+       {
+        "jugador": "Joaquín Pérez Rojas",
+        "id": 2119,
+        "goles": 1
+       },
+       {
+        "jugador": "Sebastian Guzman",
+        "id": 2073,
+        "goles": 1
+       },
+       {
+        "jugador": "Joaquin Rojas Calderon",
+        "id": 20,
+        "goles": 1
+       }
+      ],
       "visita": []
      },
-     "goles_sin_asignar": null,
+     "goles_sin_asignar": {
+      "local": 1,
+      "visita": 2
+     },
      "tarjetas": {
       "local": [],
       "visita": []
      },
-     "mvp": null,
-     "firmas": null
+     "mvp": {
+      "jugador": "Diego Ignacio Tapia Peña",
+      "id": 2065,
+      "numero": 1,
+      "equipo": "irresponsables",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791169284558/attachment-1791169284714-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       7,
+       10
+      ],
+      "visita": [
+       1,
+       13
+      ]
+     }
+    },
+    {
+     "id": 1429,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": "22:00",
+     "cancha": 5,
+     "grupo": 1,
+     "local": "rusticos",
+     "visita": "rabanal",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      1,
+      3
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 4,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Javier Faundes",
+        "id": 1532,
+        "goles": 3
+       },
+       {
+        "jugador": "Javier Hernandez",
+        "id": 613,
+        "goles": 3
+       },
+       {
+        "jugador": "Osvaldo Morales",
+        "id": 2815,
+        "goles": 2
+       },
+       {
+        "jugador": "Rodrigo Concha",
+        "id": 84,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Ampol Maraboli",
+        "id": 2256,
+        "goles": 4
+       },
+       {
+        "jugador": "Janier Espinoza Córdoba",
+        "id": 403,
+        "goles": 3
+       },
+       {
+        "jugador": "Benjamin Sandoval",
+        "id": 2953,
+        "goles": 1
+       },
+       {
+        "jugador": "Tomas Arenas",
+        "id": 446,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": -8,
+      "visita": -6
+     },
+     "tarjetas": {
+      "local": [
+       {
+        "jugador": "Nicolas Mateluna",
+        "id": 2806,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Joaquín Soto Tapia",
+        "id": 2896,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Rodrigo Concha",
+        "id": 84,
+        "amarillas": 0,
+        "rojas": 1,
+        "motivo": "Insulto arbitro"
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Tomas Arenas",
+        "id": 446,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       },
+       {
+        "jugador": "Hans Dylan Painen Rojas",
+        "id": 407,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
+     },
+     "mvp": {
+      "jugador": "Luis Machuca",
+      "id": 450,
+      "numero": 3,
+      "equipo": "rabanal",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791391546052/attachment-1791391546563-full.png"
+     },
+     "firmas": {
+      "local": [
+       10,
+       16
+      ],
+      "visita": [
+       11,
+       14
+      ]
+     }
+    },
+    {
+     "id": 1430,
+     "fecha": 3,
+     "dia": "2026-10-29",
+     "hora": "22:00",
+     "cancha": 6,
+     "grupo": 1,
+     "local": "gatinhos",
+     "visita": "pierde-nunca",
+     "estado_mz": "PLAYED",
+     "jugado": true,
+     "marcador": [
+      5,
+      6
+     ],
+     "penales": null,
+     "walkover": null,
+     "contexto": "LEAGUE",
+     "goles_asignados_mz": 9,
+     "goles": {
+      "local": [
+       {
+        "jugador": "Bryan Reyes",
+        "id": 2964,
+        "goles": 1
+       },
+       {
+        "jugador": "Francisco Erazo",
+        "id": 2942,
+        "goles": 1
+       },
+       {
+        "jugador": "Jano Trincado",
+        "id": 442,
+        "goles": 1
+       }
+      ],
+      "visita": [
+       {
+        "jugador": "Juan Ibarra",
+        "id": 2926,
+        "goles": 6
+       },
+       {
+        "jugador": "Martin Hidalgo",
+        "id": 2868,
+        "goles": 4
+       },
+       {
+        "jugador": "Angel Careaga San Martín",
+        "id": 2916,
+        "goles": 4
+       },
+       {
+        "jugador": "Nicolás Donoso",
+        "id": 2934,
+        "goles": 2
+       },
+       {
+        "jugador": "Nicolas Mora",
+        "id": 2864,
+        "goles": 2
+       },
+       {
+        "jugador": "Henry Güenante",
+        "id": 2869,
+        "goles": 1
+       },
+       {
+        "jugador": "Tote King",
+        "id": 3025,
+        "goles": 1
+       },
+       {
+        "jugador": "Gustavo Valdes",
+        "id": 2925,
+        "goles": 1
+       }
+      ]
+     },
+     "goles_sin_asignar": {
+      "local": 2,
+      "visita": -15
+     },
+     "tarjetas": {
+      "local": [],
+      "visita": [
+       {
+        "jugador": "Tote King",
+        "id": 3025,
+        "amarillas": 1,
+        "rojas": 0,
+        "motivo": null
+       }
+      ]
+     },
+     "mvp": {
+      "jugador": "Luis Antonio Molina",
+      "id": 418,
+      "numero": 1,
+      "equipo": "pierde-nunca",
+      "foto_mz": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791325529826/attachment-1791325532303-full.jpg"
+     },
+     "firmas": {
+      "local": [
+       9,
+       15
+      ],
+      "visita": [
+       10,
+       16
+      ]
+     }
     }
    ]
   },
@@ -1924,39 +2642,186 @@
  ],
  "goleadores": [
   {
-   "jugador": "Janier Espinoza Córdoba",
-   "id": 403,
-   "equipo": "rabanal",
-   "goles": 5,
-   "por_fecha": {
-    "1": 5
-   }
-  },
-  {
    "jugador": "Ampol Maraboli",
    "id": 2256,
    "equipo": "rabanal",
+   "goles": 8,
+   "por_fecha": {
+    "1": 4,
+    "3": 4
+   }
+  },
+  {
+   "jugador": "Janier Espinoza Córdoba",
+   "id": 403,
+   "equipo": "rabanal",
+   "goles": 8,
+   "por_fecha": {
+    "1": 5,
+    "3": 3
+   }
+  },
+  {
+   "jugador": "Juan Ibarra",
+   "id": 2926,
+   "equipo": "pierde-nunca",
+   "goles": 6,
+   "por_fecha": {
+    "3": 6
+   }
+  },
+  {
+   "jugador": "Martin Hidalgo",
+   "id": 2868,
+   "equipo": "pierde-nunca",
+   "goles": 6,
+   "por_fecha": {
+    "1": 2,
+    "3": 4
+   }
+  },
+  {
+   "jugador": "Juan José Carrasco",
+   "id": 2786,
+   "equipo": "profesores",
+   "goles": 5,
+   "por_fecha": {
+    "1": 1,
+    "3": 4
+   }
+  },
+  {
+   "jugador": "Angel Careaga San Martín",
+   "id": 2916,
+   "equipo": "pierde-nunca",
    "goles": 4,
    "por_fecha": {
-    "1": 4
+    "3": 4
    }
   },
   {
    "jugador": "Bryan Reyes",
    "id": 2964,
    "equipo": "gatinhos",
-   "goles": 3,
+   "goles": 4,
    "por_fecha": {
-    "1": 3
+    "1": 3,
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Diego Ignacio Tapia Peña",
+   "id": 2065,
+   "equipo": "irresponsables",
+   "goles": 4,
+   "por_fecha": {
+    "1": 2,
+    "3": 2
    }
   },
   {
    "jugador": "Joaquín Pérez Rojas",
    "id": 2119,
    "equipo": "irresponsables",
+   "goles": 4,
+   "por_fecha": {
+    "1": 3,
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Oscar Vargas",
+   "id": 2790,
+   "equipo": "profesores",
+   "goles": 4,
+   "por_fecha": {
+    "3": 4
+   }
+  },
+  {
+   "jugador": "Carlos Jampier Gonzales Goñe",
+   "id": 3714,
+   "equipo": "inter",
    "goles": 3,
    "por_fecha": {
-    "1": 3
+    "3": 3
+   }
+  },
+  {
+   "jugador": "Felipe Clarke",
+   "id": 12,
+   "equipo": "control-dirigido",
+   "goles": 3,
+   "por_fecha": {
+    "1": 2,
+    "2": 1
+   }
+  },
+  {
+   "jugador": "Javier Faundes",
+   "id": 1532,
+   "equipo": "rusticos",
+   "goles": 3,
+   "por_fecha": {
+    "3": 3
+   }
+  },
+  {
+   "jugador": "Javier Hernandez",
+   "id": 613,
+   "equipo": "rusticos",
+   "goles": 3,
+   "por_fecha": {
+    "3": 3
+   }
+  },
+  {
+   "jugador": "Johandry Blanco",
+   "id": 408,
+   "equipo": "ikigai-rcv",
+   "goles": 3,
+   "por_fecha": {
+    "1": 1,
+    "2": 2
+   }
+  },
+  {
+   "jugador": "Juan De Jesus Rodríguez Gonzalez",
+   "id": 339,
+   "equipo": "ikigai-rcv",
+   "goles": 3,
+   "por_fecha": {
+    "1": 1,
+    "2": 2
+   }
+  },
+  {
+   "jugador": "Kevin Adasme",
+   "id": 2918,
+   "equipo": "saca-chispas",
+   "goles": 3,
+   "por_fecha": {
+    "1": 2,
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Nicolas Olmos",
+   "id": 2534,
+   "equipo": "camajo",
+   "goles": 3,
+   "por_fecha": {
+    "3": 3
+   }
+  },
+  {
+   "jugador": "Sebastian Guzman",
+   "id": 2073,
+   "equipo": "irresponsables",
+   "goles": 3,
+   "por_fecha": {
+    "1": 2,
+    "3": 1
    }
   },
   {
@@ -1978,21 +2843,31 @@
    }
   },
   {
-   "jugador": "Diego Ignacio Tapia Peña",
-   "id": 2065,
-   "equipo": "irresponsables",
+   "jugador": "Erwis Avila",
+   "id": 3770,
+   "equipo": "inter",
    "goles": 2,
    "por_fecha": {
-    "1": 2
+    "3": 2
    }
   },
   {
-   "jugador": "Felipe Clarke",
-   "id": 12,
-   "equipo": "control-dirigido",
+   "jugador": "Gonzalo Bastias",
+   "id": 3009,
+   "equipo": "bototos",
    "goles": 2,
    "por_fecha": {
-    "1": 2
+    "3": 2
+   }
+  },
+  {
+   "jugador": "Henry Güenante",
+   "id": 2869,
+   "equipo": "pierde-nunca",
+   "goles": 2,
+   "por_fecha": {
+    "1": 1,
+    "3": 1
    }
   },
   {
@@ -2005,39 +2880,150 @@
    }
   },
   {
-   "jugador": "Kevin Adasme",
-   "id": 2918,
-   "equipo": "saca-chispas",
+   "jugador": "Jose Cordero",
+   "id": 3007,
+   "equipo": "bototos",
    "goles": 2,
    "por_fecha": {
-    "1": 2
+    "3": 2
    }
   },
   {
-   "jugador": "Martin Hidalgo",
-   "id": 2868,
+   "jugador": "Juan Zapata",
+   "id": 2887,
+   "equipo": "capybara",
+   "goles": 2,
+   "por_fecha": {
+    "3": 2
+   }
+  },
+  {
+   "jugador": "Manuel Fernández",
+   "id": 2891,
+   "equipo": "capybara",
+   "goles": 2,
+   "por_fecha": {
+    "3": 2
+   }
+  },
+  {
+   "jugador": "Maximiliano Inostroza",
+   "id": 1986,
+   "equipo": "capybara",
+   "goles": 2,
+   "por_fecha": {
+    "1": 1,
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Nicolás Donoso",
+   "id": 2934,
    "equipo": "pierde-nunca",
    "goles": 2,
    "por_fecha": {
-    "1": 2
+    "3": 2
    }
   },
   {
-   "jugador": "Sebastian Guzman",
-   "id": 2073,
-   "equipo": "irresponsables",
+   "jugador": "Nicolas Mora",
+   "id": 2864,
+   "equipo": "pierde-nunca",
    "goles": 2,
    "por_fecha": {
-    "1": 2
+    "3": 2
+   }
+  },
+  {
+   "jugador": "Osvaldo Morales",
+   "id": 2815,
+   "equipo": "rusticos",
+   "goles": 2,
+   "por_fecha": {
+    "3": 2
+   }
+  },
+  {
+   "jugador": "Ruben Burce Monasterio",
+   "id": 3648,
+   "equipo": "capybara",
+   "goles": 2,
+   "por_fecha": {
+    "3": 2
+   }
+  },
+  {
+   "jugador": "Simon Gutiérrez",
+   "id": 420,
+   "equipo": "ikigai-rcv",
+   "goles": 2,
+   "por_fecha": {
+    "1": 1,
+    "2": 1
+   }
+  },
+  {
+   "jugador": "Tote King",
+   "id": 3025,
+   "equipo": "pierde-nunca",
+   "goles": 2,
+   "por_fecha": {
+    "1": 1,
+    "3": 1
    }
   },
   {
    "jugador": "Alex Laborde",
    "id": 2982,
-   "equipo": "camajo",
+   "equipo": null,
    "goles": 1,
    "por_fecha": {
     "1": 1
+   }
+  },
+  {
+   "jugador": "Alonso López",
+   "id": 2576,
+   "equipo": "camajo",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Angelo Escalona",
+   "id": 700,
+   "equipo": "inter",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Ariel Muñoz",
+   "id": 1995,
+   "equipo": "saca-chispas",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Ariel Orobio",
+   "id": 3023,
+   "equipo": "bototos",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Benjamin Sandoval",
+   "id": 2953,
+   "equipo": "rabanal",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
    }
   },
   {
@@ -2068,12 +3054,39 @@
    }
   },
   {
+   "jugador": "Dante  Espinoza",
+   "id": 2921,
+   "equipo": "saca-chispas",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
    "jugador": "David Allende",
    "id": 2969,
    "equipo": "gatinhos",
    "goles": 1,
    "por_fecha": {
     "1": 1
+   }
+  },
+  {
+   "jugador": "Fabián Andres Vera López",
+   "id": 2978,
+   "equipo": "bototos",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Francisco Erazo",
+   "id": 2942,
+   "equipo": "gatinhos",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
    }
   },
   {
@@ -2086,12 +3099,21 @@
    }
   },
   {
-   "jugador": "Henry Güenante",
-   "id": 2869,
+   "jugador": "Gustavo Romero",
+   "id": 3755,
+   "equipo": "camajo",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Gustavo Valdes",
+   "id": 2925,
    "equipo": "pierde-nunca",
    "goles": 1,
    "por_fecha": {
-    "1": 1
+    "3": 1
    }
   },
   {
@@ -2113,6 +3135,33 @@
    }
   },
   {
+   "jugador": "Jano Trincado",
+   "id": 442,
+   "equipo": "gatinhos",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Jersson Steven Restrepo Acosta",
+   "id": 2889,
+   "equipo": "capybara",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Jesús Corona",
+   "id": 3753,
+   "equipo": "inter",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
    "jugador": "Joaquin Larenas",
    "id": 2857,
    "equipo": "profesores",
@@ -2122,12 +3171,12 @@
    }
   },
   {
-   "jugador": "Johandry Blanco",
-   "id": 408,
-   "equipo": "ikigai-rcv",
+   "jugador": "Joaquin Rojas Calderon",
+   "id": 20,
+   "equipo": "irresponsables",
    "goles": 1,
    "por_fecha": {
-    "1": 1
+    "3": 1
    }
   },
   {
@@ -2140,6 +3189,15 @@
    }
   },
   {
+   "jugador": "Jonnaifre Enrique Montero Reyes",
+   "id": 2885,
+   "equipo": "ikigai-rcv",
+   "goles": 1,
+   "por_fecha": {
+    "2": 1
+   }
+  },
+  {
    "jugador": "Jose Ignacio Martínez Zelada",
    "id": 114,
    "equipo": "control-dirigido",
@@ -2149,21 +3207,12 @@
    }
   },
   {
-   "jugador": "Juan De Jesus Rodríguez Gonzalez",
-   "id": 339,
-   "equipo": "ikigai-rcv",
+   "jugador": "Kevin Astudillo",
+   "id": 3826,
+   "equipo": "inter",
    "goles": 1,
    "por_fecha": {
-    "1": 1
-   }
-  },
-  {
-   "jugador": "Juan José Carrasco",
-   "id": 2786,
-   "equipo": "profesores",
-   "goles": 1,
-   "por_fecha": {
-    "1": 1
+    "3": 1
    }
   },
   {
@@ -2176,12 +3225,21 @@
    }
   },
   {
-   "jugador": "Maximiliano Inostroza",
-   "id": 1986,
-   "equipo": "capybara",
+   "jugador": "Manuel Cherrez",
+   "id": 3705,
+   "equipo": "inter",
    "goles": 1,
    "por_fecha": {
-    "1": 1
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Matias Opazo De La Rivera",
+   "id": 175,
+   "equipo": "camajo",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
    }
   },
   {
@@ -2194,6 +3252,51 @@
    }
   },
   {
+   "jugador": "Nelson Morales",
+   "id": 2645,
+   "equipo": "bototos",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Patrick Faundez",
+   "id": 2994,
+   "equipo": "bototos",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Rodrigo Concha",
+   "id": 84,
+   "equipo": "rusticos",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Sebastián Cornejo",
+   "id": 101,
+   "equipo": "capybara",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
+   "jugador": "Sebastián Padilla",
+   "id": 2779,
+   "equipo": "profesores",
+   "goles": 1,
+   "por_fecha": {
+    "3": 1
+   }
+  },
+  {
    "jugador": "Sebastian Soto",
    "id": 2814,
    "equipo": "rusticos",
@@ -2203,25 +3306,40 @@
    }
   },
   {
-   "jugador": "Simon Gutiérrez",
-   "id": 420,
-   "equipo": "ikigai-rcv",
+   "jugador": "Tomas Arenas",
+   "id": 446,
+   "equipo": "rabanal",
    "goles": 1,
    "por_fecha": {
-    "1": 1
-   }
-  },
-  {
-   "jugador": "Tote King",
-   "id": 3025,
-   "equipo": "pierde-nunca",
-   "goles": 1,
-   "por_fecha": {
-    "1": 1
+    "3": 1
    }
   }
  ],
  "mvps": [
+  {
+   "jugador": "Deivid Moya",
+   "id": 402,
+   "equipo": "control-dirigido",
+   "mvps": 2
+  },
+  {
+   "jugador": "Diego Ignacio Tapia Peña",
+   "id": 2065,
+   "equipo": "irresponsables",
+   "mvps": 2
+  },
+  {
+   "jugador": "Ampol Maraboli",
+   "id": 2256,
+   "equipo": "rabanal",
+   "mvps": 1
+  },
+  {
+   "jugador": "Antonino Palma",
+   "id": 2958,
+   "equipo": "saca-chispas",
+   "mvps": 1
+  },
   {
    "jugador": "Bryan Reyes",
    "id": 2964,
@@ -2235,21 +3353,45 @@
    "mvps": 1
   },
   {
-   "jugador": "Deivid Moya",
-   "id": 402,
-   "equipo": "control-dirigido",
-   "mvps": 1
-  },
-  {
-   "jugador": "Diego Ignacio Tapia Peña",
-   "id": 2065,
-   "equipo": "irresponsables",
+   "jugador": "Erwis Avila",
+   "id": 3770,
+   "equipo": "inter",
    "mvps": 1
   },
   {
    "jugador": "Janier Espinoza Córdoba",
    "id": 403,
    "equipo": "rabanal",
+   "mvps": 1
+  },
+  {
+   "jugador": "Juan Ibarra",
+   "id": 2926,
+   "equipo": "pierde-nunca",
+   "mvps": 1
+  },
+  {
+   "jugador": "Luis Antonio Molina",
+   "id": 418,
+   "equipo": "pierde-nunca",
+   "mvps": 1
+  },
+  {
+   "jugador": "Luis Machuca",
+   "id": 450,
+   "equipo": "rabanal",
+   "mvps": 1
+  },
+  {
+   "jugador": "Oscar Vargas",
+   "id": 2790,
+   "equipo": "profesores",
+   "mvps": 1
+  },
+  {
+   "jugador": "Rodrigo Concha",
+   "id": 84,
+   "equipo": "rusticos",
    "mvps": 1
   },
   {
@@ -2265,14 +3407,59 @@
    "id": 84,
    "equipo": "rusticos",
    "amarillas": 1,
-   "rojas": 0,
-   "suspensiones": 0,
-   "suspendido": false
+   "rojas": 1,
+   "suspensiones": 1,
+   "suspendido": true
+  },
+  {
+   "jugador": "Ruben Burce Monasterio",
+   "id": 3648,
+   "equipo": "capybara",
+   "amarillas": 0,
+   "rojas": 1,
+   "suspensiones": 1,
+   "suspendido": true
+  },
+  {
+   "jugador": "Angelo Escalona",
+   "id": 700,
+   "equipo": "inter",
+   "amarillas": 0,
+   "rojas": 1,
+   "suspensiones": 1,
+   "suspendido": true
   },
   {
    "jugador": "Sebastián Cornejo",
    "id": 101,
    "equipo": "capybara",
+   "amarillas": 2,
+   "rojas": 0,
+   "suspensiones": 1,
+   "suspendido": false
+  },
+  {
+   "jugador": "Patrich Palma",
+   "id": 2959,
+   "equipo": "saca-chispas",
+   "amarillas": 2,
+   "rojas": 0,
+   "suspensiones": 1,
+   "suspendido": true
+  },
+  {
+   "jugador": "Tomas Arenas",
+   "id": 446,
+   "equipo": "rabanal",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Javier Hernandez",
+   "id": 613,
+   "equipo": "rusticos",
    "amarillas": 1,
    "rojas": 0,
    "suspensiones": 0,
@@ -2288,9 +3475,45 @@
    "suspendido": false
   },
   {
+   "jugador": "Felipe Rodriguez",
+   "id": 1988,
+   "equipo": "capybara",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Alfredo Muñoz",
+   "id": 2780,
+   "equipo": "profesores",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Nicolas Mateluna",
+   "id": 2806,
+   "equipo": "rusticos",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
    "jugador": "Nicolas Mora",
    "id": 2864,
    "equipo": "pierde-nunca",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Joaquín Soto Tapia",
+   "id": 2896,
+   "equipo": "rusticos",
    "amarillas": 1,
    "rojas": 0,
    "suspensiones": 0,
@@ -2306,14 +3529,113 @@
    "suspendido": false
   },
   {
-   "jugador": "Patrich Palma",
-   "id": 2959,
+   "jugador": "Antonino Palma",
+   "id": 2958,
    "equipo": "saca-chispas",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Fabián Andres Vera López",
+   "id": 2978,
+   "equipo": "bototos",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Jose Cordero",
+   "id": 3007,
+   "equipo": "bototos",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Tote King",
+   "id": 3025,
+   "equipo": "pierde-nunca",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Hans Dylan Painen Rojas",
+   "id": 407,
+   "equipo": "rabanal",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "David Romero",
+   "id": 166,
+   "equipo": "ikigai-rcv",
+   "amarillas": 1,
+   "rojas": 0,
+   "suspensiones": 0,
+   "suspendido": false
+  },
+  {
+   "jugador": "Simon Gutiérrez",
+   "id": 420,
+   "equipo": "ikigai-rcv",
    "amarillas": 1,
    "rojas": 0,
    "suspensiones": 0,
    "suspendido": false
   }
  ],
- "suspensiones_mz": []
+ "suspensiones_mz": [
+  {
+   "playerUserId": 84,
+   "playerName": "Rodrigo Concha",
+   "teamName": "Rústicos FC",
+   "photoUrl": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1791242275834/attachment-1791242275981-full.png",
+   "reasonCode": "RED",
+   "permanent": false,
+   "totalMatches": 1,
+   "servedMatches": 0,
+   "pendingMatches": 1
+  },
+  {
+   "playerUserId": 700,
+   "playerName": "Angelo Escalona",
+   "teamName": "Inter de Rancagua",
+   "photoUrl": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1792601326159/attachment-1792601326450-full.jpg",
+   "reasonCode": "RED",
+   "permanent": false,
+   "totalMatches": 1,
+   "servedMatches": 0,
+   "pendingMatches": 1
+  },
+  {
+   "playerUserId": 2959,
+   "playerName": "Patrich Palma",
+   "teamName": "LosSacaChispas",
+   "photoUrl": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1792080301100/attachment-1792080302395-full.jpg",
+   "reasonCode": "YELLOW_ACCUMULATION",
+   "permanent": false,
+   "totalMatches": 1,
+   "servedMatches": 0,
+   "pendingMatches": 1
+  },
+  {
+   "playerUserId": 3648,
+   "playerName": "Ruben Burce Monasterio",
+   "teamName": "Capibaras FC",
+   "photoUrl": "https://pub-7e78283b6355418d9829732c61d23245.r2.dev/feedbacks/1792284933472/attachment-1792284933609-full.png",
+   "reasonCode": "RED",
+   "permanent": false,
+   "totalMatches": 1,
+   "servedMatches": 0,
+   "pendingMatches": 1
+  }
+ ]
 }
