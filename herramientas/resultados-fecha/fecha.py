@@ -13,7 +13,7 @@ para GitHub Pages (boton.py). Sin --web, la pagina es para un artifact de Claude
 2. Arma los 14 tableros de la fecha en project/ y preview/. La Fecha 1 usa los nombres que ya tiene el lienzo
    (Main, Partido-1...); las demas, F<n>-Portada, F<n>-Partido-1... en filas nuevas del mismo lienzo, y suma sus
    entradas a project/canvas.json.
-3. Los exporta en x2 (2160x2700 y 2160x3840) a "2 Instagram/9 Resultados/Fecha <n>/".
+3. Los exporta en x2 (2160x2700 y 2160x3840) a "1 Publicaciones/<NN> Fecha <n>/02 Resultados/".
 4. Prepara la pagina de descarga en entrega/fecha-<n>/ (index.html + miniaturas) y entrega/fecha-<n>/resultado.json
    con los avisos, los tableros, los archivos y los lotes para publicarla (64 MB por publicacion).
 
@@ -391,7 +391,7 @@ def main():
     forzar = "--forzar" in args
     web = args[args.index("--web") + 1] if "--web" in args else None     # carpeta de la pagina en la web
     destino = web or (args[args.index("--destino") + 1] if "--destino" in args else
-                      os.path.join(RL, "2 Instagram", "9 Resultados", f"Fecha {n}"))
+                      os.path.join(RL, "1 Publicaciones", f"{n:02d} Fecha {n}", "02 Resultados"))
     if "--sin-bajar" not in args:
         subprocess.run([sys.executable, "bajar.py"], cwd=DATOS, check=True)
     c = resultados.cargar()

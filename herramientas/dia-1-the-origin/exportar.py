@@ -2,7 +2,7 @@
 
     python exportar.py "<carpeta destino>" <Tablero>=<nombre de archivo> [...]
 
-Ejemplo: python exportar.py "../../2 Instagram/X" "Beneficios-1-Portada=1 - Beneficios portada 4x5@2x.png"
+Ejemplo: python exportar.py "../../1 Publicaciones/04 Fecha 4/01 Programacion" "Beneficios-1-Portada=1 - Beneficios portada 4x5@2x.png"
 El tamano sale del data-props del .dc.html (1080x1350 -> 2160x2700; 1080x1920 -> 2160x3840).
 Antes de exportar, comparar project/ con el lienzo vivo (si se edito a mano, bajarlo primero).
 """
