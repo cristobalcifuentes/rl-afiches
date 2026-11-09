@@ -76,7 +76,9 @@ def dia_texto(iso):
 
 def datos_fecha(n, c, forzar):
     f = resultados.fecha(n, c)
-    faltan = [m for m in f["partidos"] if not m["jugado"] and not resultados.ganador_wo(m)]   # un W.O. no se juega
+    # un W.O. no se juega, y un partido que no se jugo (resultados.NO_JUGADOS) va en la portada sin lamina
+    faltan = [m for m in f["partidos"] if not m["jugado"] and not resultados.ganador_wo(m)
+              and not resultados.no_jugado(m)]
     if faltan and not forzar:
         msg = [f"La Fecha {n} no esta lista en MatchZone:"]
         msg += [f"  - {NAMES[m['local']]} vs {NAMES[m['visita']]}: sin resultado" for m in faltan]
@@ -92,6 +94,8 @@ def datos_fecha(n, c, forzar):
     partidos = resultados.para_carrusel(n, c)
     avisos = [a for a in c["avisos"] if f"Fecha {n}," in a or f"(fecha {n})" in a or f"Fecha {n}:" in a]
     for m in partidos:
+        if m["no_jugado"]:
+            avisos.append(f"{NAMES[m['local']]} vs {NAMES[m['visita']]}: no se jugo; va en la portada y no tiene lamina")
         if m["goles"] is None:
             continue
         if min(rf.plan(m, L)["size"] for L in (rf.FEED, rf.STORY)) < rf.MIN_SIZE:
@@ -106,7 +110,7 @@ def datos_fecha(n, c, forzar):
 
 
 # Version corta elegida por el usuario para un nombre (en mayusculas, como sale en la lamina). Manda sobre la regla.
-CORTOS = {}
+CORTOS = {"ANGEL CAREAGA SAN MARTÍN": "ANGEL CAREAGA"}     # "San Martin" es el apellido materno (2026-11-09)
 
 
 def corto(nombre):
@@ -117,29 +121,40 @@ def corto(nombre):
     return f"{w[0]} {w[-2]}" if len(w) >= 4 else nombre
 
 
+def con_lamina():
+    """Indices de rf.PARTIDOS que llevan lamina propia (un partido que no se jugo va solo en la portada)."""
+    return [i for i, m in enumerate(rf.PARTIDOS) if not m.get("no_jugado")]
+
+
 def tableros(n):
-    """(archivo, titulo de pagina, titulo del tablero, cuerpo, ancho, alto, x, y, nombre del PNG)"""
+    """(archivo, titulo de pagina, titulo del tablero, cuerpo, ancho, alto, x, y, nombre del PNG)
+    Las laminas se numeran seguidas (partido 1..k, sin los que no se jugaron); los numeros de tablero del lienzo
+    siguen reservando 14 por fecha."""
     pre = "" if n == 1 else f"F{n}-"
     y0 = (n - 1) * FILA_FECHA
     num = (n - 1) * 14
+    idx = con_lamina()
+    k = len(idx)
     out = [(f"{pre}Main" if n == 1 else f"{pre}Portada", f"Resultados Fecha {n}",
             f"{num + 1:02d} · Fecha {n} - portada, resultados de los 6 partidos 1080x1350", rf.portada,
             1080, 1350, 0, y0, "01 - Portada feed 4x5@2x.png")]
-    for i, m in enumerate(rf.PARTIDOS):
+    for j, i in enumerate(idx):
+        m = rf.PARTIDOS[i]
         vs = f"{nombre_corto(m['local'])} vs {nombre_corto(m['visita'])}"
-        out.append((f"{pre}Partido-{i + 1}", f"Resultado partido {i + 1}",
-                    f"{num + i + 2:02d} · Fecha {n} - partido {i + 1}, {vs} ({m['hora']}, cancha {m['cancha']}) 1080x1350",
-                    (lambda i: lambda local: rf.partido(i, local))(i), 1080, 1350, (i + 1) * 1160, y0,
-                    f"{i + 2:02d} - Partido {i + 1} {vs} feed 4x5@2x.png"))
+        out.append((f"{pre}Partido-{j + 1}", f"Resultado partido {j + 1}",
+                    f"{num + j + 2:02d} · Fecha {n} - partido {j + 1}, {vs} ({m['hora']}, cancha {m['cancha']}) 1080x1350",
+                    (lambda i: lambda local: rf.partido(i, local))(i), 1080, 1350, (j + 1) * 1160, y0,
+                    f"{j + 2:02d} - Partido {j + 1} {vs} feed 4x5@2x.png"))
     out.append((f"{pre}Historia-Portada", f"Resultados Fecha {n}",
                 f"{num + 8:02d} · Fecha {n} - historia portada, resultados y libres 1080x1920", rf.portada_story,
-                1080, 1920, 0, y0 + rf.STORY_Y, "08 - Portada historia 9x16@2x.png"))
-    for i, m in enumerate(rf.PARTIDOS):
+                1080, 1920, 0, y0 + rf.STORY_Y, f"{k + 2:02d} - Portada historia 9x16@2x.png"))
+    for j, i in enumerate(idx):
+        m = rf.PARTIDOS[i]
         vs = f"{nombre_corto(m['local'])} vs {nombre_corto(m['visita'])}"
-        out.append((f"{pre}Historia-Partido-{i + 1}", f"Resultado partido {i + 1}",
-                    f"{num + i + 9:02d} · Fecha {n} - historia partido {i + 1}, {vs} ({m['hora']}, cancha {m['cancha']}) 1080x1920",
-                    (lambda i: lambda local: rf.partido(i, local, rf.STORY))(i), 1080, 1920, (i + 1) * 1160,
-                    y0 + rf.STORY_Y, f"{i + 9:02d} - Partido {i + 1} {vs} historia 9x16@2x.png"))
+        out.append((f"{pre}Historia-Partido-{j + 1}", f"Resultado partido {j + 1}",
+                    f"{num + j + 9:02d} · Fecha {n} - historia partido {j + 1}, {vs} ({m['hora']}, cancha {m['cancha']}) 1080x1920",
+                    (lambda i: lambda local: rf.partido(i, local, rf.STORY))(i), 1080, 1920, (j + 1) * 1160,
+                    y0 + rf.STORY_Y, f"{k + j + 3:02d} - Partido {j + 1} {vs} historia 9x16@2x.png"))
     if n == 1:
         # la Fecha 1 conserva los titulos que ya tiene el lienzo (asi el indice no cambia)
         orig = {b[0]: b[2] for b in rf.boards()}
@@ -305,8 +320,8 @@ def pagina(n, F, items, archivos, avisos, carpeta, web=False):
               "filename": f"RL Fecha {n} - {png.replace('@2x', '')}", "board": name}
         data.append(it)
         grupos[grupo].append((it, w, h))
-    marcador = {f"Partido {i + 1}": f"{rf.PARTIDOS[i]['marcador'][0]}-{rf.PARTIDOS[i]['marcador'][1]}"
-                for i in range(len(rf.PARTIDOS)) if rf.PARTIDOS[i]["marcador"] is not None}
+    marcador = {f"Partido {j + 1}": f"{rf.PARTIDOS[i]['marcador'][0]}-{rf.PARTIDOS[i]['marcador'][1]}"
+                for j, i in enumerate(con_lamina()) if rf.PARTIDOS[i]["marcador"] is not None}
     secs = []
     for grupo, titulo, medida in (("feed", "Feed", "4:5 · 2160x2700"), ("historia", "Historias", "9:16 · 2160x3840")):
         cards = []
@@ -332,7 +347,7 @@ def pagina(n, F, items, archivos, avisos, carpeta, web=False):
     c = resultados.cargar()
     out = (PAGE.replace("__TITLE__", f"Afiches Resultados Fecha {n}")
            .replace("__H1__", f"Resultados Fecha {n}")
-           .replace("__SUB__", html.escape(f"{F['dia'].capitalize().replace(' De ', ' de ')} · {F['sede'].title().replace('Damián', 'Damián')} · 14 afiches en x2"))
+           .replace("__SUB__", html.escape(f"{F['dia'].capitalize().replace(' De ', ' de ')} · {F['sede'].title().replace('Damián', 'Damián')} · {len(items)} afiches en x2"))
            .replace("__AVISOS__", av)
            .replace("__SECTIONS__", "\n".join(secs))
            .replace("__FOOT__", html.escape(f"Datos de MatchZone bajados el {c['bajado'].replace('T', ' a las ')[:-3]}. "

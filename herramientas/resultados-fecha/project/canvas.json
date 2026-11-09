@@ -205,6 +205,90 @@
    "w": 1080,
    "h": 1920,
    "title": "28 · Fecha 2 - historia partido 6, Cerveceros FC vs Inter de Rancagua (22:00, cancha 6) 1080x1920"
+  },
+  "F4-Portada.dc.html": {
+   "x": 0,
+   "y": 11970,
+   "w": 1080,
+   "h": 1350,
+   "title": "43 · Fecha 4 - portada, resultados de los 6 partidos 1080x1350"
+  },
+  "F4-Partido-1.dc.html": {
+   "x": 1160,
+   "y": 11970,
+   "w": 1080,
+   "h": 1350,
+   "title": "44 · Fecha 4 - partido 1, Independiente Rabanal vs Camajo FC (21:00, cancha 4) 1080x1350"
+  },
+  "F4-Partido-2.dc.html": {
+   "x": 2320,
+   "y": 11970,
+   "w": 1080,
+   "h": 1350,
+   "title": "45 · Fecha 4 - partido 2, Los Pierde Nunca vs Ikigai RCV (21:00, cancha 5) 1080x1350"
+  },
+  "F4-Partido-3.dc.html": {
+   "x": 3480,
+   "y": 11970,
+   "w": 1080,
+   "h": 1350,
+   "title": "46 · Fecha 4 - partido 3, Los Saca Chispas vs Capybara FC (21:00, cancha 6) 1080x1350"
+  },
+  "F4-Partido-4.dc.html": {
+   "x": 4640,
+   "y": 11970,
+   "w": 1080,
+   "h": 1350,
+   "title": "47 · Fecha 4 - partido 4, Cerveceros FC vs Control Dirigido (22:00, cancha 5) 1080x1350"
+  },
+  "F4-Partido-5.dc.html": {
+   "x": 5800,
+   "y": 11970,
+   "w": 1080,
+   "h": 1350,
+   "title": "48 · Fecha 4 - partido 5, Bototos FC vs Gatinhos (22:00, cancha 6) 1080x1350"
+  },
+  "F4-Historia-Portada.dc.html": {
+   "x": 0,
+   "y": 13640,
+   "w": 1080,
+   "h": 1920,
+   "title": "50 · Fecha 4 - historia portada, resultados y libres 1080x1920"
+  },
+  "F4-Historia-Partido-1.dc.html": {
+   "x": 1160,
+   "y": 13640,
+   "w": 1080,
+   "h": 1920,
+   "title": "51 · Fecha 4 - historia partido 1, Independiente Rabanal vs Camajo FC (21:00, cancha 4) 1080x1920"
+  },
+  "F4-Historia-Partido-2.dc.html": {
+   "x": 2320,
+   "y": 13640,
+   "w": 1080,
+   "h": 1920,
+   "title": "52 · Fecha 4 - historia partido 2, Los Pierde Nunca vs Ikigai RCV (21:00, cancha 5) 1080x1920"
+  },
+  "F4-Historia-Partido-3.dc.html": {
+   "x": 3480,
+   "y": 13640,
+   "w": 1080,
+   "h": 1920,
+   "title": "53 · Fecha 4 - historia partido 3, Los Saca Chispas vs Capybara FC (21:00, cancha 6) 1080x1920"
+  },
+  "F4-Historia-Partido-4.dc.html": {
+   "x": 4640,
+   "y": 13640,
+   "w": 1080,
+   "h": 1920,
+   "title": "54 · Fecha 4 - historia partido 4, Cerveceros FC vs Control Dirigido (22:00, cancha 5) 1080x1920"
+  },
+  "F4-Historia-Partido-5.dc.html": {
+   "x": 5800,
+   "y": 13640,
+   "w": 1080,
+   "h": 1920,
+   "title": "55 · Fecha 4 - historia partido 5, Bototos FC vs Gatinhos (22:00, cancha 6) 1080x1920"
   }
  },
  "order": [
@@ -235,7 +319,19 @@
   "F2-Historia-Partido-3.dc.html",
   "F2-Historia-Partido-4.dc.html",
   "F2-Historia-Partido-5.dc.html",
-  "F2-Historia-Partido-6.dc.html"
+  "F2-Historia-Partido-6.dc.html",
+  "F4-Portada.dc.html",
+  "F4-Partido-1.dc.html",
+  "F4-Partido-2.dc.html",
+  "F4-Partido-3.dc.html",
+  "F4-Partido-4.dc.html",
+  "F4-Partido-5.dc.html",
+  "F4-Historia-Portada.dc.html",
+  "F4-Historia-Partido-1.dc.html",
+  "F4-Historia-Partido-2.dc.html",
+  "F4-Historia-Partido-3.dc.html",
+  "F4-Historia-Partido-4.dc.html",
+  "F4-Historia-Partido-5.dc.html"
  ],
  "notes": {},
  "designSystems": []

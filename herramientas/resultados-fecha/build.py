@@ -190,6 +190,11 @@ def match_row(top, m, local, height=104, left=56, width=968):
     if m.get("wo"):                                  # 6-0 con la etiqueta W.O. debajo
         centro = (f'<div style="display: flex; flex-direction: column; align-items: center; gap: 6px">'
                   f'{score_html(m, 46, 32, 10)}<span class="final" style="font-size: 15px">W.O.</span></div>')
+    elif m.get("no_jugado"):                         # no se jugo (2026-11-09): VS y la etiqueta apagada
+        centro = (f'<div style="display: flex; flex-direction: column; align-items: center; gap: 8px">'
+                  f'<span class="tx chrome" style="font-size: 40px">VS</span>'
+                  f'<span class="final" style="font-size: 15px; background: #2B393D; color: #DCE4E7; '
+                  f'box-shadow: none">NO SE JUGÓ</span></div>')
     return (f'<div class="match" style="top: {top}px; left: {left}px; width: {width}px; height: {height}px; border-radius: 12px">'
             f'<div class="teams" style="grid-template-columns: minmax(0, 1fr) 168px minmax(0, 1fr); padding: 0 24px">'
             f'{team(m["local"], "left")}{centro}{team(m["visita"], "right")}'

@@ -147,8 +147,28 @@ FECHA_3 = {
     ],
     "libres": ["control-dirigido", "ikigai-rcv"],
     "variantes": [("", "", True)],
+    "congelada": True,     # publicada el 2026-10-29
 }
-FECHAS = [FECHA_1, FECHA_2, FECHA_3]
+FECHA_4 = {
+    "id": "Fecha4",
+    "numero": 4,
+    "edicion": "THE ORIGIN",
+    "dia": "JUEVES 5 DE NOVIEMBRE",
+    "sede": "CANCHAS SAN DAMIÁN",
+    # MatchZone, revisado el 2026-11-03 a las 17:22 (la manana del 3 se habian publicado unos horarios propuestos
+    # por mi; el usuario cargo los oficiales y son estos)
+    "turnos": [
+        ("21:00", [(4, "rabanal", "camajo"),
+                   (5, "pierde-nunca", "ikigai-rcv"),
+                   (6, "saca-chispas", "capybara")]),
+        ("22:00", [(4, "inter", "irresponsables"),
+                   (5, "cerveceros", "control-dirigido"),
+                   (6, "bototos", "gatinhos")]),
+    ],
+    "libres": ["profesores", "rusticos"],
+    "variantes": [("", "", True)],
+}
+FECHAS = [FECHA_1, FECHA_2, FECHA_3, FECHA_4]
 
 # Franja de auspiciadores: 4 a cada lado del logo RL (mismas versiones que la lona y el backdrop;
 # MatchZone = isotipo sobre logotipo en una sola imagen)

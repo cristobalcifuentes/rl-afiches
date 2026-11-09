@@ -19,6 +19,18 @@ HERE = pathlib.Path(__file__).resolve().parent
 CONSOLIDADO = HERE / "datos" / "consolidado.json"
 
 
+# Partidos que no se jugaron y no son W.O. (dato del usuario: MatchZone los deja como SCHEDULED). En los afiches de
+# resultados salen en la portada con "NO SE JUGO" y sin lamina propia, y no frenan la fecha. Si despues se juegan,
+# MatchZone los trae como jugados y esto deja de aplicar.
+NO_JUGADOS = {
+    (4, "inter", "irresponsables"),     # usuario, 2026-11-09: "el partido de irresponsables y inter no se jugo"
+}
+
+
+def no_jugado(m):
+    return not m["jugado"] and not ganador_wo(m) and (m["fecha"], m["local"], m["visita"]) in NO_JUGADOS
+
+
 def cargar():
     if not CONSOLIDADO.exists():
         raise SystemExit("Falta datos/consolidado.json: correr primero python bajar.py")
@@ -49,6 +61,7 @@ def para_carrusel(n, c=None):
             tarjetas=tarjetas if jugado else None,
             figura=(m["mvp"]["jugador"].upper(), m["mvp"]["equipo"]) if m["mvp"] else None,
             wo=ganador_wo(m),
+            no_jugado=no_jugado(m),
         ))
     return out
 
@@ -66,7 +79,8 @@ def _texto_fecha(f, eq):
         cab = f"  {m['hora'] or '--:--'} C{m['cancha'] or '?'}  {eq[m['local']]}"
         if not m["jugado"]:
             wo = ganador_wo(m)
-            L.append(f"{cab} vs {eq[m['visita']]}" + (f"  (W.O., gana {eq[wo]})" if wo else ""))
+            L.append(f"{cab} vs {eq[m['visita']]}" + (f"  (W.O., gana {eq[wo]})" if wo else
+                                                      "  (no se jugo)" if no_jugado(m) else ""))
             continue
         L.append(f"{cab} {m['marcador'][0]}-{m['marcador'][1]} {eq[m['visita']]}")
         for lado in ("local", "visita"):
